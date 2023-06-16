@@ -1,0 +1,165 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="sentenza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-03-15/69/!main"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-03-15/69"/>
+          <FRBRalias value="ECLI:IT:COST:2022:69" name="ECLI"/>
+          <FRBRdate date="2022-03-15" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="69"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-03-15/69/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-03-15/69/ita@"/>
+          <FRBRdate date="2022-03-15" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-03-15/69/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-03-15/69/ita@.xml"/>
+          <FRBRdate date="2022-03-15" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-02-08" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-03-15" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>illegittimità costituzionale</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA PRINCIPALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="AMATO" href="/akn/ontology/person/it/AMATO" showAs="AMATO"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="giulianoAmato" href="/akn/ontology/person/it/giulianoAmato" showAs="Giuliano AMATO"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>69</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:69</akn4cc:ecli>
+        <akn4cc:tipo>S</akn4cc:tipo>
+        <akn4cc:presidente>AMATO</akn4cc:presidente>
+        <akn4cc:relatore>Giulio Prosperetti</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-02-08</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-03-15</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA PRINCIPALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>illegittimità costituzionale</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#giulianoAmato">Giuliano AMATO</judge>; Giudici : <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>, <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>SENTENZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'art. 29, comma 3, della legge della Regione Liguria 29 dicembre 2020, n. 32 (Disposizioni collegate alla legge di stabilità per l'anno finanziario 2021), promosso dal Presidente del Consiglio dei ministri con ricorso notificato il 1°-5 marzo 2021, depositato in cancelleria il 4 marzo 2021, iscritto al n. 19 del registro ricorsi 2021 e pubblicato nella Gazzetta Ufficiale della Repubblica n. 15, prima serie speciale, dell'anno 2021.
+ Visto l'atto di <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> della Regione Liguria;
+ udito nell'udienza pubblica dell'8 febbraio 2022 il Giudice relatore Giulio Prosperetti;
+ uditi l'avvocato dello Stato Gianni De Bellis per il Presidente del Consiglio dei ministri e l'avvocato Andrea Manzi per la Regione Liguria;
+ deliberato nella camera di consiglio dell'8 febbraio 2022.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <division>
+          <heading>Ritenuto in fatto</heading>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>- Con ricorso notificato il 1° marzo 2021 e depositato il 4 marzo 2021 (reg. ric. n. 19 del 2021), il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, ha promosso questione di legittimità costituzionale dell'art. 29, comma 3, della legge della Regione Liguria 29 dicembre 2020, n. 32 (Disposizioni collegate alla legge di stabilità per l'anno finanziario 2021), in riferimento all'art. 117, secondo comma, lettera s), della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, in relazione all'<ref href="/akn/it/act/legge/stato/1992-02-11/157/!main#art_18">art. 18 della legge 11 febbraio 1992, n. 157</ref> (Norme per la protezione della fauna selvatica omeoterma e per il prelievo venatorio) e ai principi espressi dalla <ref href="/akn/it/act/direttivaUe/eu/2009/147/!main">direttiva 2009/147</ref>/CE del Parlamento europeo e del Consiglio, del 30 novembre 2009, concernente la conservazione degli uccelli selvatici.
+ La disposizione regionale impugnata inserisce nell'art. 34 della legge della Regione Liguria 1° luglio 1994, n. 29 (Norme regionali per la protezione della fauna omeoterma e per il prelievo venatorio) i commi 1-ter ed 1-quater che, rispettivamente, definiscono il concetto di «arco temporale massimo» di cacciabilità di cui all'<ref href="/akn/it/act/legge/stato/1992/157/!main#art_18">art. 18 della legge n. 157 del 1992</ref> e prevedono la sospensione del decorso del suddetto arco temporale durante i giorni di divieto temporaneo di caccia ad una specie.
+ 2.- Il Presidente del Consiglio dei ministri lamenta il contrasto della disposizione impugnata con l'<ref href="/akn/it/act/legge/stato/1992/157/!main#art_18">art. 18 della legge n. 157 del 1992</ref>, che, individuando l'arco temporale massimo come un intervallo temporale tra una data di inizio e una data di fine dell'esercizio dell'attività venatoria riferita ad una determinata specie animale, escluderebbe la possibilità, per il legislatore regionale, di dilatarlo.
+ 3.- Quale ulteriore vulnus di costituzionalità il ricorrente evidenzia la mancata previsione, nella legge regionale impugnata, dell'obbligo di acquisizione del parere dell'Istituto nazionale di fauna selvatica (INFS). Tale acquisizione è, invece, imposta dall'<ref href="/akn/it/act/legge/stato/1992/157/!main#art_18__para_2">art. 18, comma 2, della legge n. 157 del 1992</ref>, ai fini della modifica dei termini di cacciabilità delle specie.
+ 4.- L'Avvocatura generale cita alcune pronunce di questa Corte a supporto delle proprie conclusioni e segnala che la norma impugnata espone ad un rischio di infrazione comunitaria per violazione del principio di conservazione delle specie stabilito dalla <ref href="/akn/it/act/direttivaUe/eu/2009/147/!main">direttiva 2009/147</ref>/CE, principio in base al quale è vietato cacciare uccelli selvatici durante il periodo di nidificazione, durante le fasi della riproduzione e della dipendenza e, quando si tratti di specie migratrici, durante il ritorno al luogo di nidificazione.
+ 5.- Si è costituita in giudizio la Regione Liguria, eccependo l'inammissibilità della questione poiché non sarebbe chiaro in cosa si tradurrebbe il vulnus di costituzionalità lamentato dallo Stato.
+ 5.1.- Infatti, sostiene la Regione, il comma 1-ter, che stabilisce che per «arco temporale massimo» si intende il numero complessivo di giornate di caccia fruibili durante la stagione venatoria in relazione ad una determinata specie, avrebbe fornito un'interpretazione logica e razionale del principio di cacciabilità per un periodo massimo consentito, stabilito dall'<ref href="/akn/it/act/legge/stato/1992/157/!main#art_18">art. 18 della legge n. 157 del 1992</ref>.
+ 5.2.- Quanto al comma 1-quater, si osserva che esso, limitandosi a sospendere il decorso dei termini contenuti nell'arco temporale massimo in caso di divieto temporaneo di caccia ad una specie, consentirebbe il recupero dei giorni persi, ma sempre nel rispetto del numero massimo di giornate di caccia complessivamente esercitabili nel corso della stagione venatoria.
+ 6.- Nel merito, la Regione ritiene il ricorso non fondato poiché la legge regionale impugnata non avrebbe inciso sul numero di giornate di caccia fissato dal legislatore statale, né avrebbe alterato le regole procedurali che sovraintendono alla modifica dei termini di cacciabilità previa acquisizione del parere dell'INFS, limitandosi a precisare cosa si intende per «arco temporale massimo» entro cui la caccia a determinate specie è consentita.
+ Con successiva memoria la Regione Liguria ha ribadito le proprie conclusioni in relazione alla non fondatezza del ricorso, nuovamente rappresentando che la norma impugnata non derogherebbe in alcun modo al numero massimo di giorni di prelievo venatorio previsti dalla norma statale per ciascuna specie e fruibili nel corso della stagione venatoria.</p>
+            </content>
+          </paragraph>
+        </division>
+      </background>
+      <motivation>
+        <division>
+          <heading>Considerato in diritto</heading>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>- Con il ricorso indicato in epigrafe (reg. ric. n. 19 del 2021), il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, ha promosso questione di legittimità costituzionale dell'art. 29, comma 3, della legge della Regione Liguria 29 dicembre 2020, n. 32 (Disposizioni collegate alla legge di stabilità per l'anno finanziario 2021), che inserisce nell'art. 34 della legge Regione Liguria 1° luglio 1994, n. 29 (Norme regionali per la protezione della fauna omeoterma e per il prelievo venatorio) il comma 1-ter e il comma 1-quater, in materia di attività venatoria.
+ 1.1.- In particolare, il comma 1-ter introduce una norma interpretativa per cui l'«arco temporale massimo» di cui all'<mref><ref href="/akn/it/act/legge/stato/1992-02-11/157/!main#art_18__para_1">art. 18, commi 1</ref> e <ref href="/akn/it/act/legge/stato/1992-02-11/157/!main#art_18__para_2">2, della legge 11 febbraio 1992, n. 157</ref></mref> (Norme per la protezione della fauna selvatica omeoterma e per il prelievo venatorio) va inteso come il numero complessivo di giornate di caccia fruibili nel corso della stagione venatoria e riferite ad una determinata specie. Il comma 1-quater stabilisce che il divieto temporaneo di caccia ad una determinata specie sospende il decorso dei termini dell'arco temporale massimo, consentendo in pratica il recupero delle giornate di sospensione anche nel periodo eccedente l'arco temporale massimo.
+ 1.2.- Il ricorrente lamenta la violazione dell'art. 117, secondo comma, lettera s), della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, in relazione all'<ref href="/akn/it/act/legge/stato/1992/157/!main#art_18">art. 18 della legge n. 157 del 1992</ref> e ai principi espressi dalla <ref href="/akn/it/act/direttivaUe/eu/2009/147/!main">direttiva 2009/147</ref>/CE del Parlamento europeo e del Consiglio, del 30 novembre 2009, concernente la conservazione degli uccelli selvatici.
+ 2.- Il ricorrente contesta la possibilità che la norma regionale interpreti la norma statale e, nel merito, contesta la legittimità della riduzione del concetto di arco temporale a un corrispondente numero di giornate di caccia, in quanto non coerente con i commi 1 e 2 dell'<ref href="/akn/it/act/legge/stato/1992/157/!main#art_18">art. 18 della legge n. 157 del 1992</ref> che, nell'esercizio della competenza esclusiva statale in materia ambientale, rispettivamente, prescrivono la cacciabilità per ciascuna specie nell'ambito di un intervallo temporale massimo indicato e impongono la previa acquisizione del parere dell'Istituto nazionale per la fauna selvatica (INFS) - oggi sostituito dall'Istituto superiore per la protezione e la ricerca ambientale (ISPRA) ai sensi dell'<ref href="/akn/it/act/decretoLegge/stato/2008-06-25/112/!main#art_28">art. 28 del decreto-legge 25 giugno 2008, n. 112</ref> (Disposizioni urgenti per lo sviluppo economico, la semplificazione, la competitività, la stabilizzazione della finanza pubblica e la perequazione tributaria), convertito, con modificazioni, nella <ref href="/akn/it/act/legge/stato/2008-08-06/133/!main">legge 6 agosto 2008, n. 133</ref> - per la modifica dei termini di decorrenza di tale intervallo temporale.
+ 2.1.- La dilatazione dei termini di cacciabilità di ciascuna specie comporterebbe, a parere del Presidente del Consiglio dei ministri, l'abbassamento del livello di tutela ambientale prescritto dal legislatore statale e la violazione del principio di conservazione delle specie di cui alla <ref href="/akn/it/act/direttivaUe/eu/2009/147/!main">direttiva 2009/147</ref>/CE.
+ 3.- La Regione Liguria, nel costituirsi in giudizio, ha eccepito l'inammissibilità della questione, avendo la norma impugnata una mera finalità chiarificatrice della definizione dell'arco temporale massimo, senza modifica del numero complessivo di giorni da esso previsto, così che non sarebbe chiaro in cosa si sostanzierebbe il vulnus di costituzionalità lamentato; con specifico riferimento al lamentato contrasto con la <ref href="/akn/it/act/direttivaUe/eu/2009/147/!main">direttiva 2009/147</ref>/CE, la resistente ha eccepito l'inammissibilità della questione perché ipotetica e per mancata indicazione della norma europea specificamente violata.
+ 4.- Entrambe le eccezioni di inammissibilità non sono fondate.
+ Dal tenore del ricorso, infatti, emerge chiaramente che il ricorrente ritiene la disposizione impugnata idonea a estendere il numero dei giorni di esercizio dell'attività venatoria per ciascuna delle specie animali indicate dall'<ref href="/akn/it/act/legge/stato/1992/157/!main#art_18">art. 18 della legge n. 157 del 1992</ref>.
+ Parimenti da respingere è l'eccezione di inammissibilità connessa alla mancata indicazione della specifica disposizione della <ref href="/akn/it/act/direttivaUe/eu/2009/147/!main">direttiva 2009/147</ref>/CE che risulterebbe violata dalla norma regionale impugnata, poiché il Presidente del Consiglio dei ministri ha sollevato le censure con esclusivo riferimento all'art. 117, secondo comma, lettera s), Cost., in relazione ad una norma statale, l'<ref href="/akn/it/act/legge/stato/1992/157/!main#art_18">art. 18 della legge n. 157 del 1992</ref>, e il richiamo al principio di conservazione della specie, di cui alla <ref href="/akn/it/act/direttivaUe/eu/2009/147/!main">direttiva 2009/147</ref>/CE, è teso a supportare le argomentazioni del ricorso.
+ 5.- Nel merito, la questione è fondata.
+ 6.- L'<ref href="/akn/it/act/legge/stato/1992/157/!main#art_18__para_1">art. 18, comma 1, della legge n. 157 del 1992</ref> individua cinque gruppi di specie cacciabili e per ciascuna di esse indica uno specifico arco temporale per l'esercizio del prelievo venatorio.
+ Il successivo comma 2 autorizza le Regioni a modificare i periodi di caccia in relazione alle situazioni ambientali delle diverse realtà territoriali, previa acquisizione del parere dell'ISPRA, purché la modifica sia contenuta tra il 1° settembre e il 31 gennaio, nel rispetto dell'arco temporale massimo di cui al comma 1 dello stesso art. 18.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>6.</num>
+            <content>
+              <p>1.- Dall'interpretazione letterale di tali disposizioni si evince che l'arco temporale massimo è il periodo di tempo compreso tra la data di inizio e la data di fine della caccia riferita a ciascuna specie, periodo modificabile nell'intervallo temporale che va dal 1° settembre al 31 gennaio senza incidere sulla sua durata, che non può essere superiore a quella stabilita dallo Stato. Il principio è stato di recente ribadito da questa Corte che ha precisato che «se i termini dei periodi di caccia sono modificabili, non lo sono, invece, le relative durate, che non possono essere superiori a quelle stabilite, e che, comunque, non possono essere estese all'intera stagione venatoria» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/113/!main">sentenza n. 113 del 2021</ref>).
+ 6.2.- La ratio di tali disposizioni va rinvenuta nella necessità di tutela delle specie animali, a cui deve essere assicurato un adeguato periodo di tranquillità per la nidificazione e la riproduzione, così da garantirne la conservazione, e trova fondamento nell'<ref href="/akn/it/act/direttivaUe/eu/2009/147/!main#art_7">art. 7 della direttiva 2009/147</ref>/CE e nel principio di conservazione delle specie ivi declinato, per cui è esclusa la cacciabilità degli uccelli selvatici durante la stagione riproduttiva.
+ 6.3.- Tali esigenze di tutela comportano, nel riparto interno di competenze, l'attrazione della disciplina dei termini per l'attività venatoria di cui all'<ref href="/akn/it/act/legge/stato/1992/157/!main#art_18">art. 18 della legge n. 157 del 1992</ref> alla competenza esclusiva dello Stato in materia ambientale, integrando tale disposizione il punto di equilibrio tra «il primario obiettivo dell'adeguata salvaguardia del patrimonio faunistico nazionale e l'interesse [...] all'esercizio dell'attività venatoria» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2000/4/!main">sentenza n. 4 del 2000</ref>), con conseguente vincolo al suo rispetto per il legislatore regionale che non può derogare in peius i livelli di tutela dell'ambiente e dell'ecosistema fissati dalla legislazione statale (<mref><ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/16/!main">sentenze n. 16</ref> e n. <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/7/!main">7 del 2019</ref></mref>, n. 174 del 2017 e n. 303 del 2013).
+ 7.- Sulla scorta di ciò è evidente, dunque, che, richiedendo la conservazione delle specie un periodo continuativo di "pacificazione venatoria", finalizzato alla riproduzione, la durata del periodo di caccia è stabilita dallo Stato nell'esercizio della competenza esclusiva in materia ambientale, le Regioni non possono allungarlo, né frammentarlo, con recuperi successivi alla sua data finale, senza incorrere in un abbassamento degli standard di tutela prescritti dalla legislazione nazionale.
+ 8.- Le suesposte considerazioni non consentono di condividere l'assunto della difesa della Regione Liguria che muove dal presupposto per cui l'arco temporale massimo definito dal legislatore statale corrisponderebbe ad un totale di giornate di caccia, così da ritenere del tutto indifferente e, quindi, ammissibile, che l'eventuale sospensione di alcune giornate possa essere oggetto di recupero anche oltre i limiti dell'arco temporale massimo, non comportando tale recupero alcun allungamento del periodo complessivo.
+ 8.1.- Infatti, poiché la ratio che è alla base della cacciabilità di ciascuna specie secondo un arco temporale massimo è, come si è detto, da rinvenirsi nell'esigenza di tutela delle stagioni di riproduzione della fauna selvatica, l'arco temporale deve corrispondere ad un intervallo temporale continuativo e non può essere riferito alla somma delle giornate in cui è consentito l'abbattimento nel corso dell'intera stagione venatoria oltre i termini indicati dall'<ref href="/akn/it/act/legge/stato/1992/157/!main#art_18__para_1">art. 18, comma 1, della legge n. 157 del 1992</ref>.
+ 9.- Va, quindi, dichiarata l'illegittimità costituzionale dell'art. 29, comma 3, della legge reg. Liguria n. 32 del 2020.</p>
+            </content>
+          </paragraph>
+        </division>
+      </motivation>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ dichiara l'illegittimità costituzionale dell'art. 29, comma 3, della legge della Regione Liguria 29 dicembre 2020, n. 32 (Disposizioni collegate alla legge di stabilità per l'anno finanziario 2021).
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, l'<date refersTo="#decisionDate" date="2022-02-08">8 febbraio 2022</date>.
+ F.to:
+ <signature><judge refersTo="#giulianoAmato" as="#presidente">Giuliano AMATO</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ <signature><judge refersTo="#giulioProsperetti" as="#relatore">Giulio PROSPERETTI</judge>, <role refersTo="#relatore">Redattore</role></signature>
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-03-15">15 marzo 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

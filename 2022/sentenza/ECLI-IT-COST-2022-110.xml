@@ -1,0 +1,196 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="sentenza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-05-05/110/!main"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-05-05/110"/>
+          <FRBRalias value="ECLI:IT:COST:2022:110" name="ECLI"/>
+          <FRBRdate date="2022-05-05" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="110"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-05-05/110/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-05-05/110/ita@"/>
+          <FRBRdate date="2022-05-05" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-05-05/110/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-05-05/110/ita@.xml"/>
+          <FRBRdate date="2022-05-05" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-04-05" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-05-05" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>non fondatezza</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA PRINCIPALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="AMATO" href="/akn/ontology/person/it/AMATO" showAs="AMATO"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="giulianoAmato" href="/akn/ontology/person/it/giulianoAmato" showAs="Giuliano AMATO"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>110</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:110</akn4cc:ecli>
+        <akn4cc:tipo>S</akn4cc:tipo>
+        <akn4cc:presidente>AMATO</akn4cc:presidente>
+        <akn4cc:relatore>Luca Antonini</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-04-05</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-05-05</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA PRINCIPALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>non fondatezza</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#giulianoAmato">Giuliano AMATO</judge>; Giudici : <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>, <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>SENTENZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'art. 7 della legge della Regione Molise 4 maggio 2021, n. 2 (Legge di stabilità regionale anno 2021), promosso dal Presidente del Consiglio dei ministri con ricorso notificato il 5 luglio 2021, depositato in cancelleria il 13 luglio 2021, iscritto al n. 35 del registro ricorsi 2021 e pubblicato nella Gazzetta Ufficiale della Repubblica n. 34, prima serie speciale, dell'anno 2021.
+ Visto l'atto di <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> della Regione Molise;
+ udito nell'udienza pubblica del 5 aprile 2022 il Giudice relatore Luca Antonini;
+ uditi l'avvocato dello Stato Ruggero Di Martino per il Presidente del Consiglio dei ministri e l'avvocato Massimo Luciani per la Regione Molise;
+ deliberato nella camera di consiglio del 5 aprile 2022.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <division>
+          <heading>Ritenuto in fatto</heading>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>- Con ricorso notificato il 5 luglio 2021 e depositato il 13 luglio 2021 (reg. ric. n. 35 del 2021), il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, ha impugnato l'art. 7 della legge della Regione Molise 4 maggio 2021, n. 2 (Legge di stabilità regionale anno 2021), in riferimento all'art. 117, secondo comma, lettera e), della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, in relazione all'<ref href="/akn/it/act/decretoLegislativo/stato/2011-06-23/118/!main#art_42__para_5__point_d">art. 42, comma 5, lettera d), del decreto legislativo 23 giugno 2011, n. 118</ref> (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli enti locali e dei loro organismi, a norma degli <mref><ref href="/akn/it/act/legge/stato/2009-05-05/42/!main#art_1">articoli 1</ref> e <ref href="/akn/it/act/legge/stato/2009-05-05/42/!main#art_2">2 della legge 5 maggio 2009, n. 42</ref></mref>).
+ La disposizione impugnata prevede, al comma 1, che «[a] decorrere dal 2021 le entrate incassate dall'Ente a titolo di "Contributi esonerativi per l'occupazione dei diversamente abili", derivanti dalle sanzioni amministrative irrogate ai datori di lavoro inadempienti agli obblighi occupazionali previsti dalla <ref href="/akn/it/act/legge/stato/1999-03-12/68/!main">legge 12 marzo 1999, n. 68</ref> (Norme per il diritto al lavoro dei disabili) e dai contributi correlati agli esoneri parziali concessi ai sensi dell'<ref href="/akn/it/act/legge/stato/1999/68/!main#art_5">articolo 5 della legge n. 68/1999</ref>, previste al Titolo 3, Tipologia 200, categoria 300 del bilancio di previsione regionale, sono vincolate a finanziare nella spesa il "Fondo regionale per l'occupazione dei disabili - legge regionale n. 26/2002", alla Missione 12, Programma 02, Titolo 1».
+ Al comma 2 specifica poi che «[l]a destinazione d'uso delle relative risorse finanziarie è vincolata alle finalità dell'anzidetto Fondo ovvero al finanziamento dei programmi regionali di inserimento lavorativo dei disabili e dei relativi servizi di sostegno e di collocamento mirato, ai sensi dell'<ref href="/akn/it/act/legge/stato/1999/68/!main#art_14__para_1">articolo 14, comma 1, della legge n. 68/1999</ref> e dell'articolo 3 della legge regionale 28 ottobre 2002, n. 26 (Istituzione del Fondo per l'occupazione dei disabili, ai sensi dell'<ref href="/akn/it/act/legge/stato/1999/68/!main#art_14">art. 14 della legge n. 68/1999</ref>)».
+ 1.1.- Ad avviso del ricorrente il suddetto art. 7 si porrebbe in contrasto con l'<ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main#art_42__para_5__point_d">art. 42, comma 5, lettera d), del d.lgs. n. 118 del 2011</ref>, ai sensi del quale «[è] possibile attribuire un vincolo di destinazione alle entrate straordinarie non aventi natura ricorrente solo se la regione non ha rinviato la copertura del disavanzo di amministrazione negli esercizi successivi e ha provveduto nel corso dell'esercizio alla copertura di tutti gli eventuali debiti fuori bilancio».
+ Per contro, «risult[ando] assoggettata a piano di rientro dal disavanzo», la Regione Molise non potrebbe imprimere uno specifico vincolo alle entrate considerate nell'impugnato art. 7, difettando il «requisito dell'assenza di disavanzi da ripianare», come affermato da questa Corte (sono citate le <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2018/49/!main">sentenze n. 49 del 2018</ref> e n. 279 del 2016).
+ Sarebbe di conseguenza violato l'art. 117, secondo comma, lettera e), Cost., poiché il richiamato art. 42, comma 5, lettera d), esprimerebbe, con funzione di norma interposta, la competenza legislativa esclusiva statale in materia di armonizzazione dei bilanci pubblici.
+ 2.- Con atto depositato il 10 agosto 2021 si è costituita in giudizio la Regione Molise, in persona del Presidente pro tempore, chiedendo di dichiarare inammissibile e, in subordine, non fondato il ricorso.
+ La difesa regionale sottolinea, anzitutto, che l'impugnata disposizione della legge reg. Molise n. 2 del 2021 fisserebbe «la destinazione d'uso di entrate da accertare e incassare a decorrere dal 2021», così da finanziare gli interventi per la disabilità stanziati nella Tabella A allegata alla legge stessa.
+ Argomenta poi che la previsione dell'<ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main#art_42__para_5__point_d">art. 42, comma 5, lettera d), del d.lgs. n. 118 del 2011</ref>, evocata dal ricorrente a sostegno del motivo di impugnazione, sarebbe «del tutto inconferente e non [potrebbe] essere assunta a parametro interposto di costituzionalità».
+ Infatti, tale articolo conterrebbe, in coerenza con la rubrica, «principi contabili relativi esclusivamente alla gestione del risultato di amministrazione».
+ Ad avviso della Regione, proprio considerando tale previsione, si mostrerebbe l'erroneità della prospettazione del ricorrente, in quanto il limite alla possibilità di vincolare entrate straordinarie non ricorrenti si applicherebbe soltanto «in sede di accertamento, determinazione e impiego del risultato di amministrazione».
+ Invece, la norma regionale impugnata avrebbe un oggetto del tutto estraneo alla fattispecie regolata dal richiamato art. 42, comma 5, lettera d), ponendo un vincolo di destinazione «solamente de futuro, rispetto alle entrate da incassare dall'anno 2021», per finanziare interventi previsti anch'essi a decorrere da tale esercizio.
+ Inoltre, la preclusione del vincolo di destinazione su risorse di competenza dell'esercizio in corso e di quelli successivi «per il solo fatto» di un disavanzo pregresso, «renderebbe sostanzialmente impossibile costruire il bilancio dell'ente».
+ La suddetta preclusione, peraltro, sarebbe confutata dalla possibilità di un ripiano pluriennale del disavanzo di amministrazione - prevista dal comma 12 dello stesso art. 42 - per effetto della quale l'ente dovrebbe sì assicurare il finanziamento del rateo annuale del piano di rientro, ma potrebbe «di certo liberamente (pur nei limiti costituzionali e della legge statale applicabile) disporre delle entrate regionali, stabilendone la destinazione».
+ In conclusione, la censura mossa dal ricorrente risulterebbe «tanto inammissibile quanto infondata», a ragione dell'erroneo richiamo all'<ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main#art_42__para_5__point_d">art. 42, comma 5, lettera d), del d.lgs. n. 118 del 2011</ref> quale parametro interposto.
+ 2.1.- Ad avviso della difesa regionale tale esito sarebbe anche attestato dalle stesse pronunce di questa Corte che il ricorrente ha invece richiamato a sostegno della propria ricostruzione.
+ Innanzitutto, la <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2018/49/!main">sentenza n. 49 del 2018</ref> - che ha dichiarato la illegittimità costituzionale di una disposizione di una legge regionale abruzzese di approvazione del rendiconto generale - attesterebbe la non pertinenza del precedente nel caso di specie, in quanto in quella vicenda sarebbero state censurate «proprio quelle modalità di accertamento del risultato di amministrazione che qui non ve[rrebbero] in considerazione». Il principio contabile corrispondente al contenuto dell'<ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main#art_42__para_5__point_d">art. 42, comma 5, lettera d), del d.lgs. n. 118 del 2011</ref> sarebbe stato infatti applicato correttamente, ma la sentenza non avrebbe fissato in «alcun modo limiti alla possibilità di imporre vincoli di destinazione sulle entrate future dell'Ente», diverse dai fondi e dalle poste che compongono il risultato di amministrazione.
+ Analoghe considerazioni varrebbero con riguardo alla <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2016/279/!main">sentenza n. 279 del 2016</ref>, relativa a una disposizione del bilancio di previsione della Regione Molise per l'esercizio 2016.
+ 2.2.- Da ultimo la Regione resistente osserva, in via subordinata, che il principio contabile evocato a sostegno della censura «non sarebbe applicabile al caso di specie anche perché le sanzioni amministrative non costitui[rebbero] entrate "straordinarie" o "non ricorrenti"».
+ Per quanto non correlate ad alcuna previsione normativa che ne assicuri flussi costanti e periodici in entrata, esse apparterrebbero alle entrate ordinariamente acquisite dall'ente e sarebbero comunque agevolmente prevedibili sulla base della ricostruzione della loro serie storica, attestante la presenza costante nelle dinamiche del bilancio regionale, quantificata in termini ragionevoli e prudenti. La relativa entrata assumerebbe dunque «i caratteri della continuità e stabilità, con conseguente inapplicabilità del principio contabile invocato dal ricorrente».
+ 3.- In prossimità dell'udienza, le parti hanno depositato memoria a sostegno delle rispettive conclusioni.
+ 3.1.- Il Presidente del Consiglio dei ministri ritiene non fondati gli argomenti della difesa della resistente, anzitutto perché le quote vincolate del risultato di amministrazione avrebbero la funzione di evitare che le risorse dell'ente confluiscano nella quota disponibile, essendo invece le stesse destinate alla copertura di specifiche spese sulla base dei vincoli derivanti dalle fonti normative.
+ Inoltre, il parametro interposto evocato nel motivo d'impugnazione sarebbe pertinente essendo la ratio dello stesso orientata a comprimere la discrezionalità degli enti in disavanzo quanto all'utilizzo di entrate straordinarie «in favore della necessità di concludere i percorsi di rientro anche prima dei tempi programmati».
+ Pertanto la Regione Molise, assoggettata a piano di rientro dal disavanzo, non potrebbe - in una legge che, come quella impugnata, compone il ciclo di bilancio - attribuire vincoli di destinazione alle entrate straordinarie, non aventi natura ricorrente; tali sarebbero quelle derivanti dalle sanzioni amministrative per le violazioni della <ref href="/akn/it/act/legge/stato/1999-03-12/68/!main">legge 12 marzo 1999, n. 68</ref> (Norme per il diritto al lavoro dei disabili), come peraltro confermerebbe il contenuto del punto 5 dell'Allegato 7 al <ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main">d.lgs. n. 118 del 2011</ref>.
+ 3.2.- La memoria della Regione Molise ribadisce invece l'erroneità del parametro interposto evocato dal ricorrente - l'<ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main#art_42__para_5__point_d">art. 42, comma 5, lettera d), del d.lgs. n. 118 del 2011</ref> - richiamando anche pronunce della Corte dei conti che, in sede di parifica dei rendiconti regionali, avrebbero applicato tale disposizione «esclusivamente nella valutazione della corretta composizione del risultato di amministrazione».
+ Inoltre, la resistente segnala che, seppure il contenzioso costituzionale con lo Stato riguardante il piano di rientro pluriennale dal disavanzo della Regione Molise sia ancora formalmente pendente, lo stesso dovrebbe considerarsi «sostanzialmente estinto», non avendo il Governo impugnato due recenti leggi regionali aventi ad oggetto il rendiconto dell'esercizio 2020 e l'assestamento del bilancio di previsione 2021-2023. Pertanto, nel «contesto di virtuoso percorso di risanamento risulterebbe del tutto irragionevole comprimere l'autonomia regionale al punto da impedirle di individuare la destinazione di bilancio delle entrate non ricorrenti».
+ La difesa regionale rileva poi che l'impossibilità di vincolare risorse non ricorrenti, che secondo il ricorso sarebbe espressa dal richiamato parametro interposto, sarebbe però «smentit[a] dalla stessa legislazione statale», ad esempio con riguardo ai proventi - certamente da ritenere entrate non ricorrenti - derivanti dall'alienazione di alloggi di edilizia residenziale pubblica, destinati a un programma straordinario di realizzazione o di acquisto di nuovi alloggi e di manutenzione straordinaria del patrimonio esistente (sono richiamati sia l'<ref href="/akn/it/act/decretoLegge/stato/2014-03-28/47/!main#art_3">art. 3 del decreto-legge 28 marzo 2014, n. 47</ref>, recante «Misure urgenti per l'emergenza abitativa, per il mercato delle costruzioni e per Expo 2015», convertito, con modificazioni, nella <ref href="/akn/it/act/legge/stato/2014-05-23/80/!main">legge 23 maggio 2014, n. 80</ref>, sia la <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/25/!main">sentenza n. 25 del 2021</ref> di questa Corte).
+ Viene poi ribadito che la norma impugnata avrebbe a oggetto entrate ricorrenti, «come si evinc[erebbe] dall'allegato 17 al documento tecnico della l. reg. Molise n. 2 [recte: n. 3] del 2021», prodotto unitamente alla memoria, che individuerebbe tali entrate con il «codice 3020300» - corrispondente a «Entrate da Imprese derivanti dall'attività di controllo e repressione delle irregolarità e degli illeciti» - e le quantificherebbe in 166.000,00 euro, «integralmente indicate come "ricorrenti"».
+ Secondo la Regione, tale qualificazione non potrebbe ormai essere contestata dallo Stato, che avrebbe dovuto «impugna[re] le tabelle del bilancio di previsione regionale per il 2021 - bilancio triennale 2021-2023, di cui alla l. <ref href="/akn/it/act/regolamentoUe/eu/2021/3/!main">reg. n. 3 del 2021</ref>, nella parte in cui hanno appostato le entrate a titolo di "Proventi derivanti dall'attività di controllo e repressione delle irregolarità e degli illeciti"», oppure «avrebbe dovuto proporre ricorso per conflitto tra Enti avverso il richiamato all. 17 al documento tecnico regionale».
+ Da ciò conseguirebbe sia la non fondatezza delle censure, stante l'erroneità della premessa, sia l'inammissibilità delle stesse essendo tardiva la doglianza «di una qualificazione precedentemente non contestata».
+ In ogni caso, le entrate in esame sarebbero state qualificate ricorrenti anche da altre Regioni, come emergerebbe dai relativi documenti contabili prodotti.
+ Non potrebbe valere, in senso contrario, richiamare il contenuto dell'Allegato 7 al <ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main">d.lgs. n. 118 del 2011</ref> che, ai fini della «codifica della transazione elementare», considera non ricorrenti, tra le altre, le entrate riguardanti le sanzioni. Tale criterio, infatti, potrebbe applicarsi per «il singolo movimento di bilancio», ma non per «l'insieme aggregato di tali entrate» che, come già rilevato nell'atto di <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref>, sulla base della loro serie storica «possono e devono essere qualificate "ricorrenti"».
+ In subordine, la memoria regionale evidenzia i profili problematici del suddetto Allegato 7, rientrante nell'elevato numero di allegati, «tutti di estrema tecnicità», che accompagnano il <ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main">d.lgs. n. 118 del 2011</ref>: il legislatore delegante avrebbe, infatti, richiesto al Governo di adottare regole contabili uniformi e comuni schemi di bilancio, ma non avrebbe «consentito che la competenza in materia di "coordinamento" della finanza pubblica [...] si trasformasse in competenza alla definizione nel minimo dettaglio», tanto più «in semplici allegati [...] frutto di determinazioni dell'Amministrazione e non del Governo al suo livello politico».</p>
+            </content>
+          </paragraph>
+        </division>
+      </background>
+      <motivation>
+        <division>
+          <heading>Considerato in diritto</heading>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>- Con il ricorso indicato in epigrafe (reg. ric. n. 35 del 2021) il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, ha impugnato l'art. 7 della legge della Regione Molise 4 maggio 2021, n. 2 (Legge di stabilità regionale anno 2021), in riferimento all'art. 117, secondo comma, lettera e), della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, in relazione all'<ref href="/akn/it/act/decretoLegislativo/stato/2011-06-23/118/!main#art_42__para_5__point_d">art. 42, comma 5, lettera d), del decreto legislativo 23 giugno 2011, n. 118</ref> (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli enti locali e dei loro organismi, a norma degli <mref><ref href="/akn/it/act/legge/stato/2009-05-05/42/!main#art_1">articoli 1</ref> e <ref href="/akn/it/act/legge/stato/2009-05-05/42/!main#art_2">2 della legge 5 maggio 2009, n. 42</ref></mref>).
+ La disposizione impugnata prevede, al comma 1, che «[a] decorrere dal 2021 le entrate incassate dall'Ente a titolo di "Contributi esonerativi per l'occupazione dei diversamente abili", derivanti dalle sanzioni amministrative irrogate ai datori di lavoro inadempienti agli obblighi occupazionali previsti dalla <ref href="/akn/it/act/legge/stato/1999-03-12/68/!main">legge 12 marzo 1999, n. 68</ref> (Norme per il diritto al lavoro dei disabili) e dai contributi correlati agli esoneri parziali concessi ai sensi dell'<ref href="/akn/it/act/legge/stato/1999/68/!main#art_5">articolo 5 della legge n. 68/1999</ref>, previste al Titolo 3, Tipologia 200, categoria 300 del bilancio di previsione regionale, sono vincolate a finanziare nella spesa il "Fondo regionale per l'occupazione dei disabili - legge regionale n. 26/2002", alla Missione 12, Programma 02, Titolo 1».
+ Al comma 2 specifica poi che «[l]a destinazione d'uso delle relative risorse finanziarie è vincolata alle finalità dell'anzidetto Fondo ovvero al finanziamento dei programmi regionali di inserimento lavorativo dei disabili e dei relativi servizi di sostegno e di collocamento mirato, ai sensi dell'<ref href="/akn/it/act/legge/stato/1999/68/!main#art_14__para_1">articolo 14, comma 1, della legge n. 68/1999</ref> e dell'articolo 3 della legge regionale 28 ottobre 2002, n. 26 (Istituzione del Fondo per l'occupazione dei disabili, ai sensi dell'<ref href="/akn/it/act/legge/stato/1999/68/!main#art_14">art. 14 della legge n. 68/1999</ref>)».
+ 1.1.- Ad avviso del ricorrente il suddetto art. 7 si porrebbe in contrasto con l'<ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main#art_42__para_5__point_d">art. 42, comma 5, lettera d), del d.lgs. n. 118 del 2011</ref>, ai sensi del quale «[è] possibile attribuire un vincolo di destinazione alle entrate straordinarie non aventi natura ricorrente solo se la regione non ha rinviato la copertura del disavanzo di amministrazione negli esercizi successivi e ha provveduto nel corso dell'esercizio alla copertura di tutti gli eventuali debiti fuori bilancio».
+ Risultando «assoggettata a piano di rientro dal disavanzo», la Regione Molise non potrebbe, infatti, imprimere uno specifico vincolo, difettando il «requisito dell'assenza di disavanzi da ripianare», come affermato da questa Corte (sono citate le <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2018/49/!main">sentenze n. 49 del 2018</ref> e n. 279 del 2016).
+ Sarebbe di conseguenza violato l'art. 117, secondo comma, lettera e), Cost., poiché il richiamato art. 42, comma 5, lettera d), esprimerebbe, con funzione di norma interposta, la competenza legislativa esclusiva statale in materia di armonizzazione dei bilanci pubblici.
+ 2.- In via preliminare, va disattesa l'eccezione di inammissibilità della censura per la erronea evocazione a parametro interposto del citato art. 42, comma 5, lettera d), motivata dal fatto che esso riguarderebbe soltanto la disciplina della quota vincolata del risultato di amministrazione e l'apposizione di un vincolo sulle relative risorse, mentre la norma regionale impugnata lo avrebbe attribuito a nuove entrate, da accertare e riscuotere a decorrere dal 2021.
+ Tale argomentazione, infatti, non coinvolge profili di ammissibilità, quanto piuttosto l'esame del merito della questione (ex mult<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2022/17/!main">is, sentenze n. 17 del 2022</ref>, n. 76 del 2021 e n. 286 del 2019), poiché la censura mossa dal ricorrente è chiaramente incentrata sull'asserito contrasto della norma regionale, che atterrebbe comunque al ciclo di bilancio, con le condizioni richieste dal suddetto art. 42, comma 5, lettera d).
+ 2.1.- Parimenti non fondato è l'ulteriore profilo di inammissibilità della questione, che la resistente ravvisa nella preclusione per lo Stato di dolersi del contrasto con il parametro interposto evocato - applicabile alle sole entrate regionali non ricorrenti - non avendo contestato, mediante la tempestiva attivazione di ricorsi innanzi a questa Corte, i contenuti del bilancio di previsione pluriennale per il triennio 2021-2023 con i quali la Regione Molise avrebbe qualificato come entrate ricorrenti anche le risorse considerate dalla norma impugnata.
+ Al riguardo è dirimente rilevare che l'oggetto della questione è incentrato sul vincolo di destinazione impresso dall'art. 7 della legge reg. Molise n. 2 del 2021: di conseguenza sono nella specie irrilevanti le determinazioni del Governo in ordine all'impugnazione sia della successiva legge della Regione Molise 4 maggio 2021, n. 3 (Bilancio di previsione pluriennale per il triennio 2021-2023), sia del «documento tecnico di accompagnamento al bilancio» poi approvato dalla Giunta regionale ai sensi dell'<ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main#art_39__para_10">art. 39, comma 10, del d.lgs. n. 118 del 2011</ref> il quale, avendo natura amministrativa, è a maggior ragione privo di incidenza sulla norma impugnata.
+ 3.- Nel merito, la questione non è fondata.
+ Il ricorso statale contesta alla Regione Molise, che ha in corso un piano di rientro dal disavanzo di amministrazione, la possibilità di attribuire un vincolo di destinazione ad alcune entrate straordinarie non aventi natura ricorrente, atteso che l'<ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main#art_42__para_5__point_d">art. 42, comma 5, lettera d), del d.lgs. n. 118 del 2011</ref>, evocato quale parametro interposto dell'art. 117, secondo comma, lettera e), Cost., consente ciò «solo se la regione non ha rinviato la copertura del disavanzo di amministrazione negli esercizi successivi e ha provveduto nel corso dell'esercizio alla copertura di tutti gli eventuali debiti fuori bilancio».
+ Il presupposto interpretativo del ricorso statale è dunque, da un lato, che alle specifiche entrate oggetto dell'impugnato art. 7 della legge reg. Molise n. 2 del 2021 sia applicabile il suddetto principio contabile e, dall'altro, che la facoltà da quest'ultimo astrattamente prevista non fosse in concreto esercitabile, in difetto della specifica condizione dell'assenza di disavanzi non ripianati.
+ Tale assunto è però del tutto erroneo.
+ Il ricorrente ha infatti omesso di considerare che il vincolo alle risorse oggetto della previsione impugnata non è attribuito dalla medesima norma regionale, bensì discende direttamente dalla legge statale, ovvero dal disposto dell'<ref href="/akn/it/act/legge/stato/1999-03-12/68/!main#art_14">art. 14 della legge 12 marzo 1999, n. 68</ref> (Norme per il diritto al lavoro dei disabili).
+ Tale disposizione, ai primi due commi, demanda alle Regioni sia la istituzione del «Fondo regionale per l'occupazione dei disabili [...], da destinare al finanziamento dei programmi regionali di inserimento lavorativo e dei relativi servizi», sia la determinazione con legge regionale delle «modalità di funzionamento e [de]gli organi amministrativi» dello stesso; al comma 3, soprattutto, stabilisce che «[a]l Fondo sono destinati gli importi derivanti dalla irrogazione delle sanzioni amministrative previste dalla presente legge ed i contributi versati dai datori di lavoro ai sensi della presente legge [...]» quando questi siano esonerati, alle condizioni fissate dall'art. 5, comma 3, dall'obbligo di assunzione dei disabili.
+ L'<ref href="/akn/it/act/legge/stato/1999/68/!main#art_14__para_3">art. 14, comma 3, della legge n. 68 del 1999</ref>, quindi, stabilendo che al fondo regionale «sono destinati gli importi» di determinate entrate derivanti dall'applicazione della legge stessa - sia nelle consentite ipotesi di "monetizzazione" degli obblighi di assunzione mediante provvedimento di esonero parziale, sia per effetto della irrogazione delle sanzioni amministrative previste -, ha finalizzato tali proventi al finanziamento degli interventi individuati dagli enti territoriali a favore dei soggetti svantaggiati.
+ La norma - insieme a quella di cui al comma 1, che prescrive alle Regioni di istituire il fondo regionale per l'occupazione dei disabili - esprime pertanto un principio fondamentale di coordinamento della finanza pubblica, diretto a sottrarre le specifiche entrate al concorso indistinto alle spese previste dal bilancio regionale e ad allocarle nel fondo predetto, in modo da «garantire la finalizzazione [...] alla realizzazione dello scopo pubblico per il quale sono state stanziate» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2016/184/!main">sentenza n. 184 del 2016</ref>).
+ La modalità di alimentazione degli interventi finanziati dal fondo regionale in esame è, in questi termini, evidentemente connessa alla esigenza di tutela di situazioni di particolare vulnerabilità: quelle delle persone con disabilità, sulle quali si riflette una particolare attenzione da parte del disegno costituzionale, essendo coinvolto un complesso di «valori che attingono» ai suoi «fondamentali motivi ispiratori» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/83/!main">sentenze n. 83 del 2019</ref>, n. 232 del 2018, n. 258 del 2017, n. 275 del 2016 e n. 215 del 1987; in senso analogo, più di recente, <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2022/10/!main">sentenza n. 10 del 2022</ref>).
+ 3.1.- Il vincolo di destinazione previsto dalla norma impugnata ha, quindi, ad oggetto le medesime entrate considerate dall'<ref href="/akn/it/act/legge/stato/1999/68/!main#art_14">art. 14 della legge n. 68 del 1999</ref> ed è del resto coerente con la disciplina del fondo regionale per l'occupazione dei disabili già istituito dalla stessa resistente con la legge della Regione Molise 28 ottobre 2002, n. 26 (Istituzione del Fondo per l'occupazione dei disabili, ai sensi dell'<ref href="/akn/it/act/legge/stato/1999/68/!main#art_14">art. 14 della legge n. 68/1999</ref>) che, rispettivamente agli artt. 2 e 3, individua le risorse del fondo e la destinazione dello stesso nei puntuali termini di cui all'art. 14 della citata legge statale n. 68 del 1999, cui dà attuazione.
+ Ciò porta ad escludere una portata innovativa all'art. 7 della legge reg. Molise n. 2 del 2021 - al più evocata dall'espressione «[a] decorrere dal 2021» con cui la stessa disposizione esordisce - e a riconoscere, invece, alla stessa un carattere meramente confermativo del precedente - e ben più risalente - vincolo di destinazione.
+ 3.2.- Così ricostruito il quadro normativo in cui è coinvolta la norma impugnata, ne consegue che non trova applicazione il principio contabile evocato dal ricorrente, che è invece inerente all'autonoma attribuzione di un vincolo di destinazione da parte della Regione.
+ Infatti, ai sensi dell'intero comma 5 dell'<ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main#art_42">art. 42 del d.lgs. n. 118 del 2011</ref>, «[c]ostituiscono quota vincolata del risultato di amministrazione le entrate accertate e le corrispondenti economie di bilancio:
+ a) nei casi in cui la legge o i principi contabili generali e applicati individuano un vincolo di specifica destinazione dell'entrata alla spesa;
+ b) derivanti da mutui e finanziamenti contratti per il finanziamento di investimenti determinati;
+ c) derivanti da trasferimenti erogati a favore dell'ente per una specifica destinazione;
+ d) derivanti da entrate accertate straordinarie, non aventi natura ricorrente, cui la regione ha formalmente attribuito una specifica destinazione. È possibile attribuire un vincolo di destinazione alle entrate straordinarie non aventi natura ricorrente solo se la regione non ha rinviato la copertura del disavanzo di amministrazione negli esercizi successivi e ha provveduto nel corso dell'esercizio alla copertura di tutti gli eventuali debiti fuori bilancio. L'indicazione del vincolo nel risultato di amministrazione, per le entrate vincolate che hanno dato luogo ad accantonamento al fondo crediti di dubbia e difficile esazione, è sospeso, per l'importo dell'accantonamento, sino all'effettiva riscossione delle stesse».
+ Nel caso della norma regionale impugnata, in definitiva, non viene quindi in rilievo - come invece erroneamente ritenuto dal ricorso statale - la lettera d) della suddetta disposizione, bensì la precedente lettera a), poiché il vincolo di destinazione è direttamente impresso dall'art. 14, comma 3, della legge statale n. 68 del 1999.
+ La fattispecie rientra quindi nei vincoli «previsti dalla legge statale nei confronti delle Regioni», come chiarito dalla classificazione, diretta a specificare la portata del comma 5, lettera a), del citato art. 42, contenuta nel paragrafo 9.7.2 dell'Allegato 4/1 al <ref href="/akn/it/act/decretoLegislativo/stato/2011/118/!main">d.lgs. n. 118 del 2011</ref>.
+ Si tratta, pertanto, di vincoli ai quali la Regione, nell'ambito del ciclo di bilancio, deve assicurare attuazione proprio in forza della previsione statale e per i quali non rileva - a differenza di quelli autonomamente decisi dalla Regione e rientranti nella lettera d) del richiamato comma 5 dell'art. 42 - che sia in corso il ripiano del disavanzo o che non siano stati coperti tutti gli eventuali debiti fuori bilancio.
+ Da ciò consegue la non fondatezza della censura statale.</p>
+            </content>
+          </paragraph>
+        </division>
+      </motivation>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ dichiara non fondata la questione di legittimità costituzionale dell'art. 7 della legge della Regione Molise 4 maggio 2021, n. 2 (Legge di stabilità regionale anno 2021), promossa, in riferimento all'art. 117, secondo comma, lettera e), della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, dal Presidente del Consiglio dei ministri con il ricorso indicato in epigrafe.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-04-05">5 aprile 2022</date>.
+ F.to:
+ <signature><judge refersTo="#giulianoAmato" as="#presidente">Giuliano AMATO</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ <signature><judge refersTo="#lucaAntonini" as="#relatore">Luca ANTONINI</judge>, <role refersTo="#relatore">Redattore</role></signature>
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-05-05">5 maggio 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

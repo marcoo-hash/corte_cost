@@ -1,0 +1,123 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="ordinanza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-02-24/44/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-02-24/44"/>
+          <FRBRalias value="ECLI:IT:COST:2022:44" name="ECLI"/>
+          <FRBRdate date="2022-02-24" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="44"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-02-24/44/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-02-24/44/ita@"/>
+          <FRBRdate date="2022-02-24" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-02-24/44/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-02-24/44/ita@.xml"/>
+          <FRBRdate date="2022-02-24" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-01-12" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-02-24" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>estinzione del processo</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA PRINCIPALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="AMATO" href="/akn/ontology/person/it/AMATO" showAs="AMATO"/>
+        <TLCPerson eId="emanuelaNavarretta" href="/akn/ontology/person/it/emanuelaNavarretta" showAs="Emanuela Navarretta"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="giulianoAmato" href="/akn/ontology/person/it/giulianoAmato" showAs="Giuliano AMATO"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>44</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:44</akn4cc:ecli>
+        <akn4cc:tipo>O</akn4cc:tipo>
+        <akn4cc:presidente>AMATO</akn4cc:presidente>
+        <akn4cc:relatore>Emanuela Navarretta</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-01-12</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-02-24</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA PRINCIPALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>estinzione del processo</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#giulianoAmato">Giuliano AMATO</judge>; Giudici : <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>, <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>ORDINANZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'art. 3 della legge della Regione Liguria 1° giugno 2020, n. 11 (Istituzione del Garante regionale per la tutela delle vittime di reato), promosso dal Presidente del Consiglio dei ministri con ricorso notificato il 6-11 agosto 2020, depositato in cancelleria il 7 agosto 2020, iscritto al n. 67 del registro ricorsi 2020 e pubblicato nella Gazzetta Ufficiale della Repubblica n. 40, prima serie speciale, dell'anno 2020.
+ Udita nella camera di consiglio del 12 gennaio 2022 la Giudice relatrice Emanuela Navarretta;
+ deliberato nella camera di consiglio del 12 gennaio 2022.
+ Ritenuto che, con ricorso notificato il 6-11 agosto 2020 e depositato il 7 agosto 2020 (reg. ric. n. 67 del 2020), il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, ha promosso questione di legittimità costituzionale dell'art. 3 della legge della Regione Liguria 1° giugno 2020, n. 11 (Istituzione del Garante regionale per la tutela delle vittime di reato), per violazione dell'art. 117, secondo comma, lettera g), della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>;
+ che l'impugnato art. 3 della legge reg. Liguria n. 11 del 2020 prevede che «[i]l Garante, tramite il supporto della relativa struttura organizzativa, provvede all'istituzione della Rete multidisciplinare di supporto e di tutela delle vittime di reato, quale organismo consultivo del Garante composto dai rappresentanti delle associazioni, organizzazioni, servizi e istituzioni che, a vario titolo, operano in Liguria, ai fini della tutela, del supporto e della protezione delle vittime di reato»;
+ che, ad avviso del ricorrente, poiché «tra le istituzioni che operano a tutela delle vittime di reato devono ritenersi ricompresi anche apparati statali, data la formulazione del tutto generica e generalizzata della norma regionale, quest'ultima finisce per disporre l'attribuzione di finzioni [recte: funzioni] ad organi dello Stato, incidendo sulle loro competenze e sulla loro organizzazione»;
+ che, secondo il ricorrente, per tale ragione la disposizione impugnata lederebbe la competenza legislativa esclusiva statale in materia di ordinamento e organizzazione amministrativa dello Stato e degli enti pubblici nazionali, di cui all'art. 117, secondo comma, lettera g), Cost.;
+ che, in particolare, sarebbe un principio costantemente ribadito nella giurisprudenza costituzionale quello in base al quale «le regioni non possono prevedere unilateralmente, pur nell'esercizio di competenza [recte: competenze] legislative concorrenti o residuali, forme di collaborazione su attribuzioni conferite alla competenza dello Stato»;
+ che, ad avviso della difesa statale, tali forme di collaborazione devono trovare fonte e presupposto in leggi statali che le prevedano e le consentano, «non potendo le regioni disporre unilateralmente degli uffici e degli organi dell'apparato statale» (vengono richiamate le <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2011/35/!main">sentenze n. 35 del 2011</ref> e n. 167 del 2010 di questa Corte);
+ che la Regione Liguria non si è costituita in giudizio;
+ che, in prossimità dell'udienza pubblica del 25 maggio 2021, il Presidente del Consiglio dei ministri ha depositato istanza di rinvio della trattazione della questione, al fine di valutare, alla luce delle modifiche apportate alla disposizione impugnata dall'art. 1 della legge della Regione Liguria 2 aprile 2021, n. 3, recante: «Modifiche alla legge regionale 1° giugno 2020, n. 11 (Istituzione del Garante regionale per la tutela delle vittime di reato)», l'esistenza dei presupposti per la rinuncia al ricorso;
+ che, dopo il rinvio a nuovo ruolo disposto dal Presidente della Corte costituzionale con decreto del 19 maggio 2021, il Presidente del Consiglio dei ministri, previa conforme deliberazione del Consiglio dei ministri del 17 giugno 2021, ha rinunciato al ricorso con atto depositato il 12 luglio 2021.
+ Considerato che il Presidente del Consiglio dei ministri, previa conforme deliberazione del Consiglio dei ministri del 17 giugno 2021, ha rinunciato al ricorso con atto depositato il 12 luglio 2021, sul presupposto che, in conseguenza dello ius superveniens, la Regione «ha modificato le disposizioni impugnate eliminando i profili di illegittimità sollevati» e che «la legge impugnata risulta non aver avuto concreta applicazione nel periodo di vigenza», sicché «è venuto meno l'interesse alla declaratoria di incostituzionalità richiesta»;
+ che, pertanto, ai sensi dell'art. 23 delle Norme integrative per i giudizi davanti alla Corte costituzionale, vigente ratione temporis, la rinuncia al ricorso, in mancanza della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> della resistente, comporta l'estinzione del processo (ex plurim<ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/51/!main">is, ordinanze n. 51 del 2021</ref>, n. 226 del 2020, n. 244, n. 60 e n. 55 del 2018, n. 223, n. 146, n. 112 e n. 100 del 2017).
+ Visti gli artt. 26, secondo comma, della <ref href="/akn/it/act/legge/stato/1953-03-11/87/!main">legge 11 marzo 1953, n. 87</ref>, 9, comma 2, e 23 delle Norme integrative per i giudizi davanti alla Corte costituzionale.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ dichiara estinto il processo.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-01-12">12 gennaio 2022</date>.
+ F.to:
+ <signature><judge refersTo="#giulianoAmato" as="#presidente">Giuliano AMATO</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ Emanuela NAVARRETTA, Redattrice
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-02-24">24 febbraio 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

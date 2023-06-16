@@ -1,0 +1,135 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="ordinanza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-03-31/82/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-03-31/82"/>
+          <FRBRalias value="ECLI:IT:COST:2022:82" name="ECLI"/>
+          <FRBRdate date="2022-03-31" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="82"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-03-31/82/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-03-31/82/ita@"/>
+          <FRBRdate date="2022-03-31" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-03-31/82/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-03-31/82/ita@.xml"/>
+          <FRBRdate date="2022-03-31" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-03-09" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-03-31" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>manifesta infondatezza</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="AMATO" href="/akn/ontology/person/it/AMATO" showAs="AMATO"/>
+        <TLCPerson eId="stefanoPetitti" href="/akn/ontology/person/it/stefanoPetitti" showAs="Stefano Petitti"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="giulianoAmato" href="/akn/ontology/person/it/giulianoAmato" showAs="Giuliano AMATO"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>82</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:82</akn4cc:ecli>
+        <akn4cc:tipo>O</akn4cc:tipo>
+        <akn4cc:presidente>AMATO</akn4cc:presidente>
+        <akn4cc:relatore>Stefano Petitti</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-03-09</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-03-31</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>manifesta infondatezza</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#giulianoAmato">Giuliano AMATO</judge>; Giudici : <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>, <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>ORDINANZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'art. 131-bis, secondo comma, secondo periodo, del <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main">codice penale</ref>, promosso dal Tribunale ordinario di Lecco, in composizione monocratica, nel procedimento penale a carico di L. B., con ordinanza del 12 febbraio 2021, iscritta al n. 72 del registro ordinanze 2021 e pubblicata nella Gazzetta Ufficiale della Repubblica n. 22, prima serie speciale, dell'anno 2021.
+ Visto l'atto di intervento del Presidente del Consiglio dei ministri;
+ udito nella camera di consiglio del 9 marzo 2022 il Giudice relatore Stefano Petitti;
+ deliberato nella camera di consiglio del 9 marzo 2022.
+ Ritenuto che, con ordinanza del 12 febbraio 2021, iscritta al n. 72 del registro ordinanze 2021, il Tribunale ordinario di Lecco, in composizione monocratica, ha sollevato questione di legittimità costituzionale dell'art. 131-bis, secondo comma, secondo periodo, del <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main">codice penale</ref>, in riferimento all'art. 3, primo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, nella parte in cui, agli effetti dell'applicazione della causa di non punibilità della particolare tenuità del fatto, stabilisce che l'offesa non può essere ritenuta di particolare tenuità nei casi di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_337">art. 337 cod. pen.</ref>, quando il reato è commesso nei confronti di un ufficiale o agente di pubblica sicurezza o di polizia giudiziaria nell'esercizio delle proprie funzioni;
+ che il rimettente espone di dover giudicare sull'imputazione di resistenza a pubblico ufficiale ascritta a L. B., per avere questi, in stato di ebbrezza, usato minaccia per opporsi a due agenti della polizia ferroviaria, che stavano procedendo alla sua identificazione, a bordo di un treno sul quale egli si trovava sprovvisto del titolo di viaggio;
+ che il fatto, commesso da persona incensurata, sarebbe connotato da particolare tenuità, per non avere realmente intralciato l'attività di identificazione, né essere trasceso in violenza fisica;
+ che, ad avviso del giudice a quo, la disposizione censurata sarebbe irragionevole, in quanto aprioristicamente escluderebbe per il reato di resistenza a pubblico ufficiale l'applicazione della causa di non punibilità della particolare tenuità del fatto, della quale potrebbero invece beneficiare gli autori di reati di eguale o maggiore gravità, quali l'abuso d'ufficio, il rifiuto e l'omissione di atti d'ufficio, l'oltraggio a un corpo politico, amministrativo o giudiziario, la turbata libertà degli incanti e le lesioni personali in danno del pubblico ufficiale;
+ che l'irragionevolezza della disposizione censurata emergerebbe anche da un raffronto con le altre ipotesi di esclusione della causa di non punibilità previste nel secondo comma dell'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_131bis">art. 131-bis cod. pen.</ref>, a tenore del quale l'offesa non può essere ritenuta di particolare tenuità quando l'autore ha agito per motivi abietti o futili, o con crudeltà, anche in danno di animali, o ha adoperato sevizie o, ancora, ha profittato delle condizioni di minorata difesa della vittima, anche in riferimento all'età della stessa, ovvero quando la condotta ha cagionato o da essa sono derivate, quali conseguenze non volute, la morte o le lesioni gravissime di una persona; né quando si procede per delitti, puniti con una pena superiore nel massimo a due anni e sei mesi di reclusione, commessi in occasione o a causa di manifestazioni sportive;
+ che tutte queste ipotesi atterrebbero effettivamente alla tenuità del fatto, laddove invece la deroga stabilita dalla disposizione censurata si risolverebbe in una prerogativa meramente soggettiva, che collocherebbe «il pubblico ufficiale su un piano di superiorità rispetto al privato, attribuendo al primo una tutela rafforzata tipica degli stati autoritari»;
+ che, in violazione del principio di uguaglianza, il legislatore avrebbe cioè definito «una categoria di cittadini in qualche modo "infallibili" solo perché investiti di un pubblico ufficio»;
+ che la norma censurata sarebbe altresì irragionevole laddove non tutela parimenti l'incaricato di pubblico servizio;
+ che è intervenuto in giudizio il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, chiedendo che la questione sia dichiarata non fondata - ovvero che gli atti siano restituiti al giudice a quo - in ragione della <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/30/!main">sentenza n. 30 del 2021</ref>, nel frattempo emessa da questa Corte;
+ che, ricorda l'interveniente, con tale sentenza è stata dichiarata non fondata una questione di legittimità costituzionale avente ad oggetto la stessa disposizione censurata dal Tribunale di Lecco, in riferimento al medesimo parametro.
+ Considerato che il Tribunale ordinario di Lecco, in composizione monocratica,  ha sollevato, in riferimento all'art. 3, primo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, questione di legittimità costituzionale dell'art. 131-bis, secondo comma, secondo periodo, del <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main">codice penale</ref>, nella parte in cui, agli effetti dell'applicazione della causa di non punibilità della particolare tenuità del fatto, stabilisce che l'offesa non può essere ritenuta di particolare tenuità nei casi di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_337">art. 337 cod. pen.</ref>, quando il reato è commesso nei confronti di un ufficiale o agente di pubblica sicurezza o di polizia giudiziaria nell'esercizio delle proprie funzioni;
+ che la questione è manifestamente infondata;
+ che essa è già stata dichiarata non fondata da questa Corte con la <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/30/!main">sentenza n. 30 del 2021</ref>, depositata successivamente all'ordinanza di rimessione del Tribunale di Lecco;
+ che tale sentenza ha richiamato il principio per cui «le cause di non punibilità costituiscono altrettante deroghe a norme penali generali, sicché la loro estensione comporta strutturalmente un giudizio di ponderazione a soluzione aperta tra ragioni diverse e confliggenti, in primo luogo quelle che sorreggono da un lato la norma generale e dall'altro la norma derogatoria, giudizio che appartiene primariamente al legislatore»;
+ che da questa premessa la medesima sentenza ha desunto che «le scelte del legislatore relative all'ampiezza applicativa della causa di non punibilità di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_131bis">art. 131-bis cod. pen.</ref> sono sindacabili soltanto per irragionevolezza manifesta»;
+ che la scelta del legislatore di escludere dal campo di applicazione dell'esimente di tenuità il reato di resistenza a pubblico ufficiale non è stata giudicata manifestamente irragionevole, poiché essa «corrisponde all'individuazione discrezionale di un bene giuridico complesso, ritenuto meritevole di speciale protezione», giacché non limitato al corretto funzionamento della pubblica amministrazione, ma inclusivo della sicurezza e libertà di determinazione delle persone fisiche che esercitano le pubbliche funzioni;
+ che, al metro dell'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref>, la citata sentenza ha escluso l'omogeneità dei tertia comparationis dell'abuso d'ufficio e del rifiuto di atti d'ufficio, «poiché queste fattispecie delittuose, per quanto incidano anch'esse sul regolare funzionamento della pubblica amministrazione, non vedono tuttavia direttamente coinvolta la sicurezza e la libertà della persona fisica esercente la funzione pubblica, intesa quale soggetto passivo del reato»;
+ che, per la medesima sentenza, non rileva ai fini dello scrutinio di ragionevolezza che tale coinvolgimento personale ricorra nella fattispecie aggravata ex artt. 576, primo comma, numero 5-bis), 582 e 585 <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main">cod. pen</ref>., poiché questa, «ove la condotta causativa delle lesioni sia teleologicamente collegata a una resistenza nei confronti del pubblico ufficiale, e sia quindi diretta a intralciare il regolare funzionamento della pubblica amministrazione, ricade senz'altro nell'esclusione dell'esimente di tenuità prevista per il titolo di reato di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_337">art. 337 cod. pen.</ref>»;
+ che, poiché l'ordinanza di rimessione del Tribunale di Lecco non apporta argomenti nuovi e diversi rispetto alle richiamate considerazioni, la questione con essa sollevata si rivela manifestamente infondata (ex mult<mref><ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/224/!main">is, ordinanze n. 224</ref>, n. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/214/!main">214</ref>, n. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/165/!main">165</ref> e n. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/111/!main">111 del 2021</ref></mref>, n. 204, n. 93 e n. 81 del 2020);
+ che su questo esito non incide l'evocazione degli ulteriori tertia comparationis individuati dal rimettente nei titoli di reato di cui agli <mref><ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_342">artt. 342</ref> e <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_353">353 cod. pen.</ref></mref>, i quali sono invero palesemente eterogenei rispetto alla fattispecie delittuosa della resistenza a pubblico ufficiale, in quanto, da un lato, l'oltraggio a corpo politico, amministrativo o giudiziario non ha tra i suoi elementi costitutivi la violenza o la minaccia, dall'altro, la turbativa d'asta ha un'oggettività giuridica peculiare, circoscritta alle determinazioni negoziali della pubblica amministrazione;
+ che, quando denuncia che l'esclusione della causa di non punibilità ex <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_131bis">art. 131-bis cod. pen.</ref> sia rivolta solo alla tutela dei pubblici ufficiali e non anche a quella degli incaricati di pubblico servizio, il giudice a quo impiega un argomento contraddittorio rispetto alle premesse da cui egli stesso muove, dichiaratamente avverse ad esclusioni qualificate in senso meramente soggettivo;
+ che, peraltro, l'esclusione della operatività della causa di non punibilità di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_131bis">art. 131-bis cod. pen.</ref> con riguardo ai reati di cui agli <mref><ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_336">artt. 336</ref>, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_337">337</ref> e <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_341bis">341-bis cod. pen.</ref></mref> commessi nei confronti di ogni pubblico ufficiale nell'esercizio delle proprie funzioni - originariamente prevista dall'<ref href="/akn/it/act/decretoLegge/stato/2019-06-14/53/!main#art_16__para_1__point_b">art. 16, comma 1, lettera b), del decreto-legge 14 giugno 2019, n. 53</ref> (Disposizioni urgenti in materia di ordine e sicurezza pubblica), convertito, con modificazioni, nella <ref href="/akn/it/act/legge/stato/2019-08-08/77/!main">legge 8 agosto 2019, n. 77</ref> - è venuta meno per effetto dell'<ref href="/akn/it/act/decretoLegge/stato/2020-10-21/130/!main#art_7__para_1">art. 7, comma 1, del decreto-legge 21 ottobre 2020, n. 130</ref> (Disposizioni urgenti in materia di immigrazione, protezione internazionale e complementare, modifiche agli <mref><ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_131bis">articoli 131-bis</ref>, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_391bis">391-bis</ref>, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_391ter">391-ter</ref> e <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_588">588 del codice penale</ref></mref>, nonché misure in materia di divieto di accesso agli esercizi pubblici ed ai locali di pubblico trattenimento, di contrasto all'utilizzo distorto del web e di disciplina del Garante nazionale dei diritti delle persone private della libertà personale), convertito, con modificazioni, nella <ref href="/akn/it/act/legge/stato/2020-12-18/173/!main">legge 18 dicembre 2020, n. 173</ref>, avendo il legislatore limitato l'esclusione della causa di non punibilità al caso in cui quei reati siano commessi in danno dei soli ufficiali e agenti di pubblica sicurezza o di polizia giudiziaria, evidentemente ritenuti più esposti a condotte resistenziali di tipo violento;
+ che, infine, la tutela rafforzata predisposta dal legislatore in favore di questi pubblici ufficiali non si risolve affatto in una qualificazione di "superiorità" o "infallibilità" dei soggetti medesimi - come paventa il rimettente -, essendo sufficiente al riguardo osservare che, nell'ipotesi di atti arbitrari del pubblico ufficiale, opera, anche per il reato di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_337">art. 337 cod. pen.</ref>, la distinta causa di non punibilità ex <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_393bis">art. 393-bis cod. pen.</ref>;
+ che, pertanto, la sollevata questione di legittimità costituzionale deve essere dichiarata manifestamente infondata.
+ Visti gli artt. 26, secondo comma, della <ref href="/akn/it/act/legge/stato/1953-03-11/87/!main">legge 11 marzo 1953, n. 87</ref>, e 9, comma 1, delle Norme integrative per i giudizi davanti alla Corte costituzionale.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ dichiara la manifesta infondatezza della questione di legittimità costituzionale dell'art. 131-bis, secondo comma, secondo periodo, del <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main">codice penale</ref>, sollevata, in riferimento all'art. 3, primo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, dal Tribunale ordinario di Lecco, in composizione monocratica, con l'ordinanza indicata in epigrafe.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-03-09">9 marzo 2022</date>.
+ F.to:
+ <signature><judge refersTo="#giulianoAmato" as="#presidente">Giuliano AMATO</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ Stefano PETITTI, Redattore
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-03-31">31 marzo 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

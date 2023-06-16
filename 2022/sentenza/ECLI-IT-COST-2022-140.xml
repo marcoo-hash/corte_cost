@@ -1,0 +1,261 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="sentenza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-07/140/!main"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-07/140"/>
+          <FRBRalias value="ECLI:IT:COST:2022:140" name="ECLI"/>
+          <FRBRdate date="2022-06-07" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="140"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-07/140/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-07/140/ita@"/>
+          <FRBRdate date="2022-06-07" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-07/140/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-07/140/ita@.xml"/>
+          <FRBRdate date="2022-06-07" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-04-26" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-06-07" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>illegittimità costituzionale parziale</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="AMATO" href="/akn/ontology/person/it/AMATO" showAs="AMATO"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="giulianoAmato" href="/akn/ontology/person/it/giulianoAmato" showAs="Giuliano AMATO"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>140</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:140</akn4cc:ecli>
+        <akn4cc:tipo>S</akn4cc:tipo>
+        <akn4cc:presidente>AMATO</akn4cc:presidente>
+        <akn4cc:relatore>Luca Antonini</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-04-26</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-06-07</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>illegittimità costituzionale parziale</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#giulianoAmato">Giuliano AMATO</judge>; Giudici : <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>, <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>SENTENZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-04-26/131/!main#art_66__para_2">art. 66, comma 2, del decreto del Presidente della Repubblica 26 aprile 1986, n. 131</ref> (Approvazione del testo unico delle disposizioni concernenti l'imposta di registro), promosso dal Consiglio di Stato, sezione quarta, nel procedimento vertente tra il Ministero della giustizia e Andrea Abbamonte e altri, con ordinanza del 2 marzo 2021, iscritta al n. 76 del registro ordinanze 2021 e pubblicata nella Gazzetta Ufficiale della Repubblica n. 23, prima serie speciale, dell'anno 2021.
+ Visti l'atto di <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> di Andrea Abbamonte, nonché l'atto di intervento del Presidente del Consiglio dei ministri;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>udito nell'udienza pubblica del 26 aprile 2022 il Giudice relatore Luca Antonini;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>uditi l'avvocato Monica Mazziotti per Andrea Abbamonte e l'avvocato dello Stato Antonio Grumetto per il Presidente del Consiglio dei ministri;
+ deliberato nella camera di consiglio del 26 aprile 2022.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <division>
+          <heading>Ritenuto in fatto</heading>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>- Con ordinanza del 2 marzo 2021 (reg. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/76/!main">ord. n. 76 del 2021</ref>), il Consiglio di Stato, sezione quarta, ha sollevato - in riferimento agli <mref><ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">artt. 3</ref> e <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">24 della Costituzione</ref></mref> - questioni di legittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-04-26/131/!main#art_66__para_2">art. 66, comma 2, del decreto del Presidente della Repubblica 26 aprile 1986, n. 131</ref> (Approvazione del testo unico delle disposizioni concernenti l'imposta di registro).</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Il comma 1 del citato art. 66 vieta ai soggetti di cui alle lettere b) e c) del precedente art. 10 - ovvero, inter alia, ai cancellieri e ai segretari degli organi giurisdizionali - di rilasciare originali, copie ed estratti degli atti soggetti a registrazione in termine fisso da loro formati o autenticati, se non dopo la registrazione stessa, indicando i relativi estremi e l'ammontare dell'imposta; il successivo comma 2 contempla cinque fattispecie alle quali tale divieto non si applica.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Quest'ultima disposizione è censurata nella parte in cui non prevede, tra tali fattispecie, anche quella del rilascio dell'originale o della copia della sentenza o di altro provvedimento giurisdizionale, i quali debbano essere utilizzati per agire in sede di ottemperanza dinanzi al giudice amministrativo.
+ 2.- Le questioni sono sorte nel corso di un giudizio avente a oggetto l'accertamento dell'illegittimità del silenzio rifiuto, nonché l'annullamento degli atti amministrativi a esso sottesi, formatosi sull'istanza di rilascio del certificato di passaggio in giudicato dell'ordinanza, pronunciata dal Tribunale ordinario di Napoli, di condanna del Comune di Ceppaloni al pagamento della somma di euro 13.302,68 in favore del ricorrente nel processo a quo.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Secondo quanto riferito dal rimettente, infatti, stante l'omesso versamento della relativa imposta di registro, il competente ufficio del menzionato Tribunale non aveva rilasciato al creditore vittorioso in giudizio la suddetta ordinanza munita della certificazione di passaggio in giudicato, funzionale all'esercizio dell'azione di ottemperanza. Ciò, in forza di una circolare dello stesso Tribunale e di una nota interna del Ministero della giustizia secondo le quali, in sostanza, ai sensi del denunciato <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_66__para_2">art. 66, comma 2, del d.P.R. n. 131 del 1986</ref> è possibile derogare al divieto di cui al precedente comma 1 - a seguito della sentenza additiva di questa Corte n. 522 del 2002 - nel caso del rilascio del provvedimento giurisdizionale che debba essere utilizzato per procedere all'esecuzione forzata civile, ma non anche ove esso sia preordinato ad agire in ottemperanza.
+ Il ricorrente ha quindi instaurato il giudizio a quo, deducendo tra l'altro, a fondamento delle spiegate domande, l'illegittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_66__para_2">art. 66, comma 2, del d.P.R. n. 131 del 1986</ref>.
+ Investito dell'appello interposto dal Ministero della giustizia avverso la sentenza di accoglimento del Tribunale amministrativo regionale della Campania, il Consiglio di Stato ritiene, diversamente dal giudice di primo grado, che non sia praticabile un'interpretazione adeguatrice della norma sospettata, che si scontrerebbe con il dato testuale, traducendosi in un'interpretazione analogica non consentita in virtù della natura eccezionale della norma stessa.
+ Rileva infatti il rimettente che questa Corte ha sì dichiarato, con la sopra citata sentenza, l'illegittimità costituzionale della disposizione in parola nella parte in cui precludeva, prima della registrazione, il rilascio dell'originale o della copia della sentenza o di altro provvedimento giurisdizionale, ma unicamente nel caso in cui questi dovessero essere utilizzati per procedere all'esecuzione forzata.
+  Del resto, il giudizio di ottemperanza non costituirebbe un mero «duplicato» dell'esecuzione forzata, essendo solo il primo caratterizzato «dall'esercizio di una giurisdizione estesa al merito» e da «potenzialità sostitutive e intromissive» nell'azione dell'amministrazione inadempiente.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Né, prosegue sul punto il Consiglio di Stato, il giudizio di ottemperanza sarebbe sussumibile in una delle altre fattispecie in cui l'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_66__para_2">art. 66, comma 2, del d.P.R. n. 131 del 1986</ref> eccezionalmente deroga al divieto di rilascio dettato dal precedente comma 1.
+ Di qui, in definitiva, la rilevanza delle questioni sollevate, dal momento che, essendo privo di pregio l'ulteriore motivo posto a fondamento delle domande avanzate dal ricorrente, l'esito del giudizio a quo dipende unicamente dalla soluzione dei prospettati dubbi di legittimità costituzionale.
+ 2.1.- Quanto alla non manifesta infondatezza, il Consiglio di Stato - dopo avere ricordato che requisito di ammissibilità dell'azione di ottemperanza ai provvedimenti giurisdizionali del giudice ordinario è rappresentato dal loro passaggio in giudicato, che deve essere dimostrato dalla parte ricorrente attraverso la copia degli stessi corredata della relativa attestazione da parte del cancelliere - osserva che, di conseguenza, la norma denunciata, non consentendo il rilascio dei suddetti provvedimenti prima dell'adempimento dell'obbligazione tributaria, precluderebbe l'attuazione del diritto accertato giudizialmente.
+ Questa preclusione violerebbe, innanzitutto, gli <mref><ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">artt. 3</ref> e <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">24 Cost.</ref></mref>, determinando un'irragionevole compressione del diritto di agire in giudizio, per ragioni non dissimili da quelle poste a base della più volte citata <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2002/522/!main">sentenza n. 522 del 2002</ref> (nonché della successiva <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2010/198/!main">sentenza n. 198 del 2010</ref>).</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>E se è vero, precisa il giudice a quo, che a seguito della suddetta sentenza il creditore della pubblica amministrazione può comunque promuovere l'esecuzione forzata malgrado l'omesso versamento dell'imposta di registro, tuttavia, il procedimento di esecuzione e il giudizio ottemperanza non sarebbero «semplicemente alternativi, ma complementari», sicché la circostanza che il secondo «sia più oneroso» finirebbe per arrecare un vulnus al diritto della parte vittoriosa di far valere pienamente le proprie ragioni attraverso tutti i mezzi previsti dall'ordinamento.
+ Condizionando la tutela giurisdizionale in sede di ottemperanza al pagamento dell'imposta di registro, la norma censurata determinerebbe, inoltre, secondo il rimettente, «una discriminazione tra creditori in base alle rispettive disponibilità economiche», con la conseguente lesione, anche sotto tale profilo, dell'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref>
+ 3.- Si è costituito in giudizio il ricorrente nel processo principale, chiedendo la declaratoria di illegittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_66__para_2">art. 66, comma 2, del d.P.R. n. 131 del 1986</ref> negli stessi termini auspicati dal rimettente.
+ 4.- È intervenuto in giudizio il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, il quale ha chiesto che le questioni siano dichiarate non fondate.
+ Nell'atto di intervento vengono innanzitutto richiamate alcune pronunce di questa Corte in materia di oneri fiscali (tra le altre, <ref href="/akn/it/judgment/sentenza/corteCostituzionale/1999/7/!main">sentenze n. 7 del 1999</ref>, n. 157 del 1969 e n. 45 del 1963), da cui viene dedotta la «necessità di operare un bilanciamento tra l'interesse fiscale alla riscossione dell'imposta e quello all'attuazione della tutela giurisdizionale».
+ Viene quindi sostenuta l'insussistenza della denunciata violazione degli <mref><ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">artt. 3</ref> e <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">24 Cost.</ref></mref>, in quanto il giudizio di ottemperanza non costituirebbe l'unico rimedio apprestato dall'ordinamento per conseguire la tutela esecutiva nei confronti della pubblica amministrazione, potendo il creditore, alternativamente, procedere all'esecuzione forzata civile, nonostante l'omessa registrazione del provvedimento giudiziale.
+ La norma sospettata, pertanto, non renderebbe impossibile o eccessivamente difficile l'esercizio del diritto alla tutela giurisdizionale.
+ Anche la censura inerente all'asserita disparità di trattamento fra creditori in base alle loro condizioni economiche sarebbe priva di pregio. L'eventuale rilascio, prima del pagamento dell'imposta, del provvedimento giurisdizionale munito dell'attestazione di passaggio in giudicato, infatti, in ogni caso non esimerebbe il richiedente dall'obbligo del versamento, sia pure successivamente al rilascio stesso.</p>
+            </content>
+          </paragraph>
+        </division>
+      </background>
+      <motivation>
+        <division>
+          <heading>Considerato in diritto</heading>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>- Con ordinanza del 2 marzo 2021 (reg. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/76/!main">ord. n. 76 del 2021</ref>), il Consiglio di Stato, sezione quarta, dubita della legittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-04-26/131/!main#art_66__para_2">art. 66, comma 2, del decreto del Presidente della Repubblica 26 aprile 1986, n. 131</ref> (Approvazione del testo unico delle disposizioni concernenti l'imposta di registro), nella parte in cui non prevede che il divieto di rilascio di atti non registrati recato dal precedente comma 1 non si applichi al rilascio dell'originale o della copia della sentenza o di altro provvedimento giurisdizionale, i quali debbano essere utilizzati per proporre l'azione di ottemperanza dinanzi al giudice amministrativo.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Secondo il rimettente, la norma censurata, non consentendo il rilascio dei provvedimenti giurisdizionali prima del pagamento della relativa imposta di registro, precluderebbe la possibilità di agire in sede di ottemperanza per l'attuazione delle pronunce del giudice ordinario, limitando irragionevolmente il diritto alla tutela giurisdizionale, con lesione degli <mref><ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">artt. 3</ref> e <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">24 della Costituzione</ref></mref>.
+ L'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref> risulterebbe altresì violato in relazione al principio di eguaglianza, poiché la disciplina posta dall'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_66__para_2">art. 66, comma 2, del d.P.R. n. 131 del 1986</ref> determinerebbe «una discriminazione tra creditori in base alle rispettive disponibilità economiche».
+ 2.- L'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_66">art. 66 del d.P.R. n. 131 del 1986</ref>, al comma 1, vieta ai soggetti di cui al precedente art. 10, lettere b) e c) - cioè, per quanto qui rileva, ai cancellieri e ai segretari degli organi giurisdizionali - di rilasciare originali, copie ed estratti degli atti soggetti a registrazione in termine fisso da loro formati o autenticati, se non dopo la registrazione stessa, indicando i relativi estremi e l'ammontare dell'imposta; al successivo comma 2, prevede alcune deroghe a tale divieto, disponendo che esso non si applica a «una serie di atti tassativamente enunciati» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2010/198/!main">sentenza n. 198 del 2010</ref>), senza tuttavia contemplare il rilascio della sentenza o di altro provvedimento giurisdizionale funzionale all'instaurazione del giudizio di ottemperanza.
+ 3.- In ragione della tassatività delle deroghe previste dal censurato <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_66__para_2">art. 66, comma 2, del d.P.R. n. 131 del 1986</ref> al divieto di rilascio stabilito dal precedente comma 1, l'esercizio dell'azione di ottemperanza dinanzi al giudice amministrativo per conseguire l'attuazione dei provvedimenti giurisdizionali del giudice ordinario è, di fatto, precluso dall'inadempimento all'obbligo di versamento dell'imposta di registro.
+ Da questo, infatti, consegue che il cancelliere non possa rilasciare il provvedimento giurisdizionale recante in calce la certificazione di passaggio in giudicato (<ref href="/akn/it/act/regioDecreto/stato/1941-12-18/1368/!main#art_124">art. 124 del r.d. 18 dicembre 1941, n. 1368</ref>, recante «Disposizioni per l'attuazione del <ref href="/akn/it/act/regioDecreto/stato/1940-10-28/1443/!main">Codice di procedura civile</ref> e disposizioni transitorie»); passaggio in giudicato che, ai sensi del combinato disposto degli artt. 112, comma 2, lettera c), e 114, comma 2, dell'Allegato 1 al <ref href="/akn/it/act/decretoLegislativo/stato/2010-07-02/104/!main">decreto legislativo 2 luglio 2010, n. 104</ref> (Attuazione dell'<ref href="/akn/it/act/legge/stato/2009-06-18/69/!main#art_44">articolo 44 della legge 18 giugno 2009, n. 69</ref>, recante delega al governo per il riordino del processo amministrativo), costituisce requisito di ammissibilità del ricorso per l'ottemperanza delle sentenze e degli altri provvedimenti a esse equiparati pronunciati dal giudice ordinario (ex plurimis, Consiglio di giustizia amministrativa per la Regione siciliana, <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021-04-09/1/!main">sentenza 19 aprile 2021</ref>, n. 337; Consiglio di Stato<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2016-12-02/1/!main">, sezione quarta, sentenza 12 dicembre 2016</ref>, n. 5223;<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2015-12-01/1/!main"> sezione quinta, sentenza 11 dicembre 2015</ref>, n. 5645;<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2011-12-08/2/!main"> sezione sesta, sentenza 28 dicembre 2011</ref>, n. 6905).</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>4.</num>
+            <content>
+              <p>- La questione sollevata con riferimento agli <mref><ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">artt. 3</ref> e <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">24 Cost.</ref></mref> è fondata.
+ 4.1.- Occorre premettere che essa riporta all'attenzione il delicato tema del rapporto tra oneri fiscali e diritto alla tutela giurisdizionale di cui questa Corte si è occupata in numerose occasioni, soprattutto nel periodo antecedente la riforma tributaria degli anni settanta, quando nel nostro ordinamento - all'interno di una legislazione disorganica e già da tempo avvertita, anche dalla più autorevole dottrina, come fortemente vessatoria - diverse norme condizionavano lo svolgimento del processo all'adempimento di oneri fiscali.
+ È stata la risalente pronuncia sul solve et repete (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1961/21/!main">sentenza n. 21 del 1961</ref>) a inaugurare questo filone della giurisprudenza costituzionale, eliminando dall'ordinamento una regola che rifletteva una concezione autoritaria del rapporto tributario, in quanto ancora fondata sulla nozione precostituzionale di dovere di soggezione, per cui l'atto impositivo, alla stregua dell'ordine dell'autorità, andava prima eseguito e solo dopo, eventualmente, contestato.
+ La previsione dell'onere del pagamento del tributo, prima ancora che fosse accertato in modo definitivo il titolo in base al quale esso poteva esigersi, quale presupposto imprescindibile dell'esperimento dell'azione giudiziaria diretta a sostenere l'illegittimità dell'imposizione, è stata ritenuta in contrasto con gli <mref><ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">artt. 3</ref>, <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">24</ref> e <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_113">113 Cost.</ref></mref>
+ Sono seguite poi numerose altre pronunce, sia rivolte a espungere dall'ordinamento i residui normativi ancora ispirati alla medesima logica del solve et repete (tra le altre, <ref href="/akn/it/judgment/sentenza/corteCostituzionale/1964/100/!main">sentenze n. 100 del 1964</ref>, n. 89 e n. 75 del 1962, n. 79 del 1961), sia riguardanti altre forme di oneri fiscali, pur diversamente strutturati da quel risalente istituto.
+ In alcune occasioni, come quella relativa alle norme che impedivano l'utilizzo  in giudizio degli atti sui quali non era stata assolta l'imposta di registro - relegati così a una sorta di "esilio giudiziario" - questa Corte non reputò costituzionalmente illegittimi tali oneri, precisando che la <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref> «non vieta di imporre prestazioni fiscali in stretta e razionale correlazione con il processo; sia che esse configurino vere e proprie tasse giudiziarie, sia che abbiano riguardo all'uso di documenti necessari alla pronunzia finale dei giudici» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1963/45/!main">sentenza n. 45 del 1963</ref>).
+ In altre, invece, ritenne costituzionalmente illegittime quelle norme che, anziché rivolte ad «assicurare al processo uno svolgimento meglio conforme alla sua funzione [e] prevenire altresì eccessi riprovevoli nell'esercizio del diritto di azione, eccitando nel titolare un senso di responsabilità», tendevano «alla soddisfazione di interessi del tutto estranei alle finalità predette» e conducevano «al risultato di precludere o ostacolare gravemente l'esperimento della tutela giurisdizionale» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1966/80/!main">sentenza n. 80 del 1966</ref>).
+ Diverse di queste «remote sentenze» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1999/7/!main">sentenza n. 7 del 1999</ref>) vennero ritenute poco soddisfacenti dalla prevalente dottrina, in quanto non apparivano esaustivamente chiariti i criteri di giudizio sul bilanciamento operato dal legislatore, anche perché, fra l'altro, le limitazioni al diritto alla tutela giurisdizionale venivano giustificate invocando valori tra loro diseguali: a volte l'adempimento del «dovere di contribuente» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1969/157/!main">sentenza n. 157 del 1969</ref>) e altre volte l'esigenza di tutelare «l'interesse alla riscossione dei tributi» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1964/91/!main">sentenza n. 91 del 1964</ref> e, in termini analoghi, <ref href="/akn/it/judgment/sentenza/corteCostituzionale/1969/157/!main">sentenza n. 157 del 1969</ref>).
+ 4.2.- Il problema è stato poi in gran parte risolto grazie, in primo luogo, all'intervento del legislatore, che, nell'ambito della grande riforma fiscale degli anni settanta, ha previsto all'art. 7, numero 7), della legge delega 9 ottobre 1971, n. 825 (Delega legislativa al Governo della Repubblica per la riforma tributaria), come principio direttivo, quello di eliminare «ogni impedimento fiscale al diritto dei cittadini di agire in giudizio per la tutela dei propri diritti ed interessi legittimi».
+ L'ordinamento si è così indirizzato verso un nuovo e più proporzionato bilanciamento tra i valori costituzionali che vengono in rilievo nella previsione di oneri fiscali condizionanti l'accesso alla tutela giurisdizionale.
+ Tra questi, del resto, può venire senz'altro in considerazione il dovere tributario, in quanto rientrante tra quelli inderogabili di solidarietà, di cui l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_2">art. 2 Cost.</ref> richiede l'adempimento (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/120/!main">sentenza n. 120 del 2021</ref>).</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Tale qualificazione, infatti, da un lato, esprimendo un principio giuridico di integrazione attinente a quei valori di solidarietà che sono strutturali nel disegno costituzionale, ha segnato un chiaro abbandono della risalente nozione di dovere di soggezione (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/288/!main">sentenza n. 288 del 2019</ref>), dall'altro, ha posto tale dovere, ma solo in quanto relativo a un'imposizione tributaria che possa ritenersi stabilita nel rispetto del principio di legalità, in relazione di coessenzialità con i diritti inviolabili.
+ Questa Corte, del resto, ha affermato che non è possibile subordinare all'adempimento del dovere tributario, così inteso, l'esercizio del diritto alla tutela giurisdizionale quando si tratti «di contestare la legittimità dell'imposizione tributaria», perché ciò viola l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">art. 24 Cost.</ref> (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1970/61/!main">sentenza n. 61 del 1970</ref>; in termini simili, <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2002/522/!main">sentenze n. 522 del 2002</ref> e n. 111 del 1971); ma non ha escluso tale possibilità quando ciò avvenga al fuori da tale ipotesi.
+ Tuttavia, se in linea di principio possono quindi esistere casi in cui il dovere tributario può sì tradursi in oneri concernenti l'esercizio dello stesso diritto alla tutela giurisdizionale, va chiarito che, in concreto, ciò può avvenire solo nel rispetto del principio di proporzionalità e in particolare della stretta necessità, risultando costituzionalmente legittimo, quindi, solo quando l'adempimento di tale dovere non possa essere adeguatamente tutelato in altro modo.
+ Va altresì precisato che il diritto alla tutela giurisdizionale non può, invece, in alcun modo essere sacrificato, come invece sostenuto dal Presidente del Consiglio dei ministri, intervenuto in giudizio per mezzo dell'Avvocatura generale dello Stato nel solco di alcune più risalenti sentenze di questa Corte, in nome di esigenze di tutela dell'«interesse fiscale». Questo, infatti, sebbene costituisca un interesse particolarmente tutelato dall'art. 53, primo comma, Cost. (ex plurim<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2020/201/!main">is, sentenza n. 201 del 2020</ref>), attiene a momenti della dinamica impositiva nei quali è ancora in fase di definizione ciò a cui corrisponde il dovere tributario.
+ Rispetto a tale interesse - che può giustificare svariate esigenze, come quella di evitare «eventuali frodi facilmente ipotizzabili» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1975/173/!main">sentenza n. 173 del 1975</ref>), o quella di garantire una «pronta realizzazione del credito fiscale» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1994/358/!main">sentenza n. 358 del 1994</ref>), oppure di «prevenire fenomeni di evasione o elusione» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2020/262/!main">sentenza n. 262 del 2020</ref>) - non si manifesta, pertanto, quella coessenzialità alla realizzazione dei diritti inviolabili che invece giustifica il dovere tributario.
+ Del resto, nella vigente legislazione la cosiddetta riscossione frazionata in pendenza di giudizio non è mai impeditiva della tutela giurisdizionale.
+ Questi criteri di bilanciamento si sono dunque riflessi nella scelta del legislatore delegante in occasione della citata riforma tributaria, poiché ha ritenuto di informare l'ordinamento intorno al principio per cui gli impedimenti al diritto di agire in giudizio, oltre a non essere consentiti con riguardo all'interesse fiscale, non sono strettamente necessari neanche al fine di tutelare il dovere tributario, traducendosi in forme di controllo fiscale eccessive, essendo del resto possibili altre modalità comunque idonee a tutelarne l'adempimento.
+ 4.3.- In attuazione di tale principio, come precisato da questa Corte nella <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2002/522/!main">sentenza n. 522 del 2002</ref>, «l'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-10-26/634/!main#art_63">articolo 63 del d.P.R. 26 ottobre 1972, n. 634</ref> (Disciplina dell'imposta di registro), il cui contenuto è poi sostanzialmente confluito nell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_65">articolo 65 del d.P.R. n. 131 del 1986</ref>, ha soppresso il divieto di utilizzazione in giudizio di atti non registrati [...] ed al suo posto ha previsto l'obbligo del cancelliere di inviarli all'ufficio del registro. Il legislatore della riforma ha pertanto ritenuto che la situazione di inadempimento dell'obbligazione relativa all'imposta di registro, emergente in occasione del processo di cognizione, non può avere l'effetto di precluderne lo svolgimento e la conclusione».
+ L'adempimento del dovere tributario, dunque, è stato ritenuto «sufficientemente garantito dall'obbligo imposto al cancelliere di informare l'ufficio finanziario dell'esistenza dell'atto non registrato, ponendolo così in grado di procedere alla riscossione» (ancora, <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2002/522/!main">sentenza n. 522 del 2002</ref>).
+ Alla luce di «questo tipo di bilanciamento» e in considerazione «del principio secondo cui la garanzia della tutela giurisdizionale posta dall'articolo 24, primo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref> comprende anche la fase dell'esecuzione forzata», l'impossibilità di ottenere il provvedimento giurisdizionale munito della formula esecutiva, e quindi di procedere all'esecuzione forzata, è stata ritenuta dalla medesima sentenza in contrasto con lo stesso <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">art. 24 Cost.</ref>
+ Secondo la citata pronuncia, del resto, una volta che «l'inadempimento dell'obbligazione tributaria» non ha precluso, in forza del comma 1 del citato art. 66, lo svolgimento del processo di cognizione fino all'emanazione della sentenza (o di altro provvedimento esecutivo) e ha determinato «solo la comunicazione da parte del cancelliere all'ufficio del registro degli atti non registrati», risulta irragionevole impedire poi «che alla sentenza (o al provvedimento esecutivo) sia data attuazione mediante l'esercizio della tutela giurisdizionale in via esecutiva».
+ Ciò ha portato, dunque, alla dichiarazione di illegittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_66__para_2">art. 66, comma 2, del d.P.R. n. 131 del 1986</ref>, nella parte in cui non prevedeva che la disposizione di cui al comma 1 non si applicasse al rilascio dell'originale o della copia della sentenza o di altro provvedimento giurisdizionale, che debba essere utilizzato per procedere all'esecuzione forzata.
+ Nel solco di detta decisione, questa Corte, con la <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2010/198/!main">sentenza n. 198 del 2010</ref>, ha poi dichiarato l'illegittimità costituzionale della medesima norma nella parte in cui non prevedeva che la disposizione di cui al comma 1 del menzionato art. 66 non si applicasse al rilascio di copia dell'atto conclusivo (sentenza o verbale di conciliazione) della causa di opposizione allo stato passivo fallimentare, ai fini della variazione di quest'ultimo.
+ 5.- Alla luce della premessa svolta, la fattispecie in esame può ora essere adeguatamente considerata, in base a un duplice ordine di ragioni.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>In primo luogo, il divieto di rilascio del provvedimento giurisdizionale recante in calce la certificazione di passaggio in giudicato, impedendo di fatto l'accesso al giudizio di ottemperanza, limita il diritto alla tutela giurisdizionale.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>In secondo luogo, tale limitazione, come si preciserà (punto 5.2.), non è strettamente necessaria e proporzionata rispetto alle esigenze di tutela dell'adempimento del dovere tributario, che pure, come in precedenza chiarito, vengono in considerazione nella fattispecie in esame, perché l'obbligazione tributaria non è contestata dal contribuente.
+ 5.1.- Quanto al primo aspetto, va innanzitutto rilevato che il giudizio di ottemperanza - in termini non dissimili, per questo aspetto, dal procedimento di esecuzione forzata considerato nella <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2002/522/!main">sentenza n. 522 del 2002</ref> - è funzionale all'attuazione coattiva dei provvedimenti giudiziali adottati in sede di cognizione, e quindi a rendere effettivo il diritto alla tutela giurisdizionale presidiato dall'art. 24, primo comma, Cost.
+ In particolare, secondo la costante giurisprudenza di questa Corte, la fase dell'esecuzione dell'obbligo della pubblica amministrazione di conformarsi alle pronunce giurisdizionali «è costituzionalmente necessaria» e una decisione di giustizia che non possa essere portata ad effettiva esecuzione non rimarrebbe altro che una vuota e «inutile enunciazione» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1995/419/!main">sentenza n. 419 del 1995</ref>; nello stesso senso, <ref href="/akn/it/judgment/sentenza/corteCostituzionale/1998/406/!main">sentenze n. 406 del 1998</ref> e n. 435 del 1995).</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>In base, quindi, al principio di effettività della tutela giurisdizionale, «deve ritenersi connotato intrinseco della stessa funzione giurisdizionale [...] il potere di imporre, anche coattivamente in caso di necessità, il rispetto della statuizione contenuta nel giudicato» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1995/435/!main">sentenza n. 435 del 1995</ref>; nello stesso senso, <ref href="/akn/it/judgment/sentenza/corteCostituzionale/1995/419/!main">sentenza n. 419 del 1995</ref>, quest'ultima recentemente richiamata, sul punto, dalla <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/128/!main">sentenza n. 128 del 2021</ref>).
+ L'azione di ottemperanza è, infatti, volta a «dare concretezza al diritto alla tutela giurisdizionale, tutelato dall'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">art. 24 Cost.</ref>» (Consiglio di Stato, adunanza plenaria, <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2013-01-05/1/!main">sentenza 15 gennaio 2013</ref>, n. 2).</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Non coglie invece nel segno la tesi dell'Avvocatura generale, secondo cui la norma censurata non limiterebbe eccessivamente il diritto alla tutela giurisdizionale, in quanto il giudizio di ottemperanza non sarebbe l'unico rimedio per attuare le decisioni nei confronti della pubblica amministrazione, potendo la parte vittoriosa, malgrado l'omesso versamento dell'imposta di registro, proprio a seguito della ricordata <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2002/522/!main">sentenza n. 522 del 2002</ref>, alternativamente procedere all'esecuzione forzata civile.
+ Il rapporto tra i due rimedi non si pone, infatti, in termini di mera alternatività, perché, come rilevato dal giudice a quo, il giudizio di ottemperanza è diretto, piuttosto, a completare la tutela conseguibile nell'ambito del procedimento di esecuzione forzata, essendo connotato da «potenzialità sostitutive e intromissive nell'azione amministrativa, non comparabili con i poteri del giudice dell'esecuzione nel processo civile» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1998/406/!main">sentenza n. 406 del 1998</ref>).
+ Esso consente, infatti, «l'accesso a tecniche di esecuzione incisive, quali la possibilità d'irrogazione di penalità di mora [...] e la nomina di un commissario ad acta che, nella persistente inerzia dell'amministrazione dello Stato, proceda al reperimento materiale delle risorse necessarie al pagamento» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/237/!main">sentenza n. 237 del 2021</ref>).
+ È quindi palese come, concorrendo a colmare l'eventuale insufficienza della tutela offerta dal procedimento di esecuzione forzata, l'azione di ottemperanza ben possa rappresentare un importante ed efficace ausilio per l'attuazione delle pronunce giudiziali da parte della pubblica amministrazione.
+ 5.2.- Quanto al secondo aspetto, occorre considerare che la normativa sull'imposta di registro, al fine di garantire una tempestiva collaborazione con gli uffici finanziari nell'accertamento dei rapporti imponibili e nella percezione delle imposte dovute, prevede obblighi collaterali, la cui inosservanza è sanzionata in via amministrativa, a carico di cancellieri e segretari degli organi giurisdizionali.
+ Questi, infatti, sono tenuti, sia a richiedere la registrazione delle sentenze, dei decreti e degli altri atti alla cui formazione hanno partecipato nell'esercizio delle loro funzioni (art. 10, comma 1, lettera c, del <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main">d.P.R. n. 131 del 1986</ref>); sia a iscrivere gli atti soggetti a registrazione in un apposito repertorio e a presentarlo poi, ogni quadrimestre, all'ufficio finanziario (<mref><ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_67__para_1">artt. 67, comma 1</ref>, e <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_67__para_68">68</ref>, <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_67__para_1">comma 1, del d.P.R. n. 131 del 1986</ref></mref>).</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>All'amministrazione finanziaria, pertanto, è assicurata la conoscenza dell'atto soggetto a registrazione e, per tal via, la possibilità di procedere alla liquidazione e alla riscossione dell'imposta.
+ L'adempimento del dovere tributario, nella fattispecie censurata, risulta quindi, in questi termini, già adeguatamente tutelato, senza che sia necessario disporre anche un ostacolo alla tutela giurisdizionale, che risulta obiettivamente eccessivo e quindi sproporzionato.
+ 6.- In forza delle considerazioni che precedono, deve, in conclusione, essere dichiarata l'illegittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/131/!main#art_66__para_2">art. 66, comma 2, del d.P.R. n. 131 del 1986</ref>, nella parte in cui non prevede che la disposizione di cui al comma 1 non si applichi al rilascio della copia della sentenza o di altro provvedimento giurisdizionale, i quali debbano essere utilizzati per proporre l'azione di ottemperanza dinanzi al giudice amministrativo.
+ 7.- Resta assorbita l'ulteriore censura prospettata dal rimettente.</p>
+            </content>
+          </paragraph>
+        </division>
+      </motivation>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ dichiara l'illegittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-04-26/131/!main#art_66__para_2">art. 66, comma 2, del decreto del Presidente della Repubblica 26 aprile 1986, n. 131</ref> (Approvazione del testo unico delle disposizioni concernenti l'imposta di registro), nella parte in cui non prevede che la disposizione di cui al comma 1 non si applichi al rilascio della copia della sentenza o di altro provvedimento giurisdizionale, i quali debbano essere utilizzati per proporre l'azione di ottemperanza dinanzi al giudice amministrativo.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-04-26">26 aprile 2022</date>.
+ F.to:
+ <signature><judge refersTo="#giulianoAmato" as="#presidente">Giuliano AMATO</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ <signature><judge refersTo="#lucaAntonini" as="#relatore">Luca ANTONINI</judge>, <role refersTo="#relatore">Redattore</role></signature>
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-06-07">7 giugno 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

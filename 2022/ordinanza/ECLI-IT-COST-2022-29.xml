@@ -1,0 +1,139 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="ordinanza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-02-01/29/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-02-01/29"/>
+          <FRBRalias value="ECLI:IT:COST:2022:29" name="ECLI"/>
+          <FRBRdate date="2022-02-01" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-02-01/29/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-02-01/29/ita@"/>
+          <FRBRdate date="2022-02-01" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-02-01/29/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-02-01/29/ita@.xml"/>
+          <FRBRdate date="2022-02-01" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-01-12" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-02-01" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>manifesta inammissibilità</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="AMATO" href="/akn/ontology/person/it/AMATO" showAs="AMATO"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="giulianoAmato" href="/akn/ontology/person/it/giulianoAmato" showAs="Giuliano AMATO"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>29</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:29</akn4cc:ecli>
+        <akn4cc:tipo>O</akn4cc:tipo>
+        <akn4cc:presidente>AMATO</akn4cc:presidente>
+        <akn4cc:relatore>Nicolò Zanon</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-01-12</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-02-01</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>manifesta inammissibilità</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#giulianoAmato">Giuliano AMATO</judge>; Giudici : <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>, <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>ORDINANZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nei giudizi di legittimità costituzionale dell'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_731">art. 731 del codice penale</ref>, promossi dal Giudice onorario di pace di Taranto con due ordinanze del 24 maggio 2019 e del 30 novembre 2019, rispettivamente iscritte al n. 162 del registro ordinanze 2020 e al n. 7 del registro ordinanze 2021 e pubblicate nella Gazzetta Ufficiale della Repubblica n. 48, prima serie speciale, dell'anno 2020 e n. 6, prima serie speciale, dell'anno 2021.
+ Visto l'atto di intervento del Presidente del Consiglio dei ministri;
+ udito nella camera di consiglio del 12 gennaio 2022 il Giudice relatore Nicolò Zanon;
+ deliberato nella camera di consiglio del 12 gennaio 2022.
+ Ritenuto che, con due ordinanze di analogo tenore (r.o. n. 162 del 2020 e n. 7 del 2021), il Giudice onorario di pace di Taranto ha sollevato, in riferimento agli artt. 3, 30 e 34, secondo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref> (quest'ultimo parametro solo quanto all'ordinanza r.o. n. 162 del 2020), questioni di legittimità costituzionale dell'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_731">art. 731 del codice penale</ref>, nella parte in cui punisce l'inosservanza dell'obbligo di impartire o far impartire ai minori l'istruzione elementare e non anche l'analogo inadempimento riguardo alla scuola media inferiore ed al primo biennio della scuola secondaria superiore;
+ che, con riguardo al giudizio di cui all'ordinanza r.o. n. 162 del 2020, il rimettente si limita a riferire che sta celebrando un dibattimento nei confronti di persone imputate del reato di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_731">art. 731 cod. pen.</ref>;
+ che, nel giudizio cui attiene l'ordinanza r.o. n. 7 del 2021, risulta che il medesimo rimettente è chiamato a valutare una richiesta di archiviazione, avanzata dal pubblico ministero, nei confronti di genitori «che esercitano la potestà sui minori frequentanti la scuola di 1° grado presso l'Istituto Comprensivo», dei quali si sarebbero registrate numerose assenze durante l'anno scolastico 2018/2019;
+ che, in punto di non manifesta infondatezza delle questioni sollevate, le due ordinanze di rimessione presentano un'identica motivazione;
+ che il rimettente rileva come la previsione sanzionatoria dell'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_731">art. 731 cod. pen.</ref> riguardi solo l'inosservanza dell'obbligo di procurare l'istruzione elementare, poiché la disposizione che ne aveva a suo tempo esteso l'applicazione all'omessa frequentazione della scuola media (cioè l'<ref href="/akn/it/act/legge/stato/1962-12-31/1859/!main#art_8">art. 8 della legge 31 dicembre 1962, n. 1859</ref>, recante «Istituzione e ordinamento della scuola media statale») è stata abrogata dall'<ref href="/akn/it/act/decretoLegislativo/stato/2010-12-13/212/!main#art_1">art. 1 del decreto legislativo 13 dicembre 2010, n. 212</ref> (Abrogazione di disposizioni legislative statali, a norma dell'<ref href="/akn/it/act/legge/stato/2005-11-28/246/!main#art_14__para_14quater">articolo 14, comma 14-quater, della legge 28 novembre 2005, n. 246</ref>);
+ che il presidio penale concernente l'istruzione media - prosegue il giudice a quo - non è stato ripristinato nella legislazione successiva, sebbene l'obbligo di formazione scolastica sia stato prolungato, fino a comprendere un ciclo di studi della durata di almeno dodici anni, o comunque fino all'ottenimento di una qualifica professionale triennale entro il diciottesimo anno di età (<ref href="/akn/it/act/decretoLegislativo/stato/2005-04-15/76/!main#art_1__para_3">art. 1, comma 3, del decreto legislativo 15 aprile 2005, n. 76</ref>, recante «Definizione delle norme generali sul diritto-dovere all'istruzione e alla formazione, a norma dell'<ref href="/akn/it/act/legge/stato/2003-03-28/53/!main#art_2__para_1__point_c">articolo 2, comma 1, lettera c), della legge 28 marzo 2003, n. 53</ref>»; è citato anche il comma 622 dell'<ref href="/akn/it/act/legge/stato/2006-12-27/296/!main#art_1">art. 1 della legge 27 dicembre 2006, n. 296</ref>, recante «Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato. (Legge finanziaria 2007)», che qualifica come obbligatoria l'istruzione impartita per almeno dieci anni, finalizzata a consentire il conseguimento di un titolo di studio di scuola secondaria superiore o di una qualifica professionale di durata almeno triennale entro il diciottesimo anno di età;
+ che il rimettente, tutto ciò premesso, assume che l'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_731">art. 731 cod. pen.</ref> sarebbe «manifestamente incostituzionale», nella parte in cui non sanziona l'inadempimento dell'obbligo di impartire o far impartire l'istruzione oltre la soglia della scuola elementare;
+ che una tale disciplina varrebbe anzitutto a creare una discriminazione ingiustificata tra «l'obbligo dei genitori di istruire i figli sino alla scuola elementare» e «l'obbligo dei genitori di istruire i figli sino ai primi due anni della scuola superiore», aggravando il fenomeno della dispersione scolastica;
+ che l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_30">art. 30 Cost.</ref> e (quanto all'ordinanza r.o. n. 162 del 2020) il secondo comma del successivo art. 34 - letti «in riferimento» al ricordato <ref href="/akn/it/act/legge/stato/2006/296/!main#art_1__para_622">art. 1, comma 622, della legge n. 296 del 2006</ref> - sarebbero lesi dalla disposizione censurata, nella parte in cui configurano un obbligo scolastico esteso all'istruzione media inferiore;
+ che la proposta dichiarazione d'illegittimità costituzionale, nella forma dell'addizione, consentirebbe di adeguare la norma censurata «ai principi sovraordinati della legislazione ordinaria attuale», come sanciti dalla citata <ref href="/akn/it/act/legge/stato/2006/296/!main">legge n. 296 del 2006</ref>, e perciò di conformare la disciplina penale del fenomeno alle sopravvenute variazioni «delle circostanze e dei rapporti sociali»;
+ che il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, è intervenuto in entrambi i giudizi, sollecitando una decisione di manifesta inammissibilità delle questioni sollevate;
+ che infatti mancherebbero, in entrambi i provvedimenti di rimessione, adeguate indicazioni sui fatti e sui procedimenti principali, restando preclusa, di conseguenza, ogni valutazione circa la rilevanza delle medesime questioni;
+ che, inoltre, tali questioni sarebbero comunque inammissibili, poiché mirate ad ottenere dalla Corte costituzionale una addizione in malam partem rispetto ad una disposizione incriminatrice, ciò che comporterebbe una violazione del secondo comma dell'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_25">art. 25 Cost.</ref>;
+ che infine - sempre secondo l'Avvocatura generale dello Stato - le questioni non sarebbero nel merito fondate, posto che il legislatore avrebbe nella specie esercitato in maniera ragionevole la propria discrezionalità, in particolare limitando la sanzione penale ai soli casi di inosservanza dell'obbligo dell'istruzione elementare dei minori, cioè dell'istruzione di primo livello, indispensabile per un «basico inserimento nella società civile» e propedeutica ad una formazione più completa.
+ Considerato che, con due ordinanze di analogo tenore, il Giudice onorario di pace di Taranto ha sollevato, in riferimento agli artt. 3, 30 e 34, secondo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, questioni di legittimità costituzionale dell'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_731">art. 731 del codice penale</ref>, nella parte in cui punisce l'inosservanza dell'obbligo di impartire o far impartire ai minori l'istruzione elementare e non anche l'analogo inadempimento con riferimento alla scuola media inferiore e al primo biennio della scuola secondaria superiore;
+ che i due provvedimenti in questione (r.o. n. 162 del 2020 e n. 7 del 2021), deliberati dal medesimo rimettente, censurano la medesima disposizione, con identica motivazione e in riferimento a parametri costituzionali in larga parte coincidenti, di talché può essere disposta la riunione dei relativi procedimenti;
+ che - secondo il giudice a quo - l'attuale irrilevanza penale dell'inadempimento degli obblighi concernenti l'istruzione secondaria comporterebbe un trattamento ingiustificatamente differenziato tra soggetti tutti gravati dal dovere di procurare ai minori i livelli di istruzione resi obbligatori dalla legge e contrasterebbe, altresì, con gli artt. 30 e 34, secondo comma, Cost., poiché da queste stesse disposizioni costituzionali si evincerebbe il carattere obbligatorio dell'istruzione per la durata di almeno otto anni;
+ che la disposizione con cui la previsione sanzionatoria era stata estesa all'inadempimento degli obblighi di istruzione presso la scuola media inferiore (cioè l'<ref href="/akn/it/act/legge/stato/1962-12-31/1859/!main#art_8">art. 8 della legge 31 dicembre 1962, n. 1859</ref>, recante «Istituzione e ordinamento della scuola media statale»), è stata abrogata a opera dell'<ref href="/akn/it/act/decretoLegislativo/stato/2010-12-13/212/!main#art_1">art. 1 del decreto legislativo 13 dicembre 2010, n. 212</ref> (Abrogazione di disposizioni legislative statali, a norma dell'<ref href="/akn/it/act/legge/stato/2005-11-28/246/!main#art_14__para_14quater">articolo 14, comma 14-quater, della legge 28 novembre 2005, n. 246</ref>);
+ che ne consegue in effetti, secondo costante giurisprudenza di legittimità, il mancato allineamento tra durata del periodo di istruzione obbligatoria e relativo presidio sanzionatorio penale;
+ che il rimettente, peraltro, nulla argomenta su tale specifica vicenda abrogativa e comunque non coinvolge nelle proprie censure la ricordata disposizione abrogatrice;
+ che, inoltre, entrambe le ordinanze di rimessione mancano di descrivere adeguatamente le fattispecie per cui è giudizio, impedendo qualunque controllo sulla rilevanza delle questioni di legittimità sollevate (ex mult<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/154/!main">is, sentenza n. 154 del 2021</ref> e <mref><ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/159/!main">ordinanze n. 159</ref> e n. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/136/!main">136 del 2021</ref></mref>);
+ che, in ogni caso, come già rilevato da questa Corte definendo un primo procedimento incidentale introdotto dal medesimo giudice rimettente in rapporto alle stesse questioni di legittimità, entrambe le ordinanze in esame sollecitano un intervento additivo in malam partem in materia penale, finalizzato ad estendere l'ambito di applicazione di una previsione incriminatrice (<ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2020/219/!main">ordinanza n. 219 del 2020</ref>);
+ che la giurisprudenza costituzionale, alla luce della riserva di legge posta nel secondo comma dell'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_25">art. 25 Cost.</ref>, ha da tempo chiarito che non sono consentite, in tale materia, pronunce che estendano il novero delle condotte punibili (tra le decisioni più recenti, ex mult<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/17/!main">is, sentenze n. 17 del 2021</ref>, n. 155 e n. 37 del 2019, nonché la già citata <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2020/219/!main">ordinanza n. 219 del 2020</ref>);
+ che d'altra parte, nel caso di specie, non si è al cospetto di alcuna delle specifiche ipotesi in cui la giurisprudenza costituzionale considera ammissibile il controllo di legittimità costituzionale con potenziali effetti in malam partem: non si versa, cioè, in un caso in cui sono da applicare norme di ingiustificato favore, riguardo a soggetti o a comportamenti sottratti a una previsione incriminatrice di carattere generale, né si è in presenza di fenomeni di scorretto esercizio del potere legislativo, o ancora della violazione di obblighi di matrice sovranazionale (di recente, <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/37/!main">sentenza n. 37 del 2019</ref>);
+ che, in particolare, la denunciata irrilevanza penalistica delle condotte sommariamente descritte dal rimettente non costituisce deroga a un regime generalizzato di penalizzazione delle omissioni concernenti gli obblighi di istruzione;
+ che, dunque, le questioni devono essere dichiarate manifestamente inammissibili.
+ Visti gli artt. 26, secondo comma, della <ref href="/akn/it/act/legge/stato/1953-03-11/87/!main">legge 11 marzo 1953, n. 87</ref> (Norme sulla <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> e sul funzionamento della Corte costituzionale), e 9, comma 1, delle Norme integrative per i giudizi davanti alla Corte costituzionale.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ riuniti i giudizi,
+ dichiara la manifesta inammissibilità delle questioni di legittimità costituzionale dell'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_731">art. 731 del codice penale</ref>, sollevate, in riferimento agli artt. 3, 30 e 34, secondo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, dal Giudice onorario di pace di Taranto con le ordinanze indicate in epigrafe.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede dalla Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-01-12">12 gennaio 2022</date>.
+ F.to:
+ <signature><judge refersTo="#giulianoAmato" as="#presidente">Giuliano AMATO</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ <signature><judge refersTo="#nicolòZanon" as="#relatore">Nicolò ZANON</judge>, <role refersTo="#relatore">Redattore</role></signature>
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria l'<date refersTo="#publicationDate" date="2022-02-01">1 febbraio 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

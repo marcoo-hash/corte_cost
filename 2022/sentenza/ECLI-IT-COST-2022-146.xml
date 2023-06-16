@@ -1,0 +1,176 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="sentenza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-14/146/!main"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-14/146"/>
+          <FRBRalias value="ECLI:IT:COST:2022:146" name="ECLI"/>
+          <FRBRdate date="2022-06-14" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="146"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-14/146/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-14/146/ita@"/>
+          <FRBRdate date="2022-06-14" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-14/146/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-14/146/ita@.xml"/>
+          <FRBRdate date="2022-06-14" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-04-27" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-06-14" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>illegittimità costituzionale parziale</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="AMATO" href="/akn/ontology/person/it/AMATO" showAs="AMATO"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="giulianoAmato" href="/akn/ontology/person/it/giulianoAmato" showAs="Giuliano AMATO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>146</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:146</akn4cc:ecli>
+        <akn4cc:tipo>S</akn4cc:tipo>
+        <akn4cc:presidente>AMATO</akn4cc:presidente>
+        <akn4cc:relatore>Francesco Viganò</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-04-27</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-06-14</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>illegittimità costituzionale parziale</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#giulianoAmato">Giuliano AMATO</judge>; Giudici : <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>, <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>SENTENZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 del codice di procedura penale</ref>, promosso dal Tribunale ordinario di Palermo nel procedimento penale a carico di D. L.P. con ordinanza del 25 marzo 2021, iscritta al n. 85 del registro ordinanze 2021 e pubblicata nella Gazzetta Ufficiale della Repubblica n. 24, prima serie speciale, dell'anno 2021.
+ Udito nella camera di consiglio del 27 aprile 2022 il Giudice relatore Francesco Viganò;
+ deliberato nella camera di consiglio del 27 aprile 2022.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <division>
+          <heading>Ritenuto in fatto</heading>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>- Con ordinanza del 25 marzo 2021, il Tribunale ordinario di Palermo ha sollevato, in riferimento agli <mref><ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">artt. 3</ref> e <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">24 della Costituzione</ref></mref>, questioni di legittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 del codice di procedura penale</ref>, nella parte in cui non prevede la facoltà dell'imputato di richiedere al giudice del dibattimento la sospensione del procedimento con messa alla prova, relativamente al reato concorrente oggetto di nuova contestazione.
+ 1.1.- Il giudizio a quo è stato instaurato mediante decreto di citazione diretta a giudizio nei confronti di D. L.P., chiamata a rispondere del reato di cui all'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-06/380/!main#art_44__para_1__point_b">art. 44, comma 1, lettera b), del d.P.R. 6 giugno 2001, n. 380</ref> recante «Testo unico delle disposizioni legislative e regolamentari in materia edilizia (Testo A)».
+ Successivamente all'apertura del dibattimento e a seguito dell'escussione di un testimone della lista del pubblico ministero, quest'ultimo ha proceduto, ai sensi dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 cod. proc. pen.</ref>, alla contestazione di ulteriori reati - connessi al primo ai sensi dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_12__para_1__point_b">art. 12, comma 1, lettera b), cod. proc. pen.</ref> - di cui agli <mref><ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001/380/!main#art_71">artt. 71</ref> e <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001/380/!main#art_95">95 del d.P.R. n. 380 del 2001</ref></mref>, per la violazione, rispettivamente, degli artt. 64, 65 e 93 del medesimo d.P.R., avvinti dal nesso della continuazione ex art. 81, secondo comma, del <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main">codice penale</ref>.
+ A seguito della nuova contestazione, il difensore dell'imputata, munito di procura speciale, ha presentato istanza di sospensione del procedimento con messa alla prova, rispetto alla quale è stato acquisito un programma di trattamento da parte dell'ufficio di esecuzione penale esterna.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>2.- Chiamato a decidere su tale istanza, il rimettente osserva che l'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_464bis__para_2">art. 464-bis, comma 2, cod. proc. pen.</ref> prevede che la richiesta di sospensione del procedimento con messa alla prova può essere formulata solo fino alla dichiarazione di apertura del dibattimento, così escludendo implicitamente che la relativa istanza possa essere avanzata a seguito di una nuova contestazione ai sensi dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 cod. proc. pen.</ref>
+ Dal che la rilevanza della questione.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>3.- Quanto alla non manifesta infondatezza, il giudice a quo osserva anzitutto che i rapporti tra le nuove contestazioni dibattimentali e il recupero da parte dell'imputato della facoltà di chiedere l'applicazione di riti alternativi sono stati interessati da plurimi interventi di questa Corte, caratterizzati da una tendenziale e graduale apertura verso l'esercizio di prerogative che risulterebbero altrimenti precluse.
+ I prospettati dubbi di legittimità costituzionale assumerebbero consistenza se vagliati alla luce del «progressivo percorso di riallineamento costituzionale» della disciplina codicistica, i cui snodi essenziali vengono analiticamente ripercorsi dal rimettente, che evidenzia in particolare il passaggio da un atteggiamento di iniziale chiusura (sono citate le <ref href="/akn/it/judgment/sentenza/corteCostituzionale/1993/129/!main">sentenze n. 129 del 1993</ref>, n. 316 del 1992, n. 277 e n. 593 del 1990, nonché l'<ref href="/akn/it/judgment/ordinanza/corteCostituzionale/1992/213/!main">ordinanza n. 213 del 1992</ref>), al riconoscimento della possibilità di un recupero dei riti alternativi nel caso di contestazioni dibattimentali cosiddette "patologiche" (sono citate le <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2015/139/!main">sentenze n. 139 del 2015</ref>, n. 184 del 2014, n. 333 del 2009 e n. 265 del 1994), e infine all'estensione di tale recupero anche nelle ipotesi di nuove contestazioni cosiddette "fisiologiche" (sono citate le <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2018/141/!main">sentenze n. 141 del 2018</ref>, n. 206 del 2017, n. 273 del 2014, n. 237 del 2012 e n. 530 del 1995).
+ Ad avviso del rimettente, posto che la richiesta di accesso ai riti alternativi costituisce una delle modalità più qualificanti di esercizio del diritto di difesa (sono citate le sentenze di questa Corte n. 219 del 2004, n. 70 del 1996, n. 497 del 1995 e n. 76 del 1993), si creerebbe una ingiustificata disparità di trattamento se, al ricorrere di situazioni processuali analoghe, la facoltà di chiederli fosse diversamente disciplinata; né tantomeno si spiegherebbe la previsione dell'avviso rivolto all'imputato, nei vari atti con i quali si dispone il giudizio in mancanza di udienza preliminare, circa la facoltà di accedere ai riti alternativi, la cui omissione è sanzionata con la nullità. Tale previsione verrebbe «sostanzialmente elusa, nelle ipotesi in cui i contorni dell'accusa - oggetto e termine di riferimento delle "scelte" difensive dell'imputato - subiscano in dibattimento ("fisiologicamente" o meno) un significativo e qualificato mutamento contenutistico, senza offrire una possibilità di "rinnovare" quelle scelte in rapporto alla "novazione" della accusa».
+ Assume, quindi, il rimettente che la facoltà di richiedere riti alternativi «si salda a doppio filo al diritto di difesa - in particolare, al diritto di scegliere il modello processuale più congeniale all'esercizio di quel diritto -» e che, di riflesso, risulterebbe di dubbia coerenza qualsiasi preclusione che ne limiti l'esercizio concreto, allorquando il sistema consenta una mutatio libelli in sede dibattimentale.
+ Conclusivamente, il rimettente asserisce che le argomentazioni svolte da questa Corte nella <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2018/141/!main">sentenza n. 141 del 2018</ref> risulterebbero perfettamente pertinenti e sovrapponibili alla fattispecie al suo esame, da cui origina l'odierna questione di legittimità costituzionale, della richiesta da parte dell'imputato di sospensione del procedimento con messa alla prova con riferimento ai reati concorrenti oggetto di nuova contestazione.
+ 2.- Il Presidente del Consiglio dei ministri non è intervenuto in giudizio, né si è costituita l'imputata nel giudizio a quo.</p>
+            </content>
+          </paragraph>
+        </division>
+      </background>
+      <motivation>
+        <division>
+          <heading>Considerato in diritto</heading>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>- Con l'ordinanza indicata in epigrafe, il Tribunale ordinario di Palermo ha sollevato, in riferimento agli <mref><ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">artt. 3</ref> e <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">24 della Costituzione</ref></mref>, questioni di legittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 del codice di procedura penale</ref>, nella parte in cui non prevede la facoltà dell'imputato di richiedere al giudice del dibattimento la sospensione del procedimento con messa alla prova, relativamente al reato concorrente oggetto di nuova contestazione.
+ 1.1.- La disposizione censurata consente al pubblico ministero di procedere, durante il dibattimento, a contestazioni suppletive che possono consistere nell'aggiunta di un'aggravante, ovvero - come nel caso verificatosi nel giudizio a quo - nell'addebito di uno o più reati connessi a quello originariamente indicato nell'imputazione ai sensi dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_12__para_1__point_b">art. 12, comma 1, lettera b), cod. proc. pen.</ref>, e cioè commessi con la medesima azione od omissione, ovvero con condotte diverse, ma in esecuzione di un medesimo disegno criminoso.
+ Nel momento della nuova contestazione dibattimentale, il termine per avanzare la richiesta di sospensione del procedimento con messa alla prova di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_168bis">art. 168-bis del codice penale</ref> è sempre già spirato. Tale istanza, infatti, deve essere di regola formulata prima dell'apertura del dibattimento di primo grado (<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_464bis__para_2">art. 464-bis, comma 2, cod. proc. pen.</ref>).
+ Secondo il rimettente, tuttavia, precludere l'accesso alla messa alla prova a seguito della contestazione suppletiva di reati connessi violerebbe:
+ - l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">art. 24 Cost.</ref>, in quanto la richiesta di riti alternativi, tra cui va annoverata anche la sospensione del procedimento con messa alla prova, costituirebbe una tra le più qualificanti modalità con le quali si esplica l'esercizio del diritto di difesa;
+ - e l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art 3 Cost.</ref>, perché l'imputato verrebbe irragionevolmente discriminato, ai fini dell'accesso ai procedimenti speciali, in conseguenza della maggiore o minore esattezza o completezza della discrezionale valutazione circa le risultanze delle indagini preliminari operata dal pubblico ministero, e perché sarebbe irragionevole non equiparare questa ipotesi a quelle nelle quali oggi risulta possibile - a seguito di numerose pronunce di questa Corte - accedere a riti alternativi, compresa la messa alla prova, a seguito di nuove contestazioni ai sensi degli <mref><ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_516">artt. 516</ref> e <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">517 cod. proc. pen.</ref></mref>
+ 2.- Le questioni sono fondate.
+ 2.1.- Una fitta serie di pronunce di questa Corte ha adeguato il principio di fluidità dell'imputazione, che costituisce un dato caratterizzante del nostro sistema processuale anche in sede dibattimentale, al diritto di difesa presidiato dall'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_24">art. 24 Cost.</ref> quale «principio supremo» dell'ordinamento costituzionale» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2022/18/!main">sentenze n. 18 del 2022</ref>, n. 238 del 2014, n. 232 del 1989 e n. 18 del 1982).
+ In particolare, tali pronunce hanno dichiarato l'illegittimità costituzionale degli <mref><ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_516">artt. 516</ref> e <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">517 cod. proc. pen.</ref></mref> nella parte in cui non consentono all'imputato l'accesso a riti alternativi nell'ipotesi di nuove contestazioni, progressivamente superando - come ben sottolinea il rimettente - l'originaria distinzione tra nuove contestazioni dibattimentali cosiddette "patologiche" e nuove contestazioni "fisiologiche" (sul punto, si veda in particolare la ricapitolazione svolta dalla <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2018/141/!main">sentenza n. 141 del 2018</ref>).
+ Ciò in omaggio a una duplice esigenza: salvaguardare la pienezza del diritto di difesa dell'imputato, che comprende il diritto di optare per il rito alternativo alle condizioni stabilite dal legislatore, ed evitare l'irragionevole disparità di trattamento tra l'imputato che abbia potuto confrontarsi con una imputazione completa prima dell'inizio del dibattimento e quello rispetto al quale l'imputazione sia stata precisata o integrata soltanto nel corso del dibattimento, quando il termine per la scelta del rito alternativo è ormai scaduto. La scelta del rito deve, in effetti, poter essere effettuata dall'imputato - assistito dal proprio difensore - con piena consapevolezza delle possibili conseguenze sul piano sanzionatorio connesse all'uno o all'altro rito, in relazione ai reati contestati dal pubblico ministero; sicché, di fronte a un mutamento dell'imputazione, ragioni di tutela del suo diritto di difesa e del principio di eguaglianza impongono che sia sempre consentito all'imputato rivalutare la propria scelta alla luce delle nuove contestazioni.
+ Così, il patteggiamento può oggi essere richiesto a fronte della nuova contestazione di un fatto diverso ex <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_516">art. 516 cod. proc. pen.</ref> (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1994/265/!main">sentenze n. 265 del 1994</ref> e n. 206 del 2017), di una circostanza aggravante ex <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 cod. proc pen.</ref> (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2014/184/!main">sentenza n. 184 del 2014</ref>) o di reati connessi ex <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 cod. proc pen.</ref> (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1994/265/!main">sentenze n. 265 del 1994</ref> e n. 82 del 2019); e il giudizio abbreviato può essere richiesto a fronte della nuova contestazione di un fatto diverso ex <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_516">art. 516 cod. proc. pen.</ref> (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2009/333/!main">sentenze n. 333 del 2009</ref> e n. 273 del 2014), di una circostanza aggravante ex <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 cod. proc pen.</ref> (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2015/139/!main">sentenza n. 139 del 2015</ref>) o di reati connessi ex <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 cod. proc pen.</ref> (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2009/333/!main">sentenza n. 333 del 2009</ref>).
+ Quanto alla sospensione del procedimento con messa alla prova, che viene in considerazione nel giudizio a quo, essa può essere richiesta a fronte della nuova contestazione di un fatto diverso ex <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_516">art. 516 cod. proc. pen.</ref> (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2020/14/!main">sentenza n. 14 del 2020</ref>) e di una circostanza aggravante ex <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 cod. proc pen.</ref> (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2018/141/!main">sentenza n. 141 del 2018</ref>).
+ Nulla ha ancora la Corte deciso in relazione alla nuova contestazione in dibattimento di reati connessi ex <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 cod. proc pen.</ref>; e proprio di quest'ultima superstite preclusione si duole il rimettente.
+ 2.2.- I principi espressi nelle pronunce menzionate impongono che anche tale residua preclusione sia rimossa, con conseguente restituzione dell'imputato nel diritto di esercitare le proprie scelte difensive - ivi compresa la richiesta di messa alla prova - anche nell'ipotesi oggetto delle odierne censure.
+ Invero, come ha osservato questa Corte nella <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/82/!main">sentenza n. 82 del 2019</ref>, «[f]atto diverso e reato connesso, entrambi emersi per la prima volta in dibattimento, integrano [...] evenienze processuali che, sul versante dell'accesso ai riti alternativi, non possono non rappresentare situazioni fra loro del tutto analoghe». Pertanto, anche rispetto all'ipotesi di nuove contestazioni di reati connessi ex <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 cod. proc. pen.</ref>, dovrà riconoscersi all'imputato la facoltà di chiedere la messa alla prova, che la <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2020/14/!main">sentenza n. 14 del 2020</ref> ha già esteso all'ipotesi di contestazione di un fatto diverso.
+ 2.3.- Non osta a tale conclusione la circostanza che la messa alla prova verrebbe in questo caso - a differenza delle ipotesi oggetto delle <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2018/141/!main">sentenze n. 141 del 2018</ref> e n. 14 del 2020 - ad essere concessa non in relazione a un unico reato, bensì a più reati in concorso fra loro.
+ La previsione di cui all'art. 168-bis, quarto comma, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main">cod. pen</ref>. - secondo cui la sospensione del procedimento «non può essere concessa più di una volta» - non esclude infatti la concedibilità della messa alla prova ogniqualvolta venga contestato più di un reato, quando - come nella fattispecie del giudizio a quo - per ciascuno dei reati in concorso sia astrattamente applicabile l'istituto della messa alla prova (<ref href="/akn/it/judgment/sentenza/corteDiCassazione/2015-03-02/1PEN/!main">Corte di cassazione, sezione seconda penale, sentenza 12 marzo 2015</ref>, n. 14112).
+ 2.4.- Le peculiarità della sospensione del procedimento con messa alla prova imporranno piuttosto all'imputato, in tal caso, di scegliere se chiedere di essere sottoposto alla messa alla prova, ovvero se proseguire il processo nelle forme ordinarie, rispetto a tutti i reati contestati, compresi quelli oggetto dell'imputazione originaria.
+ La ratio dell'istituto impone, in effetti, di distinguere la situazione all'esame da quella relativa al recupero del rito abbreviato, decisa dalla <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2012/237/!main">sentenza n. 237 del 2012</ref>, in cui questa Corte aveva ritenuto che la richiesta del rito dovesse in tal caso riferirsi ai soli reati oggetto di nuove contestazioni dibattimentali, senza che «l'imputato possa recuperare, a dibattimento inoltrato, gli effetti premiali del rito alternativo anche in rapporto all'intera platea delle imputazioni originarie, rispetto alle quali ha consapevolmente lasciato spirare il termine utile per la richiesta».
+ Diversamente da quanto accade nel rito abbreviato, nella messa alla prova convivono un'anima processuale e una sostanziale. Da un lato, l'istituto è uno strumento di definizione alternativa del procedimento, che si inquadra a buon diritto tra i riti alternativi (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2020/14/!main">sentenze n. 14 del 2020</ref>, n. 91 del 2018 e n. 240 del 2015); al contempo, esso disegna un percorso rieducativo e riparativo, alternativo al processo e alla pena, ma con innegabili connotazioni sanzionatorie (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/68/!main">sentenza n. 68 del 2019</ref>), che conduce, in caso di esito positivo, all'estinzione del reato.
+ Proprio tale accentuata vocazione risocializzante, come ha giustamente evidenziato la giurisprudenza di legittimità, si oppone alla possibilità di una messa alla prova "parziale", ossia relativa ad alcuni soltanto dei reati contestati (<ref href="/akn/it/judgment/sentenza/corteDiCassazione/2021-04-02/1PEN/!main">Corte di cassazione, sezione sesta penale, sentenza 12 aprile 2021</ref>, n. 24707; <ref href="/akn/it/judgment/sentenza/corteDiCassazione/2015/14112/!main">Corte di cassazione, sentenza n. 14112 del 2015</ref>).
+ Piuttosto, l'imputato dovrà essere rimesso in condizione di optare per la messa alla prova anche con riferimento alle imputazioni originarie, intraprendendo così quel percorso al quale avrebbe potuto orientarsi sin dall'inizio, ove si fosse confrontato con la totalità dei fatti via via contestatigli dal pubblico ministero.
+ Una tale scelta dell'imputato non esclude d'altronde che l'istituto conservi la propria fisiologica funzione deflattiva anche in questa ipotesi, determinando comunque l'interruzione del processo e l'estinzione del reato nel caso di esito positivo della messa alla prova. Il che consente sia di evitare lo svolgimento di ulteriore attività istruttoria, sia di eliminare ogni altro contenzioso legato all'impugnazione della sentenza di primo grado.
+ 2.5.- L'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 cod. proc. pen.</ref> va dunque dichiarato costituzionalmente illegittimo nella parte in cui non prevede, in seguito alla contestazione di reati connessi a norma dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_12__para_1__point_b">art. 12, comma 1, lettera b), cod. proc. pen.</ref>, la facoltà dell'imputato di richiedere la sospensione del procedimento con messa alla prova, con riferimento a tutti i reati contestatigli.</p>
+            </content>
+          </paragraph>
+        </division>
+      </motivation>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ dichiara l'illegittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_517">art. 517 del codice di procedura penale</ref>, nella parte in cui non prevede, in seguito alla contestazione di reati connessi a norma dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_12__para_1__point_b">art. 12, comma 1, lettera b), cod. proc. pen.</ref>, la facoltà dell'imputato di richiedere la sospensione del procedimento con messa alla prova, con riferimento a tutti i reati contestatigli.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-04-27">27 aprile 2022</date>.
+ F.to:
+ <signature><judge refersTo="#giulianoAmato" as="#presidente">Giuliano AMATO</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ <signature><judge refersTo="#francescoViganò" as="#relatore">Francesco  VIGANÒ</judge>, <role refersTo="#relatore">Redattore</role></signature>
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-06-14">14 giugno 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,230 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="sentenza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-13/144/!main"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-13/144"/>
+          <FRBRalias value="ECLI:IT:COST:2022:144" name="ECLI"/>
+          <FRBRdate date="2022-06-13" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="144"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-13/144/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-13/144/ita@"/>
+          <FRBRdate date="2022-06-13" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-13/144/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-06-13/144/ita@.xml"/>
+          <FRBRdate date="2022-06-13" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-04-26" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-06-13" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>non fondatezza</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="AMATO" href="/akn/ontology/person/it/AMATO" showAs="AMATO"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="giulianoAmato" href="/akn/ontology/person/it/giulianoAmato" showAs="Giuliano AMATO"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="filomenaPerrone" href="/akn/ontology/person/it/filomenaPerrone" showAs="Filomena PERRONE"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>144</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:144</akn4cc:ecli>
+        <akn4cc:tipo>S</akn4cc:tipo>
+        <akn4cc:presidente>AMATO</akn4cc:presidente>
+        <akn4cc:relatore>Giulio Prosperetti</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-04-26</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-06-13</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>non fondatezza</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#giulianoAmato">Giuliano AMATO</judge>; Giudici : <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>, <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>SENTENZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'art. 46, comma 5, della legge della Regione Liguria 22 gennaio 1999, n. 4 (Norme in materia di foreste e di assetto idrogeologico), come aggiunto dall'art. 1 della legge della Regione Liguria 7 ottobre 2008, n. 35, recante «Modifica alla legge regionale 22 gennaio 1999, n. 4 (Norme in materia di foreste e di assetto idrogeologico)», promosso dal Tribunale amministrativo regionale per la Liguria nel procedimento vertente tra l'Ente nazionale protezione animali (ENPA) onlus e altri e la Regione Liguria e altri, con ordinanza del 1° giugno 2021, iscritta al n. 172 del registro ordinanze 2021 e pubblicata nella Gazzetta Ufficiale della Repubblica n. 45, prima serie speciale, dell'anno 2021.
+ Visti gli atti di <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> dell'ENPA e della Regione Liguria;
+ udito nell'udienza pubblica del 26 aprile 2022 il Giudice relatore Giulio Prosperetti;
+ uditi gli avvocati Valentina Stefutti per l'ENPA e altri e Andrea Bozzini per la Regione Liguria, entrambi in collegamento da remoto, ai sensi del punto 1) del decreto del Presidente della Corte del 18 maggio 2021;
+ deliberato nella camera di consiglio del 26 aprile 2022.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <division>
+          <heading>Ritenuto in fatto</heading>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>- Il Tribunale amministrativo regionale per la Liguria, con ordinanza del 1° giugno 2021 (reg. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/172/!main">ord. n. 172 del 2021</ref>), ha sollevato questioni di legittimità costituzionale dell'art. 46, comma 5, della legge della Regione Liguria 22 gennaio 1999, n. 4 (Norme in materia di foreste e di assetto idrogeologico), come aggiunto dall'art. 1 della legge della Regione Liguria 7 ottobre 2008, n. 35, recante «Modifica alla legge regionale 22 gennaio 1999, n. 4 (Norme in materia di foreste e di assetto idrogeologico)», che prevede che nei boschi percorsi da incendi è vietato per tre anni l'esercizio dell'attività venatoria, qualora la superficie bruciata sia superiore ad ettari uno e i boschi siano opportunamente tabellati.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>2.</num>
+            <content>
+              <p>- Le questioni sono state sollevate nell'ambito di un giudizio intentato da alcune associazioni di protezione ambientale, individuate ai sensi degli <mref><ref href="/akn/it/act/legge/stato/1986-07-08/349/!main#art_13">artt. 13</ref> e <ref href="/akn/it/act/legge/stato/1986-07-08/349/!main#art_18">18 della legge 8 luglio 1986, n. 349</ref></mref> (Istituzione del Ministero dell'ambiente e norme in materia di danno ambientale), per l'annullamento di una circolare interpretativa dell'amministrazione regionale, di cui il TAR assume il contrasto con l'art. 117, secondo comma, lettera s), della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, in relazione all'<ref href="/akn/it/act/legge/stato/2000-11-21/353/!main#art_10__para_1">art. 10, comma 1, della legge 21 novembre 2000, n. 353</ref> (Legge-quadro in materia di incendi boschivi), che pone un divieto di caccia per dieci anni nelle zone boscate percorse da incendio.
+ 3.- In via preliminare, il Collegio rimettente ha motivato sulla sussistenza delle condizioni dell'azione e dei presupposti processuali, in risposta alle eccezioni di carenza di interesse ad agire formulate dalle associazioni venatorie intervenute nel giudizio.
+ In risposta alle suddette eccezioni, il TAR ha precisato che la circolare è volta ad indirizzare la vigilanza faunistico-venatoria senza limiti di tempo, e non con riferimento ad una specifica stagione venatoria, risultando quindi irrilevante che la stagione di caccia 2020-2021 si sia chiusa; del pari irrilevante, in ragione della autonoma portata della norma censurata, è il fatto che il terreno su cui vige il divieto di caccia sia incluso nel Piano faunistico-venatorio.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Infine, il TAR ha ritenuto l'autonoma impugnabilità della circolare interpretativa in quanto idonea ad orientare l'azione amministrativa degli organi preposti alla vigilanza venatoria e suscettibile di arrecare danno all'interesse diffuso alla protezione ambientale, essendo "più probabile che non" il verificarsi di una lesione ambientale a seguito dell'omesso divieto dell'attività di caccia nei boschi percorsi da incendio dopo soli tre anni dall'evento.
+ 4.- In merito alla rilevanza della questione, il TAR sottolinea che la circolare si fonda sulla norma impugnata, costituendone il presupposto logico giuridico così che sarebbe necessaria la sua eliminazione dal mondo giuridico per pronunciare l'annullamento del provvedimento amministrativo.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>5.</num>
+            <content>
+              <p>- Quanto alla non manifesta infondatezza, la legge regionale in esame si porrebbe in contrasto con l'<ref href="/akn/it/act/legge/stato/2000/353/!main#art_10__para_1">art. 10, comma 1, della legge n. 353 del 2000</ref>, che sancisce il divieto di esercizio venatorio nelle zone boscate interessate da incendio per un periodo di dieci anni, senza ulteriori condizioni legate all'estensione dell'incendio o alla tabellazione del terreno e che costituisce uno standard minimo di tutela ambientale, espressione della competenza legislativa esclusiva dello Stato di cui all'art. 117, secondo comma, lettera s), Cost., in quanto prescrizione volta a consentire la ricostituzione boschiva incendiata.
+ Il tenore letterale inequivoco della disposizione censurata, che ridurrebbe la soglia minima di tutela sotto due profili, quello temporale, poiché abbassa da dieci a tre anni la durata del divieto di caccia, e quello spaziale, poiché riguarda solo i boschi tabellati e incendiatisi per una superficie superiore ad un ettaro, non sarebbe suscettibile di un'interpretazione costituzionalmente conforme e imporrebbe la rimessione della questione a questa Corte per risolvere l'antinomia tra le leggi mediante declaratoria di illegittimità costituzionale.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>6.</num>
+            <content>
+              <p>- Si è costituita in giudizio la Regione Liguria eccependo che l'art. 46, comma 5, della legge reg. Liguria n. 4 del 1999, aggiunto dall'art. 1 della legge reg. Liguria n. 35 del 2008, oggetto di censura, lungi dall'abbassare il livello minimo di tutela ambientale perseguito dal legislatore statale con la <ref href="/akn/it/act/legge/stato/2000/353/!main">legge n. 353 del 2000</ref>, avrebbe solo adattato la durata del divieto di caccia su terreni percorsi da incendio alle caratteristiche climatiche e vegetazionali regionali, che consentono una rapida ripresa della vegetazione stessa, così da cancellare in pochi anni le tracce del passaggio del fuoco e consentire il rinnovamento della fauna.
+ 7.- Inoltre, la Regione osserva come il permanere del divieto di caccia debba essere bilanciato con la necessità di contenere, anche attraverso l'attività venatoria, il proliferare degli ungulati e in special modo del cinghiale, capace di arrecare notevoli danni agli ecosistemi.
+ 8.- Alla stessa esigenza di bilanciamento risponderebbe la previsione di una soglia dimensionale minima per far scattare l'operatività del divieto di caccia, non incidendo sulla consistenza della fauna l'incendio di un'area inferiore ad un ettaro.
+ 9.- La Regione ritiene, infine, che l'obbligo di tabellazione, finalizzato all'esatta individuazione del confine territoriale in cui vige il divieto di caccia, accresca e non diminuisca la tutela ambientale.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>10.</num>
+            <content>
+              <p>- Nel giudizio di legittimità costituzionale si sono costituiti l'Ente nazionale protezione animali (ENPA) onlus, la Lega italiana protezione degli uccelli (LIPU) Birdlife Italia odv, l'Associazione Italiana World Wide Fund for Nature (WWF Italia) onlus ong e la Lega antivivisezione (LAV) onlus, ricorrenti nel giudizio principale, in quanto associazioni individuate dal Ministero della transizione ecologica quali associazioni di protezione ambientale, ai sensi degli <mref><ref href="/akn/it/act/legge/stato/1986/349/!main#art_13">artt. 13</ref> e <ref href="/akn/it/act/legge/stato/1986/349/!main#art_18">18 della legge n. 349 del 1986</ref></mref>.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Le associazioni, dopo aver ripercorso i tratti salienti dell'ordinanza di rimessione in ordine alla propria legittimazione nel giudizio a quo e alla rilevanza e non manifesta infondatezza della questione di legittimità costituzionale dell'art. 46, comma 5, della legge reg. Liguria n. 4 del 1999, hanno insistito per l'accoglimento di essa, stante il contrasto con l'art. 117, secondo comma, lettera s), Cost., in relazione all'<ref href="/akn/it/act/legge/stato/2000/353/!main#art_10">art. 10 della legge n. 353 del 2000</ref>, che prevede, quale limite di maggior tutela ambientale, il divieto di caccia, nei terreni percorsi da incendio, per dieci anni.</p>
+            </content>
+          </paragraph>
+        </division>
+      </background>
+      <motivation>
+        <division>
+          <heading>Considerato in diritto</heading>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>- Il Tribunale amministrativo regionale per la Liguria ha sollevato questioni di legittimità costituzionale dell'art. 46, comma 5, della legge della Regione Liguria 22 gennaio 1999, n. 4 (Norme in materia di foreste e di assetto idrogeologico), come aggiunto dall'art. 1 della legge della Regione Liguria 7 ottobre 2008, n. 35, recante «Modifica alla legge regionale 22 gennaio 1999, n. 4 (Norme in materia di foreste e di assetto idrogeologico)», che prevede che nei boschi percorsi da incendi è vietato per tre anni l'esercizio dell'attività venatoria, qualora la superficie bruciata sia superiore ad un ettaro e i boschi siano opportunamente tabellati.
+ 2.- Le questioni sono state sollevate nell'ambito del giudizio promosso da quattro associazioni ambientaliste, legittimate ai sensi dell'<ref href="/akn/it/act/legge/stato/1986-07-08/349/!main#art_18">art. 18 della legge 8 luglio 1986, n. 349</ref> (Istituzione del Ministero dell'ambiente e norme in materia di danno ambientale), per l'annullamento di una circolare con cui l'amministrazione regionale ha orientato l'attività di vigilanza venatoria.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>3.</num>
+            <content>
+              <p>- La censura proposta dall'ordinanza del TAR Liguria si appunta sul contrasto della norma regionale con l'art. 117, secondo comma, lettera s), della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, in relazione all'<ref href="/akn/it/act/legge/stato/2000-11-21/353/!main#art_10__para_1">art. 10, comma 1, della legge 21 novembre 2000, n. 353</ref> (Legge-quadro in materia di incendi boschivi), che, invece, prevede un divieto di caccia per dieci anni nelle zone interessate da incendi, senza imporre alcun obbligo di tabellazione e senza precisare alcunché in ordine all'estensione dell'incendio.
+ 4.- La Regione si difende evocando la peculiare situazione della Liguria, il cui clima consentirebbe una più rapida ricrescita dei boschi incendiati e invitando inoltre a considerare che il divieto di caccia è esteso alla popolazione degli ungulati, che non favorisce la ricrescita del bosco per i danni che tali specie causano all'habitat naturale.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>La resistente deduce, inoltre, che la ratio della normativa interposta sarebbe quella di creare una deterrenza rispetto agli incendi dolosi, ipotesi questa assolutamente da escludersi con riferimento ai cacciatori.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>La Regione insiste sulla ragionevolezza dell'esclusione del divieto dell'attività venatoria riferita alle sole superfici bruciate superiori all'ettaro e, con riferimento al dovere di tabellazione, chiarisce che l'esercizio di questa competenza della pubblica amministrazione non è una condizione per l'applicazione del divieto di attività venatoria.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>5.</num>
+            <content>
+              <p>- Venendo all'esame delle questioni, non può giustificarsi la legittimità dell'intervento censurato facendo ricorso all'argomento, posto dalla difesa regionale, della pretesa irragionevolezza della norma statale che vieta la caccia anche con riferimento agli ungulati, che ostacolerebbero la ricrescita boschiva. Per eliminare i danni da essi provocati, infatti, è previsto lo strumento del controllo faunistico disciplinato dall'<ref href="/akn/it/act/legge/stato/1992-02-11/157/!main#art_19">art. 19 della legge 11 febbraio 1992, n. 157</ref> (Norme per la protezione della fauna selvatica omeoterma e per il prelievo venatorio) anche per mezzo dell'abbattimento della fauna nociva, attività questa che, in quanto volta a tutelare l'ecosistema, non è ricompresa nel concetto di caccia ed è, quindi, pacificamente ammessa.
+ 6.- La questione relativa all'interdizione dalla caccia per soli tre anni, anziché dieci, nelle zone interessate da incendi, è fondata.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>6.</num>
+            <content>
+              <p>1.- La materia, già antecedentemente alla revisione del Titolo V della Parte seconda della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref> ad opera della legge costituzionale 18 ottobre 2001, n. 3 (Modifiche al titolo V della parte seconda della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>), risultava regolata dalla legge quadro n. 353 del 2000 che, all'art. 10, comma 1, ha previsto il divieto della caccia per dieci anni dei soprassuoli delle zone boscate percorsi dal fuoco, ponendo una norma di principio per la difesa del patrimonio boschivo nazionale, cui deve attenersi la legislazione concorrente regionale in materia di caccia.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>6.</num>
+            <content>
+              <p>2.- Dopo la revisione del Titolo V della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, la tutela dell'ambiente rientra nella competenza esclusiva dello Stato e, parallelamente, la caccia ha assunto il ruolo di competenza residuale regionale.
+ Se, pertanto, prima del 2001 le Regioni erano tenute a rispettare le prescrizioni dalla legge quadro n. 353 del 2000 sugli incendi boschivi quali principi fondamentali in materia di caccia, successivamente il rapporto tra la legge statale e la legge regionale è caratterizzato dal rispetto della competenza statale trasversale sull'ambiente da parte della legislazione regionale nell'esercizio della competenza sulla caccia.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Pertanto, la legge quadro del 2000, peraltro più volte integrata successivamente al 2001 (da ultimo con il <ref href="/akn/it/act/decretoLegge/stato/2021-09-08/120/!main">decreto-legge 8 settembre 2021, n. 120</ref>, recante «Disposizioni per il contrasto degli incendi boschivi e altre misure urgenti di protezione civile», convertito, con modificazioni, nella <ref href="/akn/it/act/legge/stato/2010-11-08/155/!main">legge 8 novembre 2010, n. 155</ref>), trattando di materia ambientale si pone oggi come disciplina non derogabile con riferimento alla caccia per i suoi aspetti collegati all'ambiente, salvo l'innalzamento possibile, da parte delle Regioni, del livello di tutela.
+ In particolare, per giurisprudenza costante di questa Corte, l'ambiente «delinea una sorta di materia "trasversale", in ordine alla quale si manifestano competenze diverse, che ben possono essere regionali, spettando [invece] allo Stato le determinazioni che rispondono ad esigenze meritevoli di disciplina uniforme sull'intero territorio nazionale (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2002/407/!main">sentenza n. 407 del 2002</ref>)» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/158/!main">sentenza n. 158 del 2021</ref>), e le Regioni, nell'esercizio delle loro competenze, sono tenute al rispetto delle prescrizioni statali e possono adottare norme che interferiscono con la tutela ambientale solo se elevano lo standard di protezione previsto dalla legislazione nazionale, che funziona, quindi, da limite minimo di salvaguardia dell'ambiente, legittimando interventi normativi regionali solo nel senso dell'innalzamento della tutela (ex mult<mref><ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/291/!main">is, sentenze n. 291</ref> e n. <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/7/!main">7 del 2019</ref></mref>, n. 174 e n. 74 del 2017).
+ 6.3.- La norma censurata, al contrario, non rispetta il limite prescritto dallo Stato e, riducendo la durata del divieto di caccia sui territori percorsi da incendi da dieci a soli tre anni, finisce con l'abbassare lo standard di protezione ambientale fissato, nell'esercizio della competenza esclusiva di cui all'art. 117, secondo comma, lettera s), Cost., dall'<ref href="/akn/it/act/legge/stato/2000/353/!main#art_10">art. 10 della legge n. 353 del 2000</ref>, al fine di garantire la ricostituzione del bosco e della fauna (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/281/!main">sentenze n. 281 del 2019</ref> e n. 303 del 2013).
+ 7.- Anche la questione relativa alla previsione della norma censurata, nella parte in cui limita alle aree boschive percorse dal fuoco superiori all'ettaro il divieto di caccia, è fondata, in quanto la legge regionale invade la competenza statale che non prevede un'estensione minima riferita al divieto di caccia.
+ 8.- La competenza residuale regionale in materia di caccia non può, quindi, derogare alla <ref href="/akn/it/act/legge/stato/2000/353/!main">legge n. 353 del 2000</ref> che, in quanto volta alla protezione ambientale, si impone al legislatore regionale nell'esercizio delle proprie competenze; conseguentemente, l'art. 46, comma 5, primo periodo, della legge reg. Liguria n. 4 del 1999 va dichiarato costituzionalmente illegittimo per contrasto con l'art. 117, secondo comma, lettera s), Cost.
+ 9.- Al contrario, l'obbligo di tabellazione previsto dalla norma censurata trova riscontro nel comma 2 dell'<ref href="/akn/it/act/legge/stato/2000/353/!main#art_10">art. 10 della legge n. 353 del 2000</ref>, che rimette ai Comuni l'obbligo di censire i soprassuoli percorsi dal fuoco e, comunque, non condiziona il divieto di attività venatoria, limitandosi a prescrivere un adempimento in carico alla pubblica amministrazione funzionale alla individuazione delle aree percorse dal fuoco.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>9.</num>
+            <content>
+              <p>1.- Ne consegue la non fondatezza della questione sollevata sull'art. 46, comma 5, secondo periodo, che prevede l'obbligo di tabellazione dei boschi percorsi da incendi.</p>
+            </content>
+          </paragraph>
+        </division>
+      </motivation>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ 1) dichiara l'illegittimità costituzionale dell'art. 46, comma 5, primo periodo, della legge della Regione Liguria 22 gennaio 1999, n. 4 (Norme in materia di foreste e di assetto idrogeologico), come aggiunto dall'art. 1 della legge della Regione Liguria 7 ottobre 2008, n. 35, recante «Modifica alla legge regionale 22 gennaio 1999, n. 4 (Norme in materia di foreste e di assetto idrogeologico)»;
+ 2) dichiara non fondata la questione di legittimità costituzionale dell'art. 46, comma 5, secondo periodo, della legge reg. Liguria n. 4 del 1999, come aggiunto dall'art. 1 della legge reg. Liguria n. 35 del 2008, che prevede l'obbligo di tabellazione dei boschi percorsi da incendi, promossa, in riferimento all'art. 117, secondo comma, lettera s), della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, in relazione all'<ref href="/akn/it/act/legge/stato/2000-11-21/353/!main#art_10__para_1">art. 10, comma 1, della legge 21 novembre 2000, n. 353</ref> (Legge-quadro in materia di incendi boschivi), dal Presidente del Consiglio dei ministri con il ricorso indicato in epigrafe.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-04-26">26 aprile 2022</date>.
+ F.to:
+ <signature><judge refersTo="#giulianoAmato" as="#presidente">Giuliano AMATO</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ <signature><judge refersTo="#giulioProsperetti" as="#relatore">Giulio PROSPERETTI</judge>, <role refersTo="#relatore">Redattore</role></signature>
+ <signature><person refersTo="#filomenaPerrone" as="#cancelliere">Filomena PERRONE</person>, <role refersTo="#cancelliere">Cancelliere</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-06-13">13 giugno 2022</date>.
+ Il Cancelliere
+ F.to: Filomena PERRONE</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

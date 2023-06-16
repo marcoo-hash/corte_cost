@@ -1,0 +1,322 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="sentenza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-12-09/246/!main"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-12-09/246"/>
+          <FRBRalias value="ECLI:IT:COST:2022:246" name="ECLI"/>
+          <FRBRdate date="2022-12-09" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="246"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-12-09/246/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-12-09/246/ita@"/>
+          <FRBRdate date="2022-12-09" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/sentenza/corteCostituzionale/2022-12-09/246/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/sentenza/corteCostituzionale/2022-12-09/246/ita@.xml"/>
+          <FRBRdate date="2022-12-09" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-11-09" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-12-09" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>illegittimità costituzionale parziale</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="SCIARRA" href="/akn/ontology/person/it/SCIARRA" showAs="SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>246</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:246</akn4cc:ecli>
+        <akn4cc:tipo>S</akn4cc:tipo>
+        <akn4cc:presidente>SCIARRA</akn4cc:presidente>
+        <akn4cc:relatore>Giovanni Amoroso</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-11-09</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-12-09</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>illegittimità costituzionale parziale</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>; Giudici : <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI, Marco D'ALBERTI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>SENTENZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nei giudizi di legittimità costituzionale dell'<ref href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_213__para_8">art. 213, comma 8, del decreto legislativo 30 aprile 1992, n. 285</ref> (Nuovo codice della strada), promossi dal Giudice di pace di Sondrio con ordinanza del 22 ottobre 2021 e dal Tribunale ordinario di Padova, seconda sezione civile, con ordinanza dell'11 marzo 2022, iscritte, rispettivamente, al n. 221 del registro ordinanze 2021 e al n. 56 del registro ordinanze 2022 e pubblicate nella Gazzetta Ufficiale della Repubblica numeri 4 e 21, prima serie speciale, dell'anno 2022.
+ Visti gli atti di intervento del Presidente del Consiglio dei ministri;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>udito nella camera di consiglio del 9 novembre 2022 il Giudice relatore Giovanni Amoroso;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>deliberato nella camera di consiglio del 9 novembre 2022.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <division>
+          <heading>Ritenuto in fatto</heading>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>- Con ordinanza del 22 ottobre 2021 (reg. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/221/!main">ord. n. 221 del 2021</ref>), il Giudice di pace di Sondrio ha sollevato, in riferimento all'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 della Costituzione</ref>, questione di legittimità costituzionale dell'<ref href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_213__para_8">art. 213, comma 8, del decreto legislativo 30 aprile 1992, n. 285</ref> (Nuovo codice della strada), come modificato dall'<ref href="/akn/it/act/decretoLegge/stato/2018-10-04/113/!main#art_23bis">art. 23-bis del decreto-legge 4 ottobre 2018, n. 113</ref> (Disposizioni urgenti in materia di protezione internazionale e immigrazione, sicurezza pubblica, nonché misure per la funzionalità del Ministero dell'interno e l'organizzazione e il funzionamento dell'Agenzia nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata), introdotto, in sede di conversione, dalla legge 1° dicembre 2018, n. 132, «nella parte in cui prevede la sanzione amministrativa accessoria della revoca della patente».</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>1.- Il rimettente premette di dover decidere sulla impugnazione proposta dal ricorrente avverso l'ordinanza del prefetto che ha disposto la revoca della patente di guida, in aggiunta alla sanzione amministrativa, per aver violato la disposizione di cui all'art. 213, comma 8, cod. strada.
+ Il giudice a quo riferisce che, ai sensi della disposizione censurata, il ricorrente è stato sanzionato per aver circolato con un'autovettura già oggetto di sequestro a causa della pregressa violazione dell'art. 193, comma 2, cod. strada, consistita nell'aver condotto il medesimo mezzo sprovvisto di copertura assicurativa.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Pertanto, in punto di rilevanza, il rimettente sottolinea come sia evidente il collegamento giuridico tra la norma sospettata di illegittimità costituzionale e l'atto impugnato (ordinanza prefettizia di revoca della patente), né sarebbe possibile alcuna interpretazione adeguatrice della prima.
+ 1.2.- Il rimettente, poi, evidenzia che la norma censurata stabilisce «una prima sanzione pecuniaria, formalmente definita amministrativa "principale", ed una seconda, la revoca della patente, appunto, sempre ritenuta amministrativa, ma di carattere accessorio».
+ A tal riguardo il giudice a quo deduce la violazione del principio di proporzionalità e ragionevolezza per essere la sanzione accessoria notevolmente afflittiva essendo di gravità, se non superiore, almeno pari alla sanzione principale, quella pecuniaria.
+ Sussisterebbe, quindi, una marcata sproporzione tra l'inosservanza dell'obbligo di custodia del veicolo oggetto di sequestro e la sanzione formalmente definita accessoria, la revoca della patente appunto, che determina una limitazione della libertà personale eccessiva rispetto alla carica di offensività della condotta contra legem. Da ciò, secondo il rimettente, conseguirebbe anche che colui il quale viola l'obbligo di custodia non possa che percepire di subire una sanzione (quella accessoria) ingiusta, perché svincolata dalla gravità della propria condotta e dal disvalore da essa espresso e irrogata in modo automatico come conseguenza afflittiva ulteriore rispetto alla sanzione principale.
+ Il giudice a quo osserva, poi, come il testo dell'art. 213 cod. strada, vigente prima della modifica introdotta dall'<ref href="/akn/it/act/decretoLegge/stato/2018/113/!main#art_23bis">art. 23-bis del d.l. n. 113 del 2018</ref>, come convertito, prevedeva, al comma 4, per la medesima infrazione, accanto alla sanzione principale pecuniaria, quella amministrativa accessoria della sospensione della patente di guida da uno a tre mesi; sanzione da ritenersi complementare rispetto alla pena pecuniaria principale, posto che si limitava a comprimere, per un periodo comunque limitato, la libertà di locomozione.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>A tal riguardo, il rimettente sottolinea come la sospensione in luogo della revoca aveva una minore afflittività tale da temperare il rigore del complessivo trattamento sanzionatorio.
+ La violazione del principio di ragionevolezza e proporzionalità, ad avviso del rimettente, emergerebbe con maggiore evidenza dal confronto con altre norme del codice della strada, che prevedono la medesima sanzione accessoria a fronte di condotte decisamente più gravi.
+ A tal proposito, il rimettente osserva che la revoca della patente è disposta nei confronti di colui che si mette alla guida di un veicolo sotto l'effetto di alcol o stupefacenti (artt. 186, 186-bis e 187 cod. strada) o di chi sia privo, con carattere permanente, dei requisiti psichici e fisici abilitanti alla guida (art. 130 cod. strada). Si tratta di condotte che giustificano la revoca della patente in ogni caso, in ragione anche del pericolo per l'incolumità dei cittadini nella circolazione stradale e per l'ordine pubblico.
+ Invece, il trattamento sanzionatorio previsto dalla disposizione censurata appare sproporzionato rispetto alla condotta di chi abbia, seppur abusivamente, circolato con veicolo sequestrato, violando un obbligo, quello di custodia del veicolo, che non è diretto a tutelare l'incolumità dei cittadini o l'ordine pubblico e che non può di conseguenza giustificare una limitazione della libertà personale del trasgressore, qual è quella che consegue alla revoca della patente.
+ Anche se il compito di fissare la misura della sanzione è attribuito alla discrezionalità del legislatore, è parimenti incontestato che tale discrezionalità non possa essere assoluta, ma debba misurarsi con il principio di proporzionalità della pena.
+ 2.- Con atto depositato il 15 febbraio 2022, il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, è intervenuto nel presente giudizio, chiedendo che la questione sia dichiarata inammissibile per difetto di adeguata motivazione in punto di non manifesta infondatezza, o, in ogni caso, non fondata.
+ La difesa statale osserva che l'aver condotto un veicolo sottoposto alla misura cautelare del sequestro, prevista in tutte le ipotesi di violazione delle norme del codice della strada che comportano l'irrogazione della sanzione della confisca amministrativa, costituisce un'ulteriore infrazione tale da giustificare la comminatoria delle sanzioni previste dall'art. 213, comma 8, cod. strada.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>In particolare, evidenzia che tali sanzioni scattano nei confronti di chi - già resosi responsabile di una condotta illecita, che presenti rischi per la sicurezza della circolazione stradale e, dunque, per l'incolumità dei cittadini e per l'ordine pubblico - avendo assunto la custodia del veicolo sequestrato, abbia violato gli obblighi discendenti da detta assunzione. Non è irragionevole la scelta del legislatore di comminare la sanzione accessoria della revoca della patente di guida anche per un illecito amministrativo che non può essere qualificato, di per sé, come un abuso del titolo di guida.
+ 3.- Con ordinanza dell'11 marzo 2022 (reg. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2022/56/!main">ord. n. 56 del 2022</ref>), il Tribunale ordinario di Padova, seconda sezione civile, ha sollevato, in riferimento all'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref>, analoga questione di legittimità costituzionale dell'art. 213, comma 8, cod. strada, come modificato dall'<ref href="/akn/it/act/decretoLegge/stato/2018/113/!main#art_23bis">art. 23-bis del d.l. n. 113 del 2018</ref>, come convertito, nella parte in cui prevede la sanzione amministrativa accessoria della revoca della patente a carico del custode di un mezzo sequestrato che circoli abusivamente con il medesimo o, comunque, consenta che altri vi circolino abusivamente.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>3.</num>
+            <content>
+              <p>1.- In punto di fatto il rimettente, dopo aver puntualmente riferito in ordine alle vicende del giudizio a quo, premette di dover decidere sull'appello avverso la sentenza del Giudice di pace di Padova che ha rigettato l'opposizione promossa, ai sensi dell'art. 204-bis cod. strada, nei confronti del verbale di accertamento della violazione dell'art. 213, comma 8, cod. strada, da cui consegue la sanzione accessoria della revoca della patente di guida.
+ In particolare, sotto il profilo della rilevanza, il giudice rimettente afferma che l'appello andrebbe rigettato in quanto il veicolo posto in circolazione dall'appellante, custode dello stesso, risultava ancora sotto sequestro al momento della contestazione della violazione di cui alla disposizione censurata, che prevede la sanzione pecuniaria principale con conseguente necessità di applicare anche quella accessoria della revoca della patente di guida.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>3.</num>
+            <content>
+              <p>2.- Inoltre, il giudice a quo, accogliendo l'eccezione sollevata dall'appellante, afferma che la previsione della automatica revoca della patente di guida comporta, di per sé, una sensibile compressione delle concrete modalità di estrinsecazione della libertà di movimento, senza presentare alcuna immediata attinenza con la violazione dell'obbligo di custodia. Tale violazione, non essendo collegata alla conduzione del veicolo che cagioni pericolo alla circolazione stradale, è sanzionata in modo del tutto sproporzionato rispetto al rischio in concreto ingenerato dalla condotta sanzionata.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Questa conclusione, nell'opinione del rimettente, sarebbe ancora più evidente ove si consideri che la sanzione risulta applicabile in via automatica e senza alcuna possibilità di modulazione da parte dell'autorità amministrativa o del giudice; di qui lo stridente contrasto con l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref>, sotto il profilo della violazione del principio di proporzionalità.
+ Sarebbe, dunque, evidente la sproporzione della sanzione rispetto alla trasgressione posta in essere dal custode del veicolo in sequestro, in quanto sebbene si tratti, formalmente, di una sanzione amministrativa accessoria, essa presenterebbe connotati di afflittività tali da superare il disvalore della condotta contra legem.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>La disposizione censurata, quindi, si porrebbe in contrasto con l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref>, nella parte in cui prevede che debba essere necessariamente irrogata la sanzione amministrativa accessoria della revoca, senza che sia prevista la possibilità di modulare in maniera congrua e attinente alla singola fattispecie, eventualmente applicando, in luogo della revoca, anche la mera sospensione della patente.
+ 4.- Con atto depositato il 14 giugno 2022, il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, è intervenuto anche in questo giudizio di legittimità costituzionale, chiedendo a questa Corte di dichiarare la questione non fondata con argomentazioni analoghe a quelle già ricordate sopra al punto 2.
+ La violazione degli obblighi, gravanti sul soggetto che ha assunto l'onere della custodia di un bene sequestrato, vanifica le ragioni di tutela di interessi primari sottesi alla custodia stessa e ciò giustifica la sanzione accessoria della revoca della patente di guida.
+ La scelta di prevedere la revoca della patente è preordinata a garantire l'efficacia della misura cautelare del sequestro, prevista in tutte le ipotesi in cui è comminata la sanzione amministrativa della confisca.
+ Si tratterebbe quindi di una scelta riservata alle valutazioni discrezionali del legislatore.</p>
+            </content>
+          </paragraph>
+        </division>
+      </background>
+      <motivation>
+        <division>
+          <heading>Considerato in diritto</heading>
+          <paragraph>
+            <num>1.</num>
+            <content>
+              <p>- Con l'ordinanza indicata in epigrafe (reg. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/221/!main">ord. n. 221 del 2021</ref>), il Giudice di pace di Sondrio ha sollevato, in riferimento all'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref>, questione di legittimità costituzionale dell'art. 213, comma 8, cod. strada, come modificato dall'<ref href="/akn/it/act/decretoLegge/stato/2018/113/!main#art_23bis">art. 23-bis del d.l. n. 113 del 2018</ref>, come convertito, «nella parte in cui prevede la sanzione amministrativa accessoria della revoca della patente».
+ Secondo il rimettente la disposizione censurata si porrebbe in contrasto con l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref>, sotto il profilo della violazione dei principi di proporzionalità e di ragionevolezza.
+ In proposito, si osserva che la sanzione della revoca della patente, sebbene qualificata come accessoria, risulta di tale afflittività da essere superiore o, comunque, pari a quella principale pecuniaria.
+ Sussisterebbe, poi, una sproporzione tra l'inosservanza dell'obbligo di custodia del veicolo oggetto di sequestro e la sanzione della revoca della patente, in quanto da essa consegue una limitazione della libertà individuale, eccessiva rispetto alla carica di offensività della condotta sanzionata.
+ 2.- È intervenuto in giudizio il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, chiedendo che la questione sia dichiarata inammissibile per le medesime ragioni per cui con l'<ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/159/!main">ordinanza n. 159 del 2021</ref> questa Corte ha dichiarato la manifesta inammissibilità di una analoga questione.
+ Nel merito, la questione sarebbe comunque non fondata.
+ 3.- Con l'altra ordinanza indicata in epigrafe (reg. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2022/56/!main">ord. n. 56 del 2022</ref>), il Tribunale ordinario di Padova, seconda sezione civile, ha parimenti sollevato, in riferimento all'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref>, la questione di legittimità costituzionale dell'art. 213, comma 8, cod. strada, come modificato dall'<ref href="/akn/it/act/decretoLegge/stato/2018/113/!main#art_23bis">art. 23-bis del d.l. n. 113 del 2018</ref>, come convertito, nella parte in cui prevede la sanzione amministrativa accessoria della revoca della patente a carico del custode di un mezzo sequestrato che circoli abusivamente con il medesimo o, comunque, consenta che altri vi circolino abusivamente.
+ Anche secondo il Tribunale di Padova la norma censurata violerebbe l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref>, in riferimento ai principi di proporzionalità, di ragionevolezza e di uguaglianza.
+ In particolare - osserva il rimettente - il provvedimento di revoca della patente di guida, che comporta una sensibile compressione della libertà di movimento, è conseguenza della mera violazione dell'obbligo di custodia, non risultando affatto collegato ad una conduzione del veicolo tale da cagionare pericolo alla circolazione stradale.
+ Inoltre, la sanzione è applicabile in via automatica e senza alcuna possibilità di modulazione in relazione alla singola fattispecie, da parte dell'autorità amministrativa, non essendo prevista la possibilità della mera sospensione della patente in luogo della sua revoca.
+ Tale scelta legislativa di politica sanzionatoria determina anche una disparità di trattamento rispetto a situazioni dotate di maggiore offensività e disvalore.
+ 4.- Anche in questo giudizio è intervenuto il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, chiedendo che la questione sia dichiarata non fondata.
+ 5.- In via preliminare, deve disporsi la riunione dei predetti giudizi perché le ordinanze di rimessione sollevano la stessa questione e si fondano su argomentazioni sostanzialmente comuni.
+ 6.- Le questioni sono ammissibili.
+ In primo luogo, entrambi i rimettenti hanno adeguatamente motivato in ordine alla necessità di fare applicazione della norma censurata nei giudizi a quibus (ex plurim<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2022/211/!main">is, sentenze n. 211 del 2022</ref>, n. 182 e n. 55 del 2021).</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>In ciascuna ordinanza, poi, l'impossibilità di procedere ad una interpretazione costituzionalmente orientata della disposizione - la quale testualmente stabilisce che «[s]i applica la sanzione amministrativa accessoria della revoca della patente» - è correttamente evidenziata, a ciò ostando il suo dato letterale (ex plurim<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2022/174/!main">is, sentenze n. 174 del 2022</ref> e n. 151 del 2020).
+ Anche la non manifesta infondatezza delle questioni è puntualmente e diffusamente motivata da entrambi i rimettenti.
+ Deve, pertanto, disattendersi l'eccezione di inammissibilità per l'inadeguata motivazione in punto di non manifesta infondatezza, formulata dalla difesa dello Stato in relazione all'ordinanza del Giudice di pace del Tribunale di Sondrio, non rinvenendosi le lacune motivazionali rilevate da questa Corte nell'<ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2021/159/!main">ordinanza n. 159 del 2021</ref>.
+ 7.- Prima di passare all'esame delle censure è opportuno ripercorrere, per gradi linee, l'evoluzione normativa dell'art. 213 cod. strada, che contempla la violazione di natura amministrativa in esame, il cui trattamento sanzionatorio accessorio è oggetto di censura da parte dei rimettenti.
+ 7.1.- Alla data di entrata in vigore del «Nuovo codice della strada», recato dal <ref href="/akn/it/act/decretoLegislativo/stato/1992/285/!main">d.lgs. n. 285 del 1992</ref>, l'art. 213 cod. strada, prevedeva, al comma 4, il reato di «[c]hiunque, durante il periodo in cui il veicolo è sottoposto al sequestro, circola abusivamente con il veicolo stesso» stabilendo la pena dell'arresto da uno a otto mesi e l'ammenda da lire duecentomila a lire ottocentomila. La disposizione prevedeva altresì: «Si applica la sanzione amministrativa accessoria della sospensione della patente da uno a tre mesi».
+ Successivamente, l'<ref href="/akn/it/act/decretoLegislativo/stato/1999-12-30/507/!main#art_19">art. 19 del decreto legislativo 30 dicembre 1999, n. 507</ref> (Depenalizzazione dei reati minori e riforma del sistema sanzionatorio, ai sensi dell'<ref href="/akn/it/act/legge/stato/1999-06-25/205/!main#art_1">articolo 1 della legge 25 giugno 1999, n. 205</ref>) ha depenalizzato tale condotta, trasformandola in illecito amministrativo, punito «con la sanzione amministrativa del pagamento di una somma da lire tre milioni a lire dodici milioni»; ha lasciato, invece, inalterata la norma quanto all'applicazione della sanzione amministrativa accessoria della sospensione della patente da uno a tre mesi.
+ Nel prosieguo, alcuni decreti ministeriali hanno provveduto all'adeguamento delle sanzioni amministrative pecuniarie applicabili alla condotta in esame.
+ È intervenuto, poi, il <ref href="/akn/it/act/decretoLegge/stato/2005-06-30/115/!main">decreto-legge 30 giugno 2005, n. 115</ref> (Disposizioni urgenti per assicurare la funzionalità di settori della pubblica amministrazione), convertito, con modificazioni, nella <ref href="/akn/it/act/legge/stato/2005-08-17/168/!main">legge 17 agosto 2005, n. 168</ref>, che ha modificato la disciplina dell'affidamento della custodia dei mezzi e della eventuale confisca, ma non ha apportato alcuna variazione al comma 4 dell'art. 213 cod. strada, il quale ha continuato a sanzionare sul piano amministrativo la circolazione abusiva del mezzo sottoposto a sequestro.
+ 7.2.- Peraltro, in passato, secondo la (non univoca, ma prevalente) giurisprudenza di legittimità, la condotta consistente nella circolazione abusiva di un mezzo sottoposto a sequestro era generalmente inquadrata nelle fattispecie incriminatrici previste rispettivamente dall'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_334">art. 334 del codice penale</ref> (Sottrazione o danneggiamento di cose sottoposte a sequestro disposto nel corso di un procedimento penale o dall'Autorità amministrativa) e dall'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_335">art. 335 cod. pen</ref> (Violazione colposa di doveri inerenti alla custodia di cose sottoposte a sequestro disposto nel corso di un procedimento penale o dall'autorità amministrativa).</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Successivamente, in sede di composizione del contrasto di giurisprudenza, le sezioni unite penali della Corte di cassazione (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2010-10-08/2/!main">sentenza 28 ottobre 2010</ref>-21 gennaio 2011, n. 1963) hanno invece affermato che la condotta di chi circola abusivamente con il veicolo sottoposto a sequestro amministrativo, ai sensi dell'art. 213 cod. strada, «integra esclusivamente l'illecito amministrativo previsto dal quarto comma dello stesso articolo e non anche il delitto di sottrazione di cose sottoposte a sequestro di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_334">art. 334 cod. pen.</ref>, atteso che la norma sanzionatoria amministrativa risulta speciale rispetto a quella penale, con la conseguenza che il concorso tra le stesse deve essere ritenuto solo apparente».
+ Tale arresto ha, poi, trovato continuità nella successiva giurisprudenza di legittimità (ex plurimis, Corte di cassazione, sezione sesta penale, sentenza 24 settembre-13 ottobre 2014, n. 42752).</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>7.</num>
+            <content>
+              <p>3.- È solo con il decreto sicurezza del 2018 (<ref href="/akn/it/act/decretoLegge/stato/2018/113/!main">d.l. n. 113 del 2018</ref>, come convertito) che il trattamento sanzionatorio della violazione del codice della strada subisce un forte inasprimento.
+ Infatti, l'art. 23-bis di tale decreto ha sostituito l'intero art. 213 cod. strada, facendo confluire nel comma 8 la violazione amministrativa prima sanzionata al comma 4 e apportandovi, al contempo, sostanziali modifiche.
+ Per effetto di tale intervento legislativo, infatti, della violazione di cui al comma 8 dell'art. 213 cod. strada risponde non più «chiunque», ma solo «il soggetto che ha assunto la custodia», il quale, durante il periodo in cui il veicolo è sottoposto alla misura cautelare, «circola abusivamente con il veicolo stesso o consente che altri vi circolino abusivamente».
+ Inoltre, ed è ciò che in questa sede più rileva, in sostituzione della sanzione accessoria della sospensione del titolo abilitativo alla guida da uno a tre mesi, il legislatore ha contemplato quella, parimenti accessoria, della revoca della patente.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Infine, a integrazione del trattamento sanzionatorio, il legislatore ha, altresì, previsto che «l'organo di polizia dispone l'immediata rimozione del veicolo e il suo trasporto presso uno dei soggetti di cui all'articolo 214-bis, prevedendosi altresì che il veicolo è trasferito in proprietà al soggetto a cui è consegnato, senza oneri per l'erario».</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Come risulta dai lavori parlamentari concernenti l'<ref href="/akn/it/act/decretoLegge/stato/2018/113/!main#art_23bis">art. 23-bis del d.l. n. 113 del 2018</ref>, come convertito, la riformulazione della intera disposizione di cui all'art. 213 cod. strada sulla disciplina del sequestro amministrativo dei veicoli, trova la sua ratio nella necessità di «ridurre le ingenti spese sostenute dallo Stato per la giacenza dei veicoli nelle depositerie e di generare nuove entrate derivanti dalla alienazione dei veicoli».</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Il dibattito si è, infatti, focalizzato sulla verifica che la nuova disposizione (<ref href="/akn/it/act/decretoLegge/stato/2018/113/!main#art_23bis">art. 23-bis del d.l. n. 113 del 2018</ref>, come convertito) «non produce nuovi oneri ma ulteriori entrate, sebbene eventuali e non facilmente quantificabili», evidenziandosi in particolare che la procedura di cui al nuovo art. 215-bis cod. strada concerne il censimento dei veicoli giacenti presso le depositerie.
+ Quanto al trattamento sanzionatorio, nella relazione tecnica, si è evidenziato soltanto che la norma in questione - che prevede la sostituzione (alle lettere a e b) degli artt. 213 e 214 cod. strada - opera «una minima rimodulazione delle attuali sanzioni», fatta salva quella prevista al comma 8 del nuovo art. 214, che è invece aggravata rispetto a quella vigente. Nessun riferimento vi è, invece, alla sanzione accessoria della revoca della patente introdotta in sostituzione della sospensione della stessa.
+ 7.4.- In relazione alla violazione in esame, non più configurata come fattispecie di rilievo penale, deve quindi registrarsi, da ultimo, un complessivo inasprimento del trattamento sanzionatorio articolato nell'irrogazione della sanzione pecuniaria del pagamento di una somma da euro 1.984 ad euro 7.937, nell'applicazione automatica della sanzione amministrativa accessoria della revoca della patente, nell'immediata rimozione del veicolo da parte degli organi di polizia e, dopo che sia divenuto definitivo il provvedimento di confisca emesso dal prefetto, nell'alienazione del veicolo al custode acquirente.
+ 8.- Ciò premesso, le sollevate questioni di legittimità costituzionale sono fondate.
+ 9.- Le censure dei giudici rimettenti richiamano la giurisprudenza di questa Corte in tema di sanzioni amministrative, e in particolare di revoca della patente di guida, e convergono nella richiesta di una pronuncia di illegittimità costituzionale della disposizione censurata che elimini l'automatismo della sanzione accessoria.
+ 9.1.- In generale va ribadito che il principio di necessaria proporzionalità della sanzione alla condotta illecita trova applicazione anche al trattamento sanzionatorio di natura amministrativa.
+ Questa Corte, nelle <mref><ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/112/!main">sentenze n. 112</ref> e n. <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/212/!main">212 del 2019</ref></mref>, in relazione a sanzioni amministrative diverse dalla revoca della patente, oggi in esame, ha affermato che il principio di proporzionalità rispetto alla gravità dell'illecito deve trovare applicazione con riferimento «alla generalità delle sanzioni amministrative».</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>In particolare, la prima delle pronunce appena indicate - nel dichiarare l'illegittimità costituzionale dell'<ref href="/akn/it/act/decretoLegislativo/stato/1998-02-24/58/!main#art_187sexies">art. 187-sexies del decreto legislativo 24 febbraio 1998, n. 58</ref> (Testo unico delle disposizioni in materia di intermediazione finanziaria, ai sensi degli <mref><ref href="/akn/it/act/legge/stato/1996-02-06/52/!main#art_8">articoli 8</ref> e <ref href="/akn/it/act/legge/stato/1996-02-06/52/!main#art_21">21 della legge 6 febbraio 1996, n. 52</ref></mref>), nella parte in cui prevedeva, in caso di abuso di informazioni privilegiate, la confisca obbligatoria, diretta o per equivalente, del prodotto dell'illecito e dei beni utilizzati per commetterlo, e non invece del solo profitto - ha affermato che il principio di proporzionalità delle sanzioni amministrative «non trae la propria base normativa dal combinato disposto degli <mref><ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">artt. 3</ref> e <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_27">27 Cost.</ref></mref>, bensì dall'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref> in combinato disposto con le norme costituzionali che tutelano i diritti di volta in volta incisi dalla sanzione», così concludendo che «[n]on erra, pertanto, il giudice rimettente nell'identificare nel combinato disposto degli <mref><ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">artt. 3</ref> e <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_42">42 Cost.</ref></mref> il fondamento domestico del principio di proporzionalità di una sanzione che, come la confisca di cui è discorso, incide in senso limitativo sul diritto di proprietà dell'autore dell'illecito».
+ Anche nella <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/115/!main">sentenza n. 115 del 2019</ref>, in riferimento alla sanzione amministrativa pecuniaria prevista per l'illecito amministrativo di cui all'art. 98, comma 9, del decreto legislativo 1° agosto 2003, n. 259 (Codice delle comunicazioni elettroniche), questa Corte ha sottolineato che «possono essere infatti estesi alla materia delle sanzioni amministrative gli approdi della giurisprudenza costituzionale in tema di ampiezza e di limiti degli interventi di questa Corte sulla misura delle sanzioni penali fissata dal legislatore».
+ 9.2.- In particolare, poi, questa Corte, più volte, anche di recente, è stata chiamata a scrutinare disposizioni legislative che prevedevano la revoca, in via automatica, del titolo abilitativo alla guida, sia quale sanzione accessoria disposta dal giudice penale con la sentenza di condanna, sia quale sanzione amministrativa applicata dal prefetto, in relazione a fattispecie di rilievo, in senso lato penale, dichiarandone la illegittimità costituzionale per contrasto con l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref>
+ Con le <mref><ref href="/akn/it/judgment/sentenza/corteCostituzionale/2020/99/!main">sentenze n. 99</ref> e n. <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2020/24/!main">24 del 2020</ref></mref> - concernenti la legittimità costituzionale dell'art. 120, comma 2, cod. strada, in riferimento alla violazione dell'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref>, in relazione all'automatica applicazione da parte del prefetto della sanzione della revoca della patente nei confronti, rispettivamente, di soggetti sottoposti a misure di sicurezza e a misure di prevenzione - questa Corte ha ritenuto l'automatismo del provvedimento prefettizio contrario a principi di eguaglianza, proporzionalità e ragionevolezza, «attesa la varietà (per contenuto, durata e prescrizioni) delle misure di sicurezza irrogabili, oltreché contraddittorio rispetto al potere riconosciuto al magistrato di sorveglianza, il quale, nel disporre la misura di sicurezza, "può" consentire al soggetto che vi è sottoposto di continuare - in presenza di determinate condizioni - a fare uso della patente di guida» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2020/99/!main">sentenza n. 99 del 2020</ref>); ed analogamente, questa Corte ha affermato la violazione dei sopra richiamati principi in riferimento ai destinatari delle misure di prevenzione, in quanto il provvedimento di revoca automatica è stato ritenuto idoneo a «innescare un corto circuito all'interno dell'ordinamento, nel caso in cui l'utilizzo della patente sia funzionale alla "ricerca di un lavoro" che al destinatario della misura di prevenzione sia prescritta dal Tribunale» (ancora <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2020/99/!main">sentenza n. 99 del 2020</ref>).
+ Con riferimento ad una fattispecie di automatica applicazione della sanzione amministrativa della revoca della patente, quale sanzione accessoria alla condanna in sede penale, questa Corte, con la <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/88/!main">sentenza n. 88 del 2019</ref>, ha, parimenti, dichiarato l'illegittimità costituzionale dell'art. 222, comma 2, cod. strada nella parte in cui prevedeva «la sanzione amministrativa della revoca della patente, estesa indistintamente a tutte le ipotesi - sia aggravate dalle circostanze "privilegiate" sia non aggravate - di omicidio stradale e di lesioni personali stradali gravi o gravissime». A fronte della gravità delle condotte poste in essere in violazione delle norme della circolazione stradale e, quindi, del disvalore «articolato secondo una precisa graduazione», nella sentenza indicata si è affermato che la disposizione censurata dava luogo ad «un indifferenziato automatismo sanzionatorio, che costituisce possibile indice di disparità di trattamento e irragionevolezza intrinseca».</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Con la <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2018/22/!main">sentenza n. 22 del 2018</ref>, avente ad oggetto la questione di legittimità costituzionale dell'art. 120, commi 1 e 2, cod. strada, in relazione all'automatismo della revoca della patente di guida, conseguente alla condanna per reati in materia di stupefacenti, questa Corte ha dichiarato la questione fondata per violazione dei principi di eguaglianza, proporzionalità e ragionevolezza. In particolare, ha affermato che «[l]a disposizione denunciata - sul presupposto di una indifferenziata valutazione di sopravvenienza di una condizione ostativa al mantenimento del titolo di abilitazione alla guida - ricollega, infatti, in via automatica, il medesimo effetto, la revoca di quel titolo, ad una varietà di fattispecie, non sussumibili in termini di omogeneità, atteso che la condanna, cui la norma fa riferimento, può riguardare reati di diversa, se non addirittura di lieve, entità. Reati che, per di più, possono (come nella specie) essere assai risalenti nel tempo, rispetto alla data di definizione del giudizio. Il che dovrebbe escluderne l'attitudine a fondare, nei confronti del condannato, dopo un tale intervallo temporale, un giudizio, di assenza dei requisiti soggettivi per il mantenimento del titolo di abilitazione alla guida, riferito, in via automatica, all'attualità».
+ 10.- In tale contesto normativo (punti da 7 a 7.4.) e giurisprudenziale (punti 9.1. e 9.2.) si colloca anche la disposizione censurata che, a carico del custode di un veicolo sottoposto a sequestro, il quale abusivamente circoli con il medesimo o, comunque, consenta ad altri di circolare, prevede, tra l'altro, l'applicazione automatica della revoca della patente di guida come sanzione accessoria di quella principale pecuniaria.
+ 10.1.- Orbene, per un verso, la circostanza che il legislatore abbia ricompreso, nel complessivo trattamento sanzionatorio dell'illecito amministrativo in esame, anche una sanzione accessoria, oltre quella principale, risponde ad una non irragionevole scelta, riconducibile a valutazioni di politica sanzionatoria che sfuggono al sindacato di legittimità costituzionale di questa Corte. Né i giudici rimettenti dubitano della legittimità in sé di una sanzione accessoria che si affianca, aggiungendosi, a quella principale.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Del resto è indubitabile la funzione di forte deterrenza che ha la sanzione della revoca della patente di guida, prevista da varie disposizioni del codice della strada per contrastare comportamenti pericolosi al fine di garantire la sicurezza della circolazione stradale, come nel caso di guida sotto l'influenza dell'alcool (artt. 186 e 186-bis cod. strada) o in stato di alterazione psico-fisica per uso di sostanze stupefacenti (art. 187 cod. strada).
+ 10.2.- Per altro verso, però, è censurabile, nella fattispecie in esame, la scelta del legislatore di applicare, sempre e comunque, tale sanzione accessoria, stante che la previsione di un indifferenziato automatismo della revoca della patente, che si aggiunge alla sanzione pecuniaria principale quale che sia la gravità del fatto, dà luogo ad un trattamento sanzionatorio uniforme per qualsivoglia condotta di messa in circolazione di un veicolo assoggettato al vincolo del sequestro, in ragione di una precedente violazione dello stesso codice.
+ In vero, fin dall'originaria formulazione dell'art. 213 cod. strada (risalente all'anno 1992), alla sanzione pecuniaria principale se ne è sempre accompagnata una amministrativa accessoria, che per lungo tempo è consistita nella sospensione della patente di guida di chi poneva in essere tale condotta; misura questa che aveva una intrinseca flessibilità quanto alla durata, perché compresa tra un minimo di un mese e un massimo di tre mesi, sicché ben poteva essere graduata in relazione alle circostanze del caso e alla maggiore o minore gravità della condotta.
+ Questo assetto - come già rilevato - è radicalmente mutato con il decreto sicurezza del 2018 (<ref href="/akn/it/act/decretoLegge/stato/2018/113/!main">d.l. n. 113 del 2018</ref>, come convertito) lungo una duplice, ma non convergente, direttrice.
+ Da una parte si è abbassato il livello di contrasto di siffatti comportamenti abusivi, nel senso che si è ridotta l'area di quelli assoggettati a sanzione, limitandoli alle condotte poste in essere solo da chi ha assunto la custodia del veicolo in sequestro, pur se in ipotesi non autore della trasgressione che ha giustificato il sequestro del veicolo; mentre, in precedenza, la circolazione con il veicolo in sequestro era sanzionata per chiunque l'avesse posta in essere. Peraltro, fuori dalle fattispecie previse dal codice della strada, le condotte abusive su cose sottoposte a sequestro sono sanzionate (penalmente) per chiunque le pone in essere e, se la condotta è riferibile, in particolare, al proprietario custode, ciò costituisce un'aggravante (<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_334">art. 334 cod. pen.</ref>).
+ Dall'altra parte, si è inasprita la sanzione accessoria sostituendo, alla sospensione della patente di guida, la sua revoca in ogni caso; sanzione notevolmente più gravosa della prima perché chi la subisce è a lungo inabilitato alla guida potendo richiedere nuovamente la patente solo dopo due anni (art. 219, comma 3-bis, cod. strada). A ciò si è aggiunto che del veicolo in sequestro, illegittimamente posto in circolazione, sono disposti l'immediata rimozione e il trasporto presso uno dei soggetti di cui alle depositerie convenzionate previste dall'art. 214-bis cod. strada per essere ad esso successivamente trasferito in proprietà senza oneri per l'erario.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Risulta, allora, che l'effettività della custodia del veicolo costituisce il bene giuridico protetto, la cui violazione (per aver circolato abusivamente con il veicolo in sequestro) è punita severamente (con sanzione pecuniaria principale, revoca della patente di guida e alienazione del veicolo), mentre rimane in ombra l'esigenza di sicurezza della circolazione stradale, tanto che non rileva né quale sia stata la (più o meno grave) pregressa trasgressione che ha dato luogo al sequestro, né chi l'abbia commessa, non essendoci necessariamente coincidenza tra trasgressore e custode (atteso che l'art. 213, comma 2, cod. strada prescrive che possono essere nominati custodi, alternativamente, il proprietario, il conducente del veicolo o altro soggetto obbligato in solido), né l'idoneità, o no, del veicolo alla circolazione, anche sotto il profilo della sua copertura assicurativa.
+ Quindi, le circostanze specifiche della violazione dell'obbligo di custodia, da parte del custode, che ne connotano la maggiore o minore gravità, possono, in concreto, essere le più varie; riguardo ad esse la previsione rigida e automatica della revoca della patente di guida in ogni caso si appalesa carente sotto il profilo della necessaria proporzionalità della sanzione all'illecito commesso.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>A fronte della compromissione dell'effettività della custodia del veicolo in sequestro, può rivelarsi, in concreto, sproporzionata, tenuto conto delle circostanze del caso, la prolungata preclusione all'abilitazione alla guida, conseguente alla revoca della patente, la quale può gravemente compromettere esigenze lavorative, personali e di relazioni sociali, potendo anche incidere sull'esercizio di diritti fondamentali.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <num>11.</num>
+            <content>
+              <p>- Si ha quindi che, sul presupposto di una indifferenziata valutazione della condotta di circolazione abusiva del veicolo sottoposto a sequestro, la norma censurata vi ricollega, in modo uniforme e automatico, non graduabile secondo la gravità del fatto, il medesimo effetto, ossia la sanzione accessoria della revoca del titolo di guida, pur in presenza di una possibile eterogeneità di ragioni, sottese alla condotta integrante l'illecito amministrativo, senza che ciò possa essere valutato dall'organo preposto alla applicazione della sanzione accessoria medesima.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Il denunciato automatismo preclude al prefetto, e al giudice in sede di impugnazione, di valutare la necessità della revoca della patente, sia in riferimento alle circostanze del caso concreto, impedendo di considerare la gravità della violazione dei doveri di custodia nel caso specifico, sia con riguardo alle ripercussioni che la revoca della patente ha su aspetti essenziali della vita, nella sua quotidianità, e del lavoro.
+ Ciò costituisce violazione dell'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref> sotto il profilo del difetto di necessaria proporzionalità della sanzione amministrativa.
+ La reductio ad legitimitatem, come soluzione costituzionalmente adeguata, non può che essere individuata - come nei precedenti citati (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2018/22/!main">sentenze n. 22 del 2018</ref>, n. 24 e n. 99 del 2020) - nell'eliminazione dell'automatismo, sì che la revoca della patente "può", e non già necessariamente "deve", essere applicata come sanzione accessoria in aggiunta a quella principale.
+ È rimesso alla discrezionalità del legislatore affinare la flessibilità di questa sanzione accessoria, in ipotesi anche modulando maggiormente la durata nel tempo dell'inabilità alla guida secondo la gravità del fatto; durata che attualmente ha una modulazione temporale assai limitata (due e tre anni nelle ipotesi rispettivamente previste dai commi 3-bis e 3-ter dell'art. 219 cod. strada).
+ 12.- In conclusione, la sanzione accessoria della revoca della patente del custode che abbia posto in circolazione il veicolo sequestrato, a lui affidato, non può essere automatica conseguenza accessoria della sanzione principale, dovendo consentirsi all'autorità amministrativa preposta di valutare le complessive circostanze del caso concreto, affinché tale sanzione non risulti essere sproporzionata rispetto al fatto di cui all'art. 213, comma 8, cod. strada.</p>
+            </content>
+          </paragraph>
+          <paragraph>
+            <content>
+              <p>Per i profili di contrasto con l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref> va, pertanto, dichiarata l'illegittimità costituzionale dell'art. 213, comma 8, cod. strada, nella parte in cui dispone che «Si applica», anziché «Può essere applicata», la sanzione accessoria della revoca della patente.</p>
+            </content>
+          </paragraph>
+        </division>
+      </motivation>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ riuniti i giudizi,
+ dichiara l'illegittimità costituzionale dell'<ref href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_213__para_8">art. 213, comma 8, del decreto legislativo 30 aprile 1992, n. 285</ref> (Nuovo codice della strada), come modificato dall'<ref href="/akn/it/act/decretoLegge/stato/2018-10-04/113/!main#art_23bis">art. 23-bis del decreto-legge 4 ottobre 2018, n. 113</ref> (Disposizioni urgenti in materia di protezione internazionale e immigrazione, sicurezza pubblica, nonché misure per la funzionalità del Ministero dell'interno e l'organizzazione e il funzionamento dell'Agenzia nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata), introdotto, in sede di conversione, dalla legge 1° dicembre 2018, n. 132, nella parte in cui dispone che «Si applica», anziché «Può essere applicata», la sanzione accessoria della revoca della patente.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-11-09">9 novembre 2022</date>.
+ F.to:
+ <signature><judge refersTo="#silvanaSciarra" as="#presidente">Silvana SCIARRA</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ <signature><judge refersTo="#giovanniAmoroso" as="#relatore">Giovanni AMOROSO</judge>, <role refersTo="#relatore">Redattore</role></signature>
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-12-09">9 dicembre 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

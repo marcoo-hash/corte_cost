@@ -1,0 +1,143 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="ordinanza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-07-25/194/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-07-25/194"/>
+          <FRBRalias value="ECLI:IT:COST:2022:194" name="ECLI"/>
+          <FRBRdate date="2022-07-25" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="194"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-07-25/194/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-07-25/194/ita@"/>
+          <FRBRdate date="2022-07-25" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-07-25/194/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-07-25/194/ita@.xml"/>
+          <FRBRdate date="2022-07-25" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-07-06" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-07-25" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>manifesta inammissibilità</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="AMATO" href="/akn/ontology/person/it/AMATO" showAs="AMATO"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="giulianoAmato" href="/akn/ontology/person/it/giulianoAmato" showAs="Giuliano AMATO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>194</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:194</akn4cc:ecli>
+        <akn4cc:tipo>O</akn4cc:tipo>
+        <akn4cc:presidente>AMATO</akn4cc:presidente>
+        <akn4cc:relatore>Francesco Viganò</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-07-06</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-07-25</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>manifesta inammissibilità</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#giulianoAmato">Giuliano AMATO</judge>; Giudici : <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>ORDINANZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444__para_1ter">art. 444, comma 1-ter, del codice di procedura penale</ref>, promosso dal Giudice dell'udienza preliminare del Tribunale ordinario Firenze nel procedimento penale a carico di L. P. e S. D., con ordinanza del 23 luglio 2021, iscritta al n. 208 del registro ordinanze 2021 e pubblicata nella Gazzetta Ufficiale della Repubblica n. 52, prima serie speciale, dell'anno 2021.
+ Visto l'atto di intervento del Presidente del Consiglio dei ministri;
+ udito nella camera di consiglio del 6 luglio 2022 il Giudice relatore Francesco Viganò;
+ deliberato nella camera di consiglio del 6 luglio 2022.
+ Ritenuto che, con ordinanza del 23 luglio 2021, il Giudice dell'udienza preliminare del Tribunale ordinario di Firenze ha sollevato questione di legittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444__para_1ter">art. 444, comma 1-ter, del codice di procedura penale</ref>, denunciandone il contrasto con l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 della Costituzione</ref> «nella parte in cui impone, come condizione di ammissibilità della domanda di patteggiamento, l'integrale restituzione del prezzo o del profitto del reato anche per il caso in cui un concorrente nel reato abbia ricevuto a tale titolo una quota parte soltanto del tutto o nulla in concreto e, di contro, non prevede che per il caso di concorso di persone nel reato ogni concorrente sia tenuto, ai fini della condizione di procedibilità dell'istanza di patteggiamento, a restituire solo la quota parte effettivamente conseguita, ovvero ne sia esentato per il caso in cui non abbia conseguito nulla»;
+ che il rimettente è chiamato a pronunciarsi sulle istanze di applicazione della pena ex <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444">art. 444 cod. proc. pen.</ref> avanzate da L. P. e S. D., imputati dei reati di cui agli artt. 110, 319, 319-bis, 321 e 81, secondo comma, del <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main">codice penale</ref>;
+ che, oltre a L. P., risultano imputati anche altri soggetti privati accusati di avere corrotto, in concorso tra loro, il pubblico ufficiale S. D., ottenendo a proprio vantaggio l'illecita aggiudicazione di un numero rilevante di appalti;
+ che, quanto alla rilevanza della questione, il giudice a quo afferma che le istanze di patteggiamento avanzate dai due imputati «dovrebbero essere dichiarate inammissibili», poiché per entrambi mancherebbe la prova della integrale restituzione del prezzo o del profitto del reato, sicché non potrebbe ritenersi soddisfatto il requisito di cui all'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444__para_1ter">art. 444, comma 1-ter, cod. proc. pen.</ref>, che nei procedimenti per i delitti di cui agli <mref><ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_314">artt. 314</ref>, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_317">317</ref>, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_318">318</ref>, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_319">319</ref>, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_319ter">319-ter</ref>, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_319quater">319-quater</ref> e <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_322bis">322-bis cod. pen.</ref></mref> subordina l'ammissibilità della richiesta di patteggiamento a tale restituzione;
+ che, in particolare, il rimettente rileva che «[l]e cifre relative al prezzo o profitto dei reati contestati agli imputati vanno, allo stato degli atti e della legislazione, considerate nel loro complesso, in quanto frutto del concorso in corruzione», nonostante L. P. protesti la propria estraneità, in termini di partecipazione al profitto del reato, rispetto alla maggior parte degli appalti e quantifichi pertanto il proprio profitto in una cifra inferiore a quello complessivamente indicato dal pubblico ministero;
+ che, ad avviso del giudice a quo, l'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444__para_1ter">art. 444, comma 1-ter, cod. proc. pen.</ref>, «non distingue i casi in cui più siano gli imputati, più gli episodi e solo alcuni di essi agenti abbiano conseguito un profitto, per l'intero, o per una quota parte, o per nulla; con la conseguenza che per il caso di scelta del rito alternativo in argomento l'interessato sarebbe tenuto, in una condizione di solidarietà, inespressa, ma di fatto, con tutti i coimputati alla restituzione dell'intera cifra che astrattamente fosse prospettabile come prezzo o profitto del reato complessivamente considerato», ciò che radicherebbe la rilevanza della questione, dal momento che «gli imputati non hanno restituito l'intero ammontare del prezzo o profitto dei reati per come contestato»;
+ che, quanto alla non manifesta infondatezza, il rimettente rileva che la norma in esame, «evocando una solidarietà per l'intero di tutti i concorrenti, anche di coloro che in ipotesi non avessero conseguito alcunché, o una sola quota parte», si porrebbe in contrasto con «il principio di ragionevolezza che trova la sua matrice nel principio più ampio di uguaglianza di cui all'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 Cost.</ref>», in quanto, applicandosi il requisito della integrale restituzione «tanto al caso di un solo agente che si sia arricchito di tutto il profitto, quanto al caso di un concorrente che si sia arricchito per solo una parte del profitto del reato, ovvero non si sia arricchito affatto», si dovrebbe «considerare inammissibile il patteggiamento di colui che restituisca solo una parte del profitto, corrispondente alla sua quota, ovvero non sia in grado di restituire alcunché per non aver conseguito profitti o parti di essi»;
+ che è intervenuto nel giudizio il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, chiedendo che la questione sia dichiarata inammissibile o comunque non fondata;
+ che, ad avviso dell'Avvocatura generale dello Stato, la questione sarebbe inammissibile in quanto «prematura ed ipotetica», dal momento che il giudice rimettente «non ha prospettato che l'offerta restitutoria (parziale) sia effettivamente corrispondente alla quota di prodotto o profitto conseguita dagli imputati, limitandosi a dedurre che essa è questione di merito da affrontare solo all'esito della ammissibilità in rito dell'applicazione concordata della pena»: sicché, «ove risultasse che la quota (parziale) offerta dagli imputati non fosse effettivamente corrispondente alla quota di prodotto o profitto conseguita dai medesimi, la richiesta di patteggiamento andrebbe comunque, successivamente rigettata», anche qualora la questione sollevata venisse accolta nei termini indicati dal rimettente;
+ che nel merito la questione sarebbe, comunque, manifestamente infondata;
+ che, infatti, essa sarebbe «perfettamente sovrapponibile, per eadem ratio di disciplina» a quella decisa con la <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2015/95/!main">sentenza n. 95 del 2015</ref> di questa Corte, con la quale è stata ritenuta non fondata la questione di costituzionalità afferente alla limitazione del patteggiamento prevista dall'<ref href="/akn/it/act/decretoLegislativo/stato/2000-03-10/74/!main#art_13__para_2bis">art. 13, comma 2-bis, del decreto legislativo 10 marzo 2000, n. 74</ref> (Nuova disciplina dei reati in materia di imposte sui redditi e sul valore aggiunto, a norma dell'<ref href="/akn/it/act/legge/stato/1999-06-25/205/!main#art_9">articolo 9 della legge 25 giugno 1999, n. 205</ref>);
+ che, inoltre, l'interveniente afferma che «rientrano nella sfera di discrezionalità del legislatore le scelte di politica criminale volte a delineare in termini più rigorosi il regime processuale di taluni reati, compreso il particolare regime del reato concorsuale», sicché la disposizione censurata non solo sarebbe «legittima estrinsecazione d'una opzione di politica criminale operata dal legislatore», ma costituirebbe, altresì, «necessitata e coerente proiezione logica del generale paradigma sanzionatorio di tipo causale accolto nel nostro ordinamento per l'incriminazione delle condotte concorsuali»;
+ che ciò troverebbe conferma nell'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_187">art. 187 cod. pen.</ref>, ai sensi del quale, in caso di reato concorsuale, i condannati sono obbligati in solido al risarcimento del danno, nonché nella giurisprudenza della Corte di cassazione (è citata la sentenza della sezione sesta penale, 14 luglio 2021, n. 31249, secondo cui, in tema di confisca per equivalente disposta in relazione al reato di corruzione, trova applicazione «il principio solidaristico che implica l'imputazione dell'intera azione e del conseguente effetto in capo a ciascun concorrente», sicché, quando il profitto illecito abbia perso la sua «individualità storica», la confisca e il sequestro preventivo ad essa finalizzato possono interessare indifferentemente ciascuno dei concorrenti «anche per l'intera entità del profitto accertato», con il solo limite che «l'espropriazione non può essere duplicata o comunque eccedere nel quantum l'ammontare complessivo dello stesso»).
+ Considerato che, con ordinanza del 23 luglio 2021, il Giudice dell'udienza preliminare del Tribunale ordinario di Firenze ha sollevato questione di legittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444__para_1ter">art. 444, comma 1-ter, del codice di procedura penale</ref>, denunciandone il contrasto con l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 della Costituzione</ref>, «nella parte in cui impone, come condizione di ammissibilità della domanda di patteggiamento, l'integrale restituzione del prezzo o del profitto del reato anche per il caso in cui un concorrente nel reato abbia ricevuto a tale titolo una quota parte soltanto del tutto o nulla in concreto e, di contro, non prevede che per il caso di concorso di persone nel reato ogni concorrente sia tenuto, ai fini della condizione di procedibilità dell'istanza di patteggiamento, a restituire solo la quota parte effettivamente conseguita, ovvero ne sia esentato per il caso in cui non abbia conseguito nulla»;
+ che la questione è manifestamente inammissibile per difetto di rilevanza;
+ che, nel decidere dell'ammissibilità di una questione sollevata in via incidentale, questa Corte «è chiamata a verificare se il giudice a quo abbia fornito elementi sufficienti per valutare la necessaria applicazione della disposizione censurata nel percorso argomentativo che conduce alla decisione del giudizio principale. Tale accertamento presuppone una motivazione non implausibile sulla sussistenza di un rapporto di strumentalità e di pregiudizialità tra la risoluzione del dubbio di legittimità costituzionale e la decisione della controversia oggetto del giudizio principale (ex plurim<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2014/50/!main">is, sentenza n. 50 del 2014</ref> e <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/1998/282/!main">ordinanza n. 282 del 1998</ref>)» (<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/249/!main">sentenza n. 249 del 2021</ref>);
+ che, alla luce degli elementi forniti dal giudice a quo nell'ordinanza di rimessione, tale rapporto di strumentalità e di pregiudizialità non è in alcun modo dimostrato, risultando anzi che l'eventuale pronuncia di accoglimento di questa Corte non avrebbe alcuna incidenza sul giudizio principale;
+ che, infatti, la disposizione censurata - introdotta dall'<ref href="/akn/it/act/legge/stato/2015-05-27/69/!main#art_6__para_1">art. 6, comma 1, della legge 27 maggio 2015, n. 69</ref> (Disposizioni in materia di delitti contro la pubblica amministrazione, di associazioni di tipo mafioso e di falso in bilancio) - condiziona l'ammissibilità della richiesta di patteggiamento, in relazione a numerosi delitti contro la pubblica amministrazione, alla «restituzione integrale del prezzo o del profitto del reato»;
+ che tra le norme incriminatrici ivi espressamente richiamate non compare però l'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_321">art. 321 del codice penale</ref>, che estende al privato corruttore le pene previste a carico dei pubblici ufficiali o incaricati di pubblico servizio dagli artt. 318, primo comma, 319, 319-bis, 319-ter e 320 in relazione agli stessi artt. 318, primo comma, e 319 <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main">cod. pen</ref>.;
+ che a tale mancato richiamo non può ovviarsi in via interpretativa, anche alla luce del confronto tra la disposizione in questa sede censurata e altre disposizioni che contengono altri elenchi di reati contro la pubblica amministrazione analoghi a quello ivi contenuto, elenchi che oggi contemplano - invece - l'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_321">art. 321 cod. pen.</ref>;
+ che tra tali disposizioni viene anzitutto in considerazione l'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_322quater">art. 322-quater cod. pen.</ref>, introdotto dalla medesima <ref href="/akn/it/act/legge/stato/2015/69/!main">legge n. 69 del 2015</ref>, che prevede un obbligo di «riparazione pecuniaria» a carico degli autori di reati contro la pubblica amministrazione, tra i quali non erano in origine inclusi i delitti di corruzione attiva di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_321">art. 321 cod. pen.</ref>;
+ che la <ref href="/akn/it/act/legge/stato/2019-01-09/3/!main">legge 9 gennaio 2019, n. 3</ref> (Misure per il contrasto dei reati contro la pubblica amministrazione, nonché in materia di prescrizione del reato e in materia di trasparenza dei partiti e movimenti politici) ha tuttavia modificato l'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_322quater">art. 322-quater cod. pen.</ref>, inserendo espressamente l'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_321">art. 321 cod. pen.</ref> nell'elenco dei reati che danno luogo all'obbligo di riparazione pecuniaria;
+ che, in secondo luogo, viene in considerazione l'art. 165, quarto comma, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main">cod. pen</ref>., parimenti introdotto dalla <ref href="/akn/it/act/legge/stato/2015/69/!main">legge n. 69 del 2015</ref>, che subordina la sospensione condizionale della pena al pagamento della riparazione pecuniaria di cui al menzionato <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_322quater">art. 322-quater cod. pen.</ref> in riferimento a una serie di reati contro la pubblica amministrazione, tra i quali inizialmente non comparivano i delitti di corruzione attiva di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_321">art. 321 cod. pen.</ref>;
+ che, anche in questo caso, la <ref href="/akn/it/act/legge/stato/2019/3/!main">legge n. 3 del 2019</ref> è intervenuta a integrare l'elenco di reati ai quali si applica l'art. 165, quarto comma, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main">cod. pen</ref>., inserendovi l'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_321">art. 321 cod. pen.</ref>;
+ che, in terzo luogo, la stessa <ref href="/akn/it/act/legge/stato/2019/3/!main">legge n. 3 del 2019</ref> ha inserito nell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444">art. 444 cod. proc. pen.</ref> un nuovo comma 3-bis, che prevede che la richiesta di patteggiamento possa essere subordinata all'esenzione dalle pene accessorie o alla sospensione condizionale delle stesse in relazione a una serie di reati contro la pubblica amministrazione, includendovi espressamente quelli di corruzione attiva di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_321">art. 321 cod. pen.</ref>;
+ che il raffronto tra il censurato <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444__para_1ter">art. 444, comma 1-ter, cod. proc. pen.</ref> e le altre disposizioni menzionate - l'ultima delle quali collocata nel medesimo <ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444">art. 444 cod. proc. pen.</ref> - evidenzia la consapevole scelta del legislatore del 2015 prima, e di quello del 2019 poi, di modulare diversamente l'ambito di applicazione delle disposizioni citate, estendendo solo alle ultime tre il richiamo all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_321">art. 321 cod. pen.</ref>, che continua invece a essere assente nell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444__para_1ter">art. 444, comma 1-ter, cod. proc. pen.</ref>: ciò che impone di concludere pianamente nel senso che ubi lex voluit dixit, ubi noluit tacuit;
+ che, del resto, l'assenza dei delitti di corruzione attiva di cui all'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_321">art. 321 cod. pen.</ref> nell'elenco contenuto nell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444__para_1ter">art. 444, comma 1-ter, cod. proc. pen.</ref> era stata già rilevata - criticamente - durante i lavori preparatori della <ref href="/akn/it/act/legge/stato/2015/69/!main">legge n. 69 del 2015</ref> (intervento in Assemblea del sen. Nitto Francesco Palma nel corso della seduta pubblica n. 420 della XVII Legislatura, 31 marzo 2015) ed era stata oggetto di una pregiudiziale di costituzionalità alla Camera, discussa e respinta dall'Assemblea nella seduta pubblica n. 431 della XVII legislatura del 20 maggio 2015 (questione pregiudiziale di costituzionalità Santelli e altri, n. 1 - A.C. 3008);
+ che parimenti la dottrina che ha commentato la novella di cui all'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444__para_1ter">art. 444, comma 1-ter, cod. proc. pen.</ref> ha puntualmente rilevato l'assenza dell'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_321">art. 321 cod. pen.</ref> dall'elenco dei delitti cui si applica la relativa disciplina, ritenendo tale lacuna intenzionale e, comunque, non colmabile in via interpretativa;
+ che la giurisprudenza di legittimità è, sia pure incidentalmente, giunta alla medesima conclusione (<ref href="/akn/it/judgment/sentenza/corteDiCassazione/2020-06-04/2PEN/!main">Corte di cassazione, sezione sesta penale, sentenza 24 giugno 2020</ref>, n. 23602);
+ che, conseguentemente, la disposizione in questa sede censurata non è in radice applicabile a L. P., imputato di corruzione attiva ai sensi dell'<ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_321">art. 321 cod. pen.</ref>, irrilevante risultando pertanto, sotto questo profilo, il concorso di altri imputati nel reato;
+ che, quanto invece a S. D., indicato nel capo di imputazione quale unico pubblico ufficiale autore di corruzione passiva ai sensi degli <mref><ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_319">artt. 319</ref> e <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_319bis">319-bis cod. pen.</ref></mref>, difetta ictu oculi nei suoi confronti il presupposto necessario per la rilevanza della questione sollevata, vale a dire l'esistenza di una pluralità di imputati in concorso tra loro, ciascuno dei quali avrebbe ricevuto soltanto una parte del prezzo del reato;
+ che risulta pertanto evidente che la risoluzione del dubbio di legittimità costituzionale prospettato non è strumentale e pregiudiziale alla decisione del giudizio a quo, che può essere definito indipendentemente dalla questione sollevata;
+ che il rilevato vizio di rilevanza determina l'inammissibilità della questione, rendendo superfluo l'esame dell'ulteriore profilo di inammissibilità prospettato dall'interveniente.
+ Visti gli artt. 26, secondo comma, della <ref href="/akn/it/act/legge/stato/1953-03-11/87/!main">legge 11 marzo 1953, n. 87</ref>, e 9, comma 2, delle Norme integrative per i giudizi davanti alla Corte costituzionale vigenti ratione temporis.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ dichiara la manifesta inammissibilità della questione di legittimità costituzionale dell'<ref href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-09-22/447/!main#art_444__para_1ter">art. 444, comma 1-ter, del codice di procedura penale</ref>, sollevata, in riferimento all'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 della Costituzione</ref>, dal Giudice dell'udienza preliminare del Tribunale ordinario di Firenze con l'ordinanza indicata in epigrafe.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-07-06">6 luglio 2022</date>.
+ F.to:
+ <signature><judge refersTo="#giulianoAmato" as="#presidente">Giuliano AMATO</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ <signature><judge refersTo="#francescoViganò" as="#relatore">Francesco  VIGANÒ</judge>, <role refersTo="#relatore">Redattore</role></signature>
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-07-25">25 luglio 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

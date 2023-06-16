@@ -1,0 +1,136 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="ordinanza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-01-13/3/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-01-13/3"/>
+          <FRBRalias value="ECLI:IT:COST:2022:3" name="ECLI"/>
+          <FRBRdate date="2022-01-13" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-01-13/3/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-01-13/3/ita@"/>
+          <FRBRdate date="2022-01-13" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-01-13/3/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-01-13/3/ita@.xml"/>
+          <FRBRdate date="2022-01-13" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2021-12-02" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-01-13" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>estinzione del processo</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA PRINCIPALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="CORAGGIO" href="/akn/ontology/person/it/CORAGGIO" showAs="CORAGGIO"/>
+        <TLCPerson eId="giulianoAmato" href="/akn/ontology/person/it/giulianoAmato" showAs="Giuliano AMATO"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="giancarloCoraggio" href="/akn/ontology/person/it/giancarloCoraggio" showAs="Giancarlo CORAGGIO"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>3</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:3</akn4cc:ecli>
+        <akn4cc:tipo>O</akn4cc:tipo>
+        <akn4cc:presidente>CORAGGIO</akn4cc:presidente>
+        <akn4cc:relatore>Giulio Prosperetti</akn4cc:relatore>
+        <akn4cc:data_decisione>2021-12-02</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-01-13</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA PRINCIPALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>estinzione del processo</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#giancarloCoraggio">Giancarlo CORAGGIO</judge>; Giudici : <judge refersTo="#giulianoAmato">Giuliano AMATO</judge>, <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>, <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>ORDINANZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'art. 3 della legge della Regione Abruzzo 6 novembre 2020, n. 31, recante «Riconoscimento della legittimità dei debiti fuori bilancio derivanti da acquisizione di beni in assenza del preventivo impegno di spesa per le attività relative all'escavazione del porto di Pescara, ai sensi dell'<ref href="/akn/it/act/decretoLegislativo/stato/2011-06-23/118/!main#art_73__para_1__point_e">articolo 73, comma 1, lettera e) del decreto legislativo 23 giugno 2011, n. 118</ref> (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli Enti locali e loro Organismi, a norma degli <mref><ref href="/akn/it/act/legge/stato/2009-05-05/42/!main#art_1">articoli 1</ref> e <ref href="/akn/it/act/legge/stato/2009-05-05/42/!main#art_2">2 della legge 5 maggio 2009, n. 42</ref></mref>) ed ulteriori disposizioni», promosso dal Presidente del Consiglio dei ministri con ricorso notificato il 4 gennaio 2021, depositato in cancelleria il 7 gennaio 2021, iscritto al n. 2 del registro ricorsi 2021 e pubblicato nella Gazzetta Ufficiale della Repubblica n. 5, prima serie speciale, dell'anno 2021.
+ Visto l'atto di <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> della Regione Abruzzo;
+ udito nella camera di consiglio del 1° dicembre 2021 il Giudice relatore Giulio Prosperetti;
+ deliberato nella camera di consiglio del 2 dicembre 2021.
+ Ritenuto che, con ricorso depositato il 7 gennaio 2021 (reg. ric. n. 2 del 2021), il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, ha promosso, in riferimento agli artt. 11, 81, terzo comma, e 117, primo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, questioni di legittimità costituzionale dell'art. 3 della legge della Regione Abruzzo 6 novembre 2020, n. 31, recante «Riconoscimento della legittimità dei debiti fuori bilancio derivanti da acquisizione di beni in assenza del preventivo impegno di spesa per le attività relative all'escavazione del porto di Pescara, ai sensi dell'<ref href="/akn/it/act/decretoLegislativo/stato/2011-06-23/118/!main#art_73__para_1__point_e">articolo 73, comma 1, lettera e) del decreto legislativo 23 giugno 2011, n. 118</ref> (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli Enti locali e loro Organismi, a norma degli <mref><ref href="/akn/it/act/legge/stato/2009-05-05/42/!main#art_1">articoli 1</ref> e <ref href="/akn/it/act/legge/stato/2009-05-05/42/!main#art_2">2 della legge 5 maggio 2009, n. 42</ref></mref>) ed ulteriori disposizioni»;
+ che l'art. 3 della legge regionale impugnata prevede: «[è] concesso un trasferimento straordinario di euro 870.000,00 a favore del Consorzio di Bonifica Interno - bacino Aterno e Sagittario - con sede in Pratola Peligna (AQ), finalizzato all'esecuzione di interventi di somma urgenza riguardanti la sicurezza negli impianti e nei luoghi di lavoro di cui al <ref href="/akn/it/act/decretoLegislativo/stato/2008-04-09/81/!main">decreto legislativo 9 aprile 2008, n. 81</ref> (Attuazione dell'<ref href="/akn/it/act/legge/stato/2007-08-03/123/!main#art_1">articolo 1 della legge 3 agosto 2007, n. 123</ref>, in materia di tutela della salute e della sicurezza nei luoghi di lavoro e successive modifiche ed integrazioni). A tal fine sono apportate le seguenti variazioni di competenza e di cassa al bilancio regionale di previsione 2020/2022, annualità 2020: a) Parte Entrata: Titolo IV, Tipologia 500 - in aumento per euro 870.000,00; b) Parte Spesa: Titolo II, Missione 16, Programma 1, Macroaggregato 4 - in aumento per euro 870.000,00»;
+ che, ad avviso della difesa statale, «l'ipotizzata copertura dell'intervento previsto dall'art. 3 è illegittimamente individuata nell'aumento del Titolo IV delle Entrate, dove confluiscono le rinvenienze conseguenti all'impiego del microcredito del Programma Operativo Fondo Sociale Europeo (PO FSE) 2007/2013», in quanto tali disponibilità finanziarie «sono espressamente destinate dalla inderogabile disciplina derivante dall'Unione europea, a specifiche finalità, tra le quali non rientra l'intervento previsto dalla norma regionale oggetto di impugnazione»;
+ che, in particolare, il ricorrente rappresenta che l'art. 78 del regolamento (CE) n. 1083/2006 del Consiglio, dell'11 luglio 2006, contenente disposizioni generali sul Fondo europeo di sviluppo regionale, sul Fondo sociale europeo e sul Fondo di coesione e che abroga il regolamento (CE) n. 1260/1999 sulle disposizioni comuni applicabili al Fondo sociale europeo (FSE) per il periodo 2007/2013, dispone al paragrafo 7: «[l]e risorse restituite all'operazione a partire da investimenti avviati dai fondi di cui all'articolo 44 o ancora disponibili dopo che tutte le garanzie sono state soddisfatte sono riutilizzate dalle autorità competenti degli Stati membri interessati a favore di progetti di sviluppo urbano o delle piccole e medie imprese»;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>che invece, secondo la difesa statale, nel caso di specie l'intervento è finalizzato a misure diverse da quelle così previste dalle disposizioni comunitarie ovvero ad assicurare continuità al servizio che il Consorzio di bonifica interno in questione rende a favore delle imprese del territorio;
+ che sarebbe, dunque, evidente che la disposizione regionale impugnata prevede un utilizzo delle risorse del microcredito FSE Abruzzo 2007/2013 non coerente con quanto previsto dalla normativa comunitaria richiamata, che vincola l'utilizzo delle predette risorse a progetti di sviluppo urbano, delle piccole e medie imprese o per l'efficienza energetica e l'utilizzo di energie rinnovabili negli edifici;
+ che tale illegittima modalità di copertura finanziaria della disposizione impugnata determinerebbe la violazione dell'art. 81, terzo comma, Cost.;
+ che, inoltre, per il ricorrente sarebbero contestualmente e conseguentemente violati anche gli artt. 11 e 117, primo comma, Cost., in relazione al citato regolamento;
+ che il rilevato utilizzo di fondi dell'Unione europea in modo difforme dalle previsioni stabilite dalle fonti comunitarie «esporrebbe lo Stato italiano e gli organi regionali alle forme di responsabilità previste dall'ordinamento UE»;
+ che la Regione Abruzzo si è costituita in giudizio con memoria depositata l'11 febbraio 2021;
+ che la resistente ha rappresentato che il Consiglio regionale, con deliberazione 26 gennaio 2021, n. 43/2, recante «Riconoscimento di debiti fuori bilancio ai sensi dell'articolo 73 comma l, lettera a) del <ref href="/akn/it/act/decretoLegislativo/stato/2011-06-23/118/!main">decreto legislativo 23 giugno 2011, n. 118</ref> e modifiche alle leggi regionali 31/2020, 32/2020 e 1/2021», ha disposto, all'art. 2, la sostituzione dell'impugnato art. 3 della legge reg. Abruzzo n. 31 del 2020 con il seguente: «Art. 3 (Trasferimento straordinario al Consorzio Bonifica Interno per interventi di somma urgenza). "1. È concesso un trasferimento straordinario di euro 699.709,88 a favore del Consorzio di Bonifica Interno - bacino Aterno e Sagittario - con sede in Pratola Peligna (AQ), finalizzato all'esecuzione di interventi di somma urgenza riguardanti la sicurezza negli impianti e nei luoghi di lavoro di cui al <ref href="/akn/it/act/decretoLegislativo/stato/2008-04-09/81/!main">decreto legislativo 9 aprile 2008, n. 81</ref> (Attuazione dell'articolo l della <ref href="/akn/it/act/legge/stato/2007-08-03/123/!main">legge 3 agosto 2007, n. 123</ref>, in materia di tutela della salute e della sicurezza nei luoghi di lavoro e successive modifiche ed integrazioni). A tal fine sono utilizzate le residue risorse libere, ossia relative alla parte non soggetta a vincoli di utilizzo, di cui alle deliberazioni di Giunta regionale n. 583 e n. 590 del 28.9.2020. 2. La Giunta regionale provvede con proprio atto alla connessa variazione di bilancio"»;
+ che tale delibera è stata attuata con l'art. 2 della legge della Regione Abruzzo 4 febbraio 2021, n. 3, recante «Riconoscimento di debiti fuori bilancio ai sensi dell'<ref href="/akn/it/act/decretoLegislativo/stato/2011-06-23/118/!main#art_73__para_1__point_a">art. 73 comma 1, lettera a) del decreto legislativo 23 giugno 2011, n. 118</ref> (Disposizioni in materia dì armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli enti locali e dei loro organismi, a norma degli <mref><ref href="/akn/it/act/legge/stato/2009-05-05/42/!main#art_1">articoli 1</ref> e <ref href="/akn/it/act/legge/stato/2009-05-05/42/!main#art_2">2 della legge 5 maggio 2009, n. 42</ref></mref>) e modifiche alle leggi regionali 31/2020, 32/2020 e 1/2021»;
+ che tale modifica normativa, ad avviso della difesa regionale, fa venire meno «sia la censura relativa alla violazione dell'art. 78, paragrafo 7, del regolamento CE 1083/2006, in ordine al mancato rispetto del vincolo di destinazione delle rinvenienze, sulla scorta del quale le stesse possono essere reimpiegate solo per la realizzazione degli scopi indicati, laddove stanzia, a copertura del trasferimento del contributo di cui è causa, in favore del Consorzio di Bonifica, le sole risorse libere dell'attuale dotazione del Fondo Microcredito; sia, conseguentemente, la censura relativa alla violazione dell'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_81">art. 81 della Costituzione</ref>, per la mancata copertura finanziaria della norma impugnata, laddove la copertura finanziaria viene oggi assicurata attraverso l'impiego delle predette sole risorse libere»;
+ che, inoltre, la nuova disciplina, comporterebbe anche il venir meno della «ulteriore e derivata censura relativa alla supposta violazione dell'art. 117, primo comma, e dell'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_11">art. 11 della Costituzione</ref>, in relazione sempre al Regolamento CE 1083/2006»;
+ che, atteso il carattere satisfattivo dello ius superveniens e tenuto conto che la disposizione impugnata non ha trovato medio tempore applicazione, la difesa regionale afferma che sussisterebbero i requisiti previsti dalla giurisprudenza costituzionale per pervenire alla cessazione della materia del contendere, e pertanto conclude in tale senso;
+ che, con atto notificato alla Regione in data 7 maggio 2021, depositato l'8-10 maggio 2021, il Presidente del Consiglio dei ministri, su conforme delibera del Consiglio dei ministri del 21 aprile 2021, ha dichiarato di rinunciare al ricorso dando atto del carattere satisfattivo delle modifiche recate alla disposizione impugnata dall'art. 2 della legge reg. Abruzzo n. 3 del 2021;
+ che la difesa statale ritiene siano difatti «venute meno le ragioni che hanno determinato l'impugnativa della <ref href="/akn/it/act/legge/stato/2020/31/!main">legge n. 31/2020</ref>, tenuto altresì conto della comunicazione da parte della Regione della mancata applicazione medio tempore delle disposizioni censurate»;
+ che la Regione Abruzzo, a seguito di delibera della Giunta regionale 4 agosto 2021, n. 485, con atto depositato il 10 settembre 2021 ha dichiarato di accettare la rinuncia al ricorso, chiedendo a questa Corte di dichiarare estinto il processo, ai sensi dell'art. 23 delle Norme integrative per i giudizi davanti alla Corte costituzionale.
+ Considerato che, ai sensi dell'art. 23 delle Norme integrative per i giudizi davanti alla Corte costituzionale, la rinuncia al ricorso, seguita dall'accettazione della controparte costituita comporta l'estinzione del processo (ex plurim<mref><ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2020/232/!main">is, ordinanze n. 232</ref>, n. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2020/216/!main">216</ref>, n. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2020/215/!main">215</ref> e n. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2020/207/!main">207 del 2020</ref></mref>).
+ Visti gli artt. 26, secondo comma, della <ref href="/akn/it/act/legge/stato/1953-03-11/87/!main">legge 11 marzo 1953, n. 87</ref> (Norme sulla <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> e sul funzionamento della Corte costituzionale), 9, comma 2, e 23 delle Norme integrative per i giudizi davanti alla Corte costituzionale.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ dichiara estinto il processo.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2021-12-02">2 dicembre 2021</date>.
+ F.to:
+ <signature><judge refersTo="#giancarloCoraggio" as="#presidente">Giancarlo CORAGGIO</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ <signature><judge refersTo="#giulioProsperetti" as="#relatore">Giulio PROSPERETTI</judge>, <role refersTo="#relatore">Redattore</role></signature>
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-01-13">13 gennaio 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

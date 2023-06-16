@@ -1,0 +1,141 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="ordinanza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-11-17/232/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-11-17/232"/>
+          <FRBRalias value="ECLI:IT:COST:2022:232" name="ECLI"/>
+          <FRBRdate date="2022-11-17" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="232"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-11-17/232/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-11-17/232/ita@"/>
+          <FRBRdate date="2022-11-17" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-11-17/232/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-11-17/232/ita@.xml"/>
+          <FRBRdate date="2022-11-17" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-10-19" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-11-17" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>estinzione del processo</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA PRINCIPALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="SCIARRA" href="/akn/ontology/person/it/SCIARRA" showAs="SCIARRA"/>
+        <TLCPerson eId="angeloBuscema" href="/akn/ontology/person/it/angeloBuscema" showAs="Angelo Buscema"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>232</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:232</akn4cc:ecli>
+        <akn4cc:tipo>O</akn4cc:tipo>
+        <akn4cc:presidente>SCIARRA</akn4cc:presidente>
+        <akn4cc:relatore>Angelo Buscema</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-10-19</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-11-17</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA PRINCIPALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>estinzione del processo</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>; Giudici : <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI, Marco D'ALBERTI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>ORDINANZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'<ref href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1__para_4">art. 1, comma 4, della legge 30 dicembre 2021, n. 234</ref> (Bilancio di previsione dello Stato per l'anno finanziario 2022 e bilancio pluriennale per il triennio 2022-2024), promosso dalla Regione autonoma Friuli-Venezia Giulia con ricorso notificato il 28 febbraio 2022, depositato in cancelleria il 1° marzo 2022, iscritto al n. 20 del registro ricorsi 2022 e pubblicato nella Gazzetta Ufficiale della Repubblica n. 14, prima serie speciale, dell'anno 2022.
+ Udito nella camera di consiglio del 19 ottobre 2022 il Giudice relatore Angelo Buscema;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>deliberato nella camera di consiglio del 19 ottobre 2022.
+ Ritenuto che, con ricorso iscritto al registro ricorsi n. 20 del 2022, pubblicato nella Gazzetta Ufficiale della Repubblica n. 14, prima serie speciale, dell'anno 2022, la Regione autonoma Friuli-Venezia Giulia ha promosso questione di legittimità costituzionale dell'<ref href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1__para_4">art. 1, comma 4, della legge 30 dicembre 2021, n. 234</ref> (Bilancio di previsione dello Stato per l'anno finanziario 2022 e bilancio pluriennale per il triennio 2022-2024) per violazione degli artt. 3, 5, 81, terzo comma, 97, 119 e 120, secondo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>; degli artt. 24, 25, 48, 49, 63 e 65 della legge costituzionale 31 gennaio 1963, n. 1 (Statuto speciale della Regione Friuli-Venezia Giulia); dell'<ref href="/akn/it/act/decretoLegislativo/stato/2019-11-25/154/!main#art_2">art. 2 del decreto legislativo 25 novembre 2019, n. 154</ref> (Norme di attuazione dello Statuto speciale della Regione autonoma Friuli-Venezia Giulia in materia di coordinamento della finanza pubblica);
+ che l'<ref href="/akn/it/act/legge/stato/2021/234/!main#art_1__para_4">art. 1, comma 4, della legge n. 234 del 2021</ref> stabilisce che: «[i]n relazione agli effetti finanziari conseguenti all'avvio della riforma fiscale, allo scopo di concorrere all'adeguamento dei bilanci delle regioni a statuto speciale e delle province autonome di Trento e di Bolzano è previsto, per gli anni 2022-2024, un trasferimento a titolo di compensazione della riduzione del gettito riguardante la compartecipazione IRPEF derivante dai commi 2 e 3. Gli importi spettanti a ciascuna autonomia speciale sono stabiliti, entro il 31 marzo 2022, con decreto del Ministro dell'economia e delle finanze, sulla base dell'istruttoria operata da un apposito tavolo tecnico, coordinato dal Ministero dell'economia e delle finanze - Dipartimento delle finanze e Dipartimento della Ragioneria generale dello Stato, con la partecipazione di rappresentanti di ciascuna autonomia speciale»;
+ che la disposizione impugnata, nella parte in cui prevede che l'importo spettante alla Regione autonoma Friuli-Venezia Giulia sia stabilito con decreto del Ministro dell'economia e delle finanze sulla base dell'istruttoria operata da un apposito tavolo tecnico, coordinato dal Ministero dell'economia e delle finanze - Dipartimento delle finanze e Dipartimento della Ragioneria generale dello Stato «con la partecipazione di rappresentanti di ciascuna autonomia speciale», anziché sulla base di un'intesa o accordo con la Regione, ad avviso della ricorrente, violerebbe il principio di leale collaborazione di cui all'art. 120, secondo comma, Cost.;
+ che la Regione ricorrente lamenta il contrasto con il metodo dell'accordo anche in riferimento agli artt. 63 e 65 dello statuto speciale - i quali rispettivamente prevedono l'accordo sia per la modificazione della parte finanziaria dello statuto con legge ordinaria rinforzata dalla concertazione, sia per l'adozione delle norme di attuazione dello statuto elaborate in seno alle commissioni paritetiche - e all'<ref href="/akn/it/act/decretoLegislativo/stato/2019/154/!main#art_2">art. 2 del d.lgs. n. 154 del 2019</ref>, che disciplina il metodo dell'accordo in materia di rapporti finanziari tra lo Stato e il sistema integrato degli enti territoriali della Regione autonoma Friuli-Venezia Giulia;
+ che, ad avviso della ricorrente, l'<ref href="/akn/it/act/legge/stato/2021/234/!main#art_1__para_4">art. 1, comma 4, della legge n. 234 del 2021</ref>, nel prevedere il trasferimento dello Stato a favore delle autonomie speciali senza predisporre le risorse finanziarie necessarie a farvi fronte, determinerebbe incertezza sull'entità delle risorse finanziarie a disposizione della Regione, pregiudicando, così, l'autonomia finanziaria e di bilancio nonché il corretto esercizio delle funzioni regionali;
+ che la diminuzione del gettito derivante dalla riduzione delle aliquote fiscali avrebbe carattere permanente, per cui, una volta riconosciuta dallo Stato l'esigenza di adeguamento, sarebbe irragionevole e lesivo dell'autonomia finanziaria regionale prevedere un trasferimento compensativo solo per il primo triennio;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>che, pertanto, la disposizione impugnata contrasterebbe con l'art. 3, primo comma, Cost., sotto il profilo della ragionevolezza e per il diverso trattamento rispetto al complesso delle regioni, e con gli artt. 48 e 49 dello statuto speciale, nonché con l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_119">art. 119 Cost.</ref>, per violazione del principio di adeguatezza della dotazione finanziaria;
+ che la mancata previsione delle risorse da destinare al trasferimento previsto dalla stessa disposizione impugnata provocherebbe incertezza sulle somme a disposizione della Regione che si ripercuoterebbe sulle attribuzioni regionali, pregiudicando l'autonomia finanziaria e di bilancio garantita dagli artt. 24, 25, 48 e 49 dello statuto speciale;
+ che ciò, oltre tutto, impedirebbe di programmare correttamente il ciclo di bilancio determinando effetti negativi sull'azione regionale nei diversi settori che richiedono interventi di spesa (art. 5, numero 16, dello statuto speciale e art. 117, terzo comma, Cost., in combinazione con l'art. 10 della legge costituzionale 18 ottobre 2001, n. 3, recante «Modifiche al titolo V della parte seconda della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>»), violando il principio di buon andamento dell'amministrazione, sancito dall'art. 97, secondo comma, Cost.;
+ che, per effetto, risulterebbe incerto anche l'obiettivo dell'equilibrio di bilancio prescritto a tutti gli enti territoriali dall'art. 119, primo comma, Cost., e a tutte le amministrazioni pubbliche dall'art. 97, primo comma, Cost.;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>che, inoltre, la disposizione impugnata, nella parte in cui prevede il trasferimento compensativo per il solo triennio 2022-2024, senza alcuna previsione per il periodo successivo, violerebbe l'autonomia finanziaria della Regione, nonché gli artt. 3, primo comma, e 97 Cost.
+ che, infine, sarebbe violato l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_81">art. 81 Cost.</ref>, sotto il profilo della mancata copertura finanziaria della spesa, in quanto la disposizione impugnata, nel prevedere la compensazione del minor gettito tributario per la Regione, non disporrebbe lo stanziamento delle risorse necessarie per farvi fronte;
+ che il Presidente del Consiglio dei ministri non si è costituito in giudizio;
+ che, successivamente alla proposizione del ricorso, in data 1° marzo 2022, è stato stipulato un accordo tra il Governo, le Regioni a statuto speciale e le Province autonome di Trento e di Bolzano con il quale il Governo si è impegnato a trasferire a ciascuna autonomia speciale, ai sensi del comma 4 dell'<ref href="/akn/it/act/legge/stato/2021/234/!main#art_1">art. 1 della legge n. 234 del 2021</ref>, gli importi ivi indicati, per gli anni 2022, 2023 e 2024, a titolo di perdita di compartecipazione IRPEF;
+ che, con il predetto accordo, le Regioni a statuto speciale e le Province autonome si sono impegnate a non promuovere questione di legittimità costituzionale dinanzi alla Corte costituzionale avverso il comma 4 dell'<ref href="/akn/it/act/legge/stato/2021/234/!main#art_1">art. 1 della legge n. 234 del 2021</ref> e, laddove già promossa, a rinunciare al ricorso.
+ Considerato che con ricorso iscritto al registro ricorsi n. 20 del 2022 la Regione autonoma Friuli-Venezia Giulia ha promosso questione di legittimità costituzionale dell'art. 1, comma 4, della n. 234 del 2021, per violazione degli artt. 3, 5, 81, terzo comma, 97, 119 e 120, secondo comma, Cost.; degli artt. 24, 25, 48, 49, 63 e 65 dello statuto speciale della Regione autonoma Friuli-Venezia Giulia adottato con legge costituzionale 31 gennaio 1963, n. 1; dell'<ref href="/akn/it/act/decretoLegislativo/stato/2019/154/!main#art_2">art. 2 del d.lgs. n. 154 del 2019</ref>;
+ che, a seguito dell'accordo stipulato in data 1° marzo 2022 tra Governo, Regioni a statuto speciale e Province autonome di Trento e di Bolzano, la Giunta della Regione autonoma Friuli-Venezia Giulia, con deliberazione 18 marzo 2022, n. 359, ha autorizzato la rinuncia al ricorso n. 20 del 2022 promosso per la declaratoria di illegittimità costituzionale dell'<ref href="/akn/it/act/legge/stato/2021/234/!main#art_1__para_4">art. 1, comma 4, della legge n. 234 del 2021</ref>;
+ che, con atto depositato il 28 marzo 2022, la Regione autonoma Friuli-Venezia Giulia ha presentato rinuncia al ricorso n. 20 del 2022;
+ che, ai sensi dell'art. 23 delle Norme integrative per i giudizi davanti alla Corte costituzionale, vigenti ratione temporis, la rinuncia del ricorrente all'impugnazione in via principale, in mancanza della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> del resistente, comporta l'estinzione del processo (ex plurim<mref><ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2022/142/!main">is, ordinanze n. 142</ref> e n. <ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2022/44/!main">44 del 2022</ref></mref>, n. 51 del 2021 e n. 226 del 2020).
+ Visti l'art. 26, secondo comma, della <ref href="/akn/it/act/legge/stato/1953-03-11/87/!main">legge 11 marzo 1953, n. 87</ref>, e gli artt. 9, comma 2, e 23 delle Norme integrative vigenti ratione temporis.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ dichiara estinto il processo.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-10-19">19 ottobre 2022</date>.
+ F.to:
+ <signature><judge refersTo="#silvanaSciarra" as="#presidente">Silvana SCIARRA</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ Angelo BUSCEMA, Redattore
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-11-17">17 novembre 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

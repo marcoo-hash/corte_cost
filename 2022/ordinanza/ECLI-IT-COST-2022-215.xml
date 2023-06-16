@@ -1,0 +1,142 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="ordinanza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-10-20/215/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-10-20/215"/>
+          <FRBRalias value="ECLI:IT:COST:2022:215" name="ECLI"/>
+          <FRBRdate date="2022-10-20" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="215"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-10-20/215/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-10-20/215/ita@"/>
+          <FRBRdate date="2022-10-20" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-10-20/215/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-10-20/215/ita@.xml"/>
+          <FRBRdate date="2022-10-20" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-10-05" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-10-20" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>manifesta inammissibilità</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="SCIARRA" href="/akn/ontology/person/it/SCIARRA" showAs="SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>215</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:215</akn4cc:ecli>
+        <akn4cc:tipo>O</akn4cc:tipo>
+        <akn4cc:presidente>SCIARRA</akn4cc:presidente>
+        <akn4cc:relatore>Nicolò Zanon</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-10-05</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-10-20</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>manifesta inammissibilità</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>; Giudici : <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI, Marco D'ALBERTI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>ORDINANZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'<ref href="/akn/it/act/legge/stato/1991-11-21/374/!main#art_11__para_4ter">art. 11, comma 4-ter, della legge 21 novembre 1991, n. 374</ref> (Istituzione del giudice di pace), promosso dal Giudice onorario di pace di Catanzaro nel procedimento vertente tra F. P. e il Ministero della giustizia, con ordinanza del 6 aprile 2021, iscritta al n. 116 del registro ordinanze 2021 e pubblicata nella Gazzetta Ufficiale della Repubblica n. 34, prima serie speciale, dell'anno 2021.
+ Visto l'atto di intervento del Presidente del Consiglio dei ministri;
+ udito nella camera di consiglio del 5 ottobre 2022 il Giudice relatore Nicolò Zanon;
+ deliberato nella camera di consiglio del 5 ottobre 2022.
+ Ritenuto che, con ordinanza del 6 aprile 2021 (r.o. n. 116 del 2021), il Giudice onorario di pace di Catanzaro ha sollevato, in riferimento agli <mref><ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_36">artt. 36</ref> e <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_97">97 della Costituzione</ref></mref>, questioni di legittimità costituzionale dell'<ref href="/akn/it/act/legge/stato/1991-11-21/374/!main#art_11__para_4ter">art. 11, comma 4-ter, della legge 21 novembre 1991, n. 374</ref> (Istituzione del giudice di pace), «nella parte in cui stabilisce che la somma di &amp;#8364; 72.000 lordi annui non può essere superata»;
+ che innanzi al rimettente pende un giudizio introdotto da un magistrato onorario che esercita le funzioni di giudice di pace nella sede di Reggio Calabria, il quale avrebbe maturato, per l'attività svolta nel dicembre del 2016, un'indennità mensile pari ad euro 6.347,22, importo però decurtato di euro 2.294,07, in considerazione del superamento del limite annuo massimo di euro 72.000,00 (lordi) previsto dalla disposizione censurata;
+ che il suddetto magistrato onorario ha, quindi, citato in giudizio il Ministero della giustizia, in persona del Ministro pro tempore, chiedendone la condanna al pagamento delle indennità spettanti per venti sentenze «depositate nell'ultima decade del mese di dicembre 2016» e non compensate, oltre interessi e rivalutazione;
+ che, in punto di rilevanza, il rimettente osserva che la disposizione sospettata d'illegittimità costituzionale risulta abrogata d<ref href="/akn/it/act/decretoLegislativo/stato/2017-07-13/116/!main#art_33__para_2">all'art. 33, comma 2, del decreto legislativo 13 luglio 2017, n.</ref> 116 (Riforma organica della magistratura onoraria e altre disposizioni sui giudici di pace, nonché disciplina transitoria relativa ai magistrati onorari in servizio, a norma de<ref href="/akn/it/act/legge/stato/2016-04-28/57/!main">lla legge 28 aprile 2016, n</ref>. 57), solo a decorrere dal 15 agosto 2021, sicché essa, «in ossequio al principio tempus regit actum», dovrebbe ancora trovare applicazione al «fatto dedotto in citazione», che «attiene alla mensilità di Dicembre 2016» e, in particolare, alla mancata corresponsione dell'indennità spettante per «l'attività svolta extrasoglia», consistente in venti sentenze depositate nel mese di dicembre 2016;
+ che, quanto alla non manifesta infondatezza, il giudice a quo ritiene di non poter accedere ad una interpretazione «costituzionalmente orientata, segnatamente nel senso di consentire il pagamento dell'indennità annua eccedente il limite di &amp;#8364; 72.000,00 nel successivo anno solare», in ragione del tenore letterale della disposizione, «che vuole chiaramente porre un tetto ai compensi annui elargiti ai giudici di pace»;
+ che, inf<ref href="/akn/it/act/legge/stato/1991/374/!main#art_11__para_4ter">atti, l'art. 11, comma 4-ter, della legge n. 374 </ref>del 1991 «è stato costantemente interpretato nel senso che lo stesso pone un tetto massimo alle indennità annue percepibili da un giudice di pace», senza però indicare «una soluzione per l'attività svolta da un giudice di pace oltre la suddetta soglia», destinata, dunque, a rimanere «priva di indennità (rectius priva di retribuzione)»;
+ che tale conseguenza contrasterebb<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_36">e con l'art. </ref>36 Cost., in considerazione della natura sostanzialmente retributiva dell'indennità, destinata a compensare «l'attività del giudice di pace (lavoratore) extra-soglia»;
+ che sarebbe così violato il diritto a percepire una retribuzione «proporzionale alla quantità del lavoro svolto», dal momento che «emettere sentenze in nome del popolo italiano» costituirebbe «un lavoro in senso tecnico»;
+ che sarebbe violato, alt<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_97">resì, l'art </ref>97 Cost., «poiché una interpretazione che proponga di procrastinare il deposito delle sentenze extra-soglia al successivo mese di gennaio» si porrebbe in contrasto con il principio del buon andamento dell'amministrazione della giustizia;
+ che, infatti, sarebbe incoerente «censurare l'eccessiva durata del processo civile e [...] richiedere al giudice condotte dilatorie, sol perché si è raggiunto il limite massimo di spesa per l'anno in corso»;
+ che nel giudizio è intervenuto il Presidente del Consiglio dei ministri, rappresentato e difeso dall'Avvocatura generale dello Stato, chiedendo che le questioni siano dichiarate non fondate;
+ che, quanto alla questione sollevata in riferime<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_36">nto all'art. </ref>36 Cost., l'interveniente sostiene che la posizione del giudice di pace non sarebbe equiparabile a quella di un pubblico dipendente né a quella di un lavoratore parasubordinato, in quanto la categoria dei funzionari onorari, della quale fa parte il giudice di pace, presuppone un rapporto di servizio volontario, con attribuzione di funzioni pubbliche, ma senza la presenza degli elementi caratterizzanti l'impiego pubblico, come l'accesso alla carica mediante concorso, l'inserimento nell'apparato amministrativo della pubblica amministrazione, lo svolgimento del rapporto secondo lo statuto apposito per tale impiego, il carattere retributivo del compenso e la durata potenzialmente indeterminata del rapporto (viene citata, a sostegno, Corte di cassazione, sezione lavoro, sentenza 9 settembre 2016, n. 17862);
+ che, quindi, non sarebbe possibile ev<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_36">ocare l'art. </ref>36 Cost. per richiedere interventi di adeguamento retributivo, trattandosi di parametro non applicabile a rapporti diversi dal lavoro subordinato o parasubordinato (viene citata Corte di cassazione, sezione lavoro, sentenza 7 dicembre 2017, n. 29437);
+ che, secondo l'Avvocatura generale, il limite annuale pari ad euro 72.000, comparato con gli stipendi tabellari dei magistrati professionali, sarebbe da considerare, in ogni caso, «proporzionato alla quantità e qualità del lavoro prestato dal Giudice di pace nel suo complesso»;
+ che sarebbe non fondata anche la questione sollevata in riferime<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_97">nto all'art. </ref>97 Cost., in quanto giammai il buon andamento della pubblica amministrazione potrebbe essere inciso dal limite introdotto dalla disposizione censurata, posto che i termini previsti per il compimento delle attività giudiziarie da parte dei giudici onorari sono imposti dalle norme dei codici di rito e non sono collegati alla misura delle indennità percepite.
+ Considerato che il Giudice onorario di pace di Catanzaro solleva, in riferimen<mref><ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_36">to agli </ref>art<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_97">t. 36 e </ref></mref>97 Cost., questioni di legittimità costituziona<ref href="/akn/it/act/legge/stato/1991/374/!main#art_11__para_4ter">le dell'art. 11, comma 4-ter, della legge n. 374 </ref>del 1991, istitutiva del giudice di pace, applicabile ratione temporis, nella parte in cui stabilisce che il compenso spettante a questa categoria di magistrati onorari non può superare la somma di euro 72.000 lordi annui;
+ che, nel giudizio principale, un altro giudice onorario di pace, il quale esercita le funzioni nella sede di Reggio Calabria, ha convenuto in giudizio l'amministrazione della giustizia, chiedendone la condanna al pagamento di una somma pari alla decurtazione dell'indennità spettante per il mese di dicembre 2016, operata d'ufficio in misura tale da ricondurre il complessivo importo annuo al di sotto del limite di 72.000 euro lordi;
+ che, a tal fine, dagli emolumenti maturati per il mese di dicembre 2016 sarebbero state escluse le indennità spettanti per venti sentenze «depositate nell'ultima decade», che resterebbero definitivamente prive di compenso, dal momento che il tenore testuale della disposizione censurata non ne consentirebbe neppure il "recupero" nel successivo anno 2017;
+ che la disposizione sospettata d'illegittimità costituzionale risulta abroga<ref href="/akn/it/act/decretoLegislativo/stato/2017/116/!main#art_33__para_2">ta dall'art. 33, comma 2, del d.lgs. n. 116 </ref>del 2017 a decorrere dal 1° gennaio 2022, termine così fissato, in luogo di quello originario stabilito al 15 agosto 2021, in forza della modifica apporta<ref href="/akn/it/act/decretoLegge/stato/2021-06-09/80/!main#art_17ter__para_1__point_d">ta dall'art. 17-ter, comma 1, lettera d), del decreto-legge 9 giugno 202</ref>1, n. 80, recante «Misure urgenti per il rafforzamento della capacità amministrativa delle pubbliche amministrazioni funzionale all'attuazione del Piano nazionale di ripresa e resilienza (PNRR) e per l'efficienza della giustizia», convertito, con modificazi<ref href="/akn/it/act/legge/stato/2021-08-06/113/!main">oni, in legge 6 agosto 2021</ref>, n. 113;
+ che tale disposizione, dunque, come correttamente evidenziato dal rimettente, trova ancora applicazione nell'ambito del giudizio a quo, avente ad oggetto la pretesa al pagamento di somme maturate nel mese di dicembre dell'anno 2016, ciò che è sufficiente ai fini della rilevanza delle questioni sollevate;
+ che il rimettente, in punto di non manifesta infondatezza, esclusa la possibilità di una interpretazione costituzionalmente orientata, muove dal presupposto che, per effetto della disposizione censurata, l'attività svolta da un giudice di pace oltre la soglia di euro 72.000 è destinata a rimanere «priva di indennità (rectius priva di retribuzione)»;
+ che in ciò risiederebbe, appunto, il contrast<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_36">o con l'art. </ref>36 Cost., in considerazione della natura sostanzialmente retributiva dell'indennità destinata a compensare anche l'attività «extra-soglia» del giudice di pace, dal rimettente considerato come «lavoratore»;
+ che, infatti, per il giudice a quo, «emettere sentenze in nome del popolo italiano» costituirebbe «un lavoro in senso tecnico», sicché la disposizione censurata violerebbe il diritto a percepire una retribuzione «proporzionale alla quantità del lavoro svolto»;
+ che sarebbe violato, alt<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_97">resì, l'art. </ref>97 Cost., e, in particolare, il principio del buon andamento dell'amministrazione presidiato dal secondo comma (in tal senso dovendosi precisare il riferimento al parametro evocato), leso da una previsione normativa che imporrebbe «di procrastinare il deposito delle sentenze extra-soglia al successivo mese di gennaio», in tal modo richiedendo «al giudice condotte dilatorie, sol perché si è raggiunto il limite massimo di spesa per l'anno in corso»;
+ che le questioni sollevate dal Giudice onorario di pace di Catanzaro devono essere dichiarate manifestamente inammissibili;
+ che, quanto alla censura mossa in riferime<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_36">nto all'art. </ref>36 Cost., essa si fonda sulla ritenuta natura retributiva del compenso spettante al giudice onorario di pace, dal rimettente qualificato come «lavoratore» unicamente in forza dell'attività di «emettere sentenze in nome del popolo italiano», che costituirebbe «un lavoro in senso tecnico»;
+ che in tal modo, tuttavia, il giudice a quo non fornisce alcuna reale motivazione sulle ragioni per le quali il compenso spettante ai giudici onorari di pace deve essere considerato come avente carattere retributivo;
+ che, infatti, il rimettente si astiene da qualsiasi confronto con le norme applicabili ratione temporis e, in particolare, con quelle dettate dalle altre disposizioni del m<ref href="/akn/it/act/legge/stato/1991/374/!main#art_11">edesimo art. 11 della legge n. 374 </ref>del 1991, secondo cui «[l]'ufficio del giudice di pace è onorario» (comma 1) e i compensi spettanti per l'attività svolta costituiscono non emolumenti di natura retributiva, bensì «indennità» (così, espressamente, i commi 2, 3, 3-bis, 3-ter, 4, 4-bis e 4-ter) corrisposte per l'esercizio di funzioni, appunto, onorarie (sul carattere onorario delle funzioni, ancora da <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/41/!main">ultimo, sentenze n. 41 </ref>del 2021 e n. 267 del 2020);
+ che il rimettente, del resto, neppure si è premurato di argomentare le proprie censure alla luce dell'evoluzione della giurisprudenza della Corte di giustizia dell'Unione europea (con particolare riferimen<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2020-07-06/1/!main">to alla sentenza 16 lug</ref>lio 2020, in causa C-658/18, UX, alla quale questa Corte ha fatto cenno nella<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2020/267/!main"> citata sentenza n. 267 </ref>del 2020), secondo cui, per il diritto europeo, «un giudice di pace che, nell'ambito delle sue funzioni, svolge prestazioni reali ed effettive, che non sono né puramente marginali né accessorie, e per le quali percepisce indennità aventi carattere remunerativo, può rientrare nella nozione di "lavoratore" [...], circostanza che spetta al giudice del rinvio verificare»;
+ che, in disparte, in questa sede, ogni valutazione sugli effetti nell'ordinamento interno di una tale statuizione, è sufficiente osservare come il giudice a quo non abbia in alcun modo adempiuto all'onere di verificare la sussistenza di quelle necessarie condizioni alle quali la stessa giurisprudenza europea vincola il riconoscimento, caso per caso, di un rapporto di lavoro subordinato alla luce del diritto europeo (nell'interpretazione fornita dalla Corte di giustizia), del resto dal rimettente neppure invocato per il tramite dell'art. 117, primo comma, Cost.
+ che, di conseguenza, per il modo in cui la questione è stata impostata dal rimettente, continua a essere fondata la presunzione di non conferenza dell'evocazione del principio enuncia<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_36">to nell'art. </ref>36 Cost., come da risalente giurisprudenza di questa<ref href="/akn/it/judgment/sentenza/corteCostituzionale/1971/70/!main"> Corte (sentenza n. 70 </ref>del 1971), con conseguente manifesta inammissibilità della questione sollevata in riferimento ad esso;
+ che analoga sorte va riservata alla censura fondata sul prospettato contrasto con l'art. 97, secondo comma, Cost., dal momento che, nella giurisprudenza costituzionale, è costante l'affermazione che il principio di buon andamento, «pur essendo riferibile agli organi dell'amministrazione della giustizia, attiene esclusivamente alle leggi concernenti l'ordinamento degli uffici giudiziari ed il loro funzionamento sotto l'aspetto amministrativo; mentre tale principio è estraneo all'esercizio della funzione giurisdizi<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2019/14/!main">onale» (sentenza n. 14 </ref>del 2019; nello stess<ref href="/akn/it/judgment/sentenza/corteCostituzionale/2020/80/!main">o senso sentenze n. 80 </ref>del 2020, n. 90 del 2019, n. 91 del 2018 e n. 44 del 2016), funzione che viene in rilievo nella questione sollevata dal giudice a quo.
+ Visti gli artt. 26, secondo comma<ref href="/akn/it/act/legge/stato/1953-03-11/87/!main">, della legge 11 marzo 195</ref>3, n. 87, e 9, comma 1, delle Norme integrative per i giudizi davanti alla Corte costituzionale, quest'ultimo nel testo vigente ratione temporis.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ dichiara la manifesta inammissibilità delle questioni di legittimità costituzionale dell'<ref href="/akn/it/act/legge/stato/1991-11-21/374/!main#art_11__para_4ter">art. 11, comma 4-ter, della legge 21 novembre 1991, n. 374</ref> (Istituzione del giudice di pace), sollevate, in riferimento agli artt. 36 e 97, secondo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, dal Giudice onorario di pace di Catanzaro con l'ordinanza indicata in epigrafe.</block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede dalla Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-10-05">5 ottobre 2022</date>.
+ F.to:
+ <signature><judge refersTo="#silvanaSciarra" as="#presidente">Silvana SCIARRA</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ <signature><judge refersTo="#nicolòZanon" as="#relatore">Nicolò ZANON</judge>, <role refersTo="#relatore">Redattore</role></signature>
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-10-20">20 ottobre 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

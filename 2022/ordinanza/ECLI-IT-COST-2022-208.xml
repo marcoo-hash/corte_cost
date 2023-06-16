@@ -1,0 +1,132 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="ordinanza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-10-06/208/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-10-06/208"/>
+          <FRBRalias value="ECLI:IT:COST:2022:208" name="ECLI"/>
+          <FRBRdate date="2022-10-06" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="208"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-10-06/208/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-10-06/208/ita@"/>
+          <FRBRdate date="2022-10-06" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-10-06/208/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-10-06/208/ita@.xml"/>
+          <FRBRdate date="2022-10-06" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-09-12" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-10-06" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>ammissibile</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO SULL'AMMISSIBILITÀ DI RICORSO PER CONFLITTO DI ATTRIBUZIONE TRA POTERI DELLO STATO</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="SCIARRA" href="/akn/ontology/person/it/SCIARRA" showAs="SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>208</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:208</akn4cc:ecli>
+        <akn4cc:tipo>O</akn4cc:tipo>
+        <akn4cc:presidente>SCIARRA</akn4cc:presidente>
+        <akn4cc:relatore>Franco Modugno</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-09-12</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-10-06</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO SULL'AMMISSIBILITÀ DI RICORSO PER CONFLITTO DI ATTRIBUZIONE TRA POTERI DELLO STATO</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>ammissibile</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>; Giudici : <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>ORDINANZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio per conflitto di attribuzione tra poteri dello Stato, sorto a seguito della deliberazione della Camera dei deputati del 12 gennaio 2022 (doc. IV, n. 10-A), che ha negato l'autorizzazione all'utilizzo di captazioni informatiche nell'ambito del giudizio davanti alla sezione disciplinare del Consiglio superiore della magistratura, R.G. n. 93/2019, nei confronti dell'onorevole Cosimo Maria Ferri, promosso dalla medesima Sezione con ordinanza-ricorso depositata in cancelleria il 23 marzo 2022 ed iscritta al n. 8 del registro conflitti tra poteri dello Stato 2022, fase di ammissibilità.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>Udito nella camera di consiglio del 12 settembre 2022 il Giudice relatore Franco Modugno;
+ deliberato nella camera di consiglio del 12 settembre 2022.
+ Ritenuto che, con ordinanza-ricorso del 23 marzo 2022, depositata nella cancelleria di questa Corte in pari data, la sezione disciplinare del Consiglio superiore della magistratura ha promosso conflitto di attribuzione tra poteri dello Stato, in riferimento alla deliberazione del 12 gennaio 2022 (doc. IV, n. 10-A), con la quale la Camera dei deputati, ai sensi dell'art. 68, terzo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, ha negato l'autorizzazione - richiesta ai sensi dell'<ref href="/akn/it/act/legge/stato/2003-06-20/140/!main#art_6__para_2">art. 6, comma 2, della legge 20 giugno 2003, n. 140</ref> (Disposizioni per l'attuazione dell'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_68">articolo 68 della Costituzione</ref> nonché in materia di processi penali nei confronti delle alte cariche dello Stato) - all'utilizzo delle captazioni informatiche nei confronti del deputato Cosimo Maria Ferri;
+ che, come riportato dalla ricorrente, nell'ambito del procedimento disciplinare promosso nei confronti dell'onorevole Ferri, magistrato collocato fuori ruolo organico della magistratura, in aspettativa in quanto deputato della Repubblica, è stata richiesta l'autorizzazione all'utilizzo delle captazioni informatiche dei giorni 9, 21, 28 e 29 maggio 2019, acquisite nell'ambito delle indagini penali a carico del dott. Luca Palamara;
+ che la Sezione disciplinare ha fondato tale richiesta sul carattere casuale o fortuito delle suddette captazioni, dovendo la natura indiretta delle stesse essere esclusa dalla circostanza che l'onorevole Ferri non sia mai entrato nel perimetro delle indagini penali;
+ che la Camera dei deputati ha negato, tuttavia, l'autorizzazione, con la deliberazione qui contestata del 12 gennaio del 2022, con la quale l'Assemblea ha recepito la proposta della Giunta per le autorizzazioni, secondo cui gli inquirenti, ponendo sotto controllo l'utenza del dott. Palamara, avrebbero inteso sottoporre ad intercettazione anche l'onorevole Ferri e, non avendo chiesto ed ottenuto la previa autorizzazione della Camera di appartenenza, avrebbero, così, violato l'art. 68, terzo comma, Cost.;
+ che, ad avviso della Sezione disciplinare, la Camera dei deputati avrebbe erroneamente qualificato le captazioni come aventi natura indiretta, così esorbitando dal perimetro delle valutazioni ad essa spettanti;
+ che, infatti, la Camera dei deputati avrebbe reinterpretato il compendio probatorio trasmesso dalla ricorrente, in contrasto con gli elementi di fatto emergenti dagli atti, sull'assunto, non suffragato da alcun elemento di fatto, secondo cui l'onorevole Ferri sarebbe stato sin da principio «nel mirino delle indagini»;
+ che, così sostiene la ricorrente, la Camera dei deputati sembrerebbe aver valutato le captazioni come se queste fossero state effettuate all'interno del procedimento disciplinare o, comunque sia, in vista del promovimento di un'azione disciplinare nei confronti dell'incolpato;
+ che la decisione della Camera dei deputati, riconoscendo la natura indiretta e non casuale delle captazioni, avrebbe, pertanto, illegittimamente interferito sull'esercizio dell'attribuzione costituzionale della ricorrente, relativa all'adozione dei provvedimenti disciplinari nei confronti dei magistrati;
+ che, da ultimo, la Sezione disciplinare - richiamando la <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2002/270/!main">sentenza n. 270 del 2002</ref> di questa Corte - ritiene sussistente la sua legittimazione a sollevare conflitto di attribuzione, in quanto organo in posizione di indipendenza costituzionale, competente a dichiarare definitivamente la volontà del potere cui appartiene e le cui determinazioni costituirebbero definitiva espressione della potestà disciplinare attribuita dalla <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>;
+ che dovrebbe, altresì, riconoscersi la legittimazione della Camera dei deputati ad essere parte del conflitto, in quanto anch'essa sarebbe organo competente a dichiarare in modo definitivo la propria volontà in ordine all'art. 68, terzo comma, Cost.
+ Considerato che, con ordinanza-ricorso del 23 marzo 2022, depositata in pari data, la sezione disciplinare del Consiglio superiore della magistratura ha promosso conflitto di attribuzione tra poteri dello Stato, in riferimento alla deliberazione del 12 gennaio 2022, con la quale la Camera dei deputati, ai sensi dell'art. 68, terzo comma, Cost., ha negato l'autorizzazione - richiesta ai sensi dell'<ref href="/akn/it/act/legge/stato/2003/140/!main#art_6__para_2">art. 6, comma 2, della legge n. 140 del 2003</ref> - all'utilizzo delle captazioni informatiche nei confronti del deputato Cosimo Maria Ferri;
+ che, a parere della Sezione disciplinare, la Camera di appartenenza avrebbe esercitato illegittimamente le proprie attribuzioni, così interferendo sull'esercizio delle funzioni costituzionalmente riconosciute alla ricorrente;
+ che, in questa fase del giudizio, questa Corte è chiamata a deliberare, in camera di consiglio e senza contraddittorio, in ordine alla sussistenza dei requisiti soggettivo e oggettivo prescritti dall'art. 37, primo comma, della <ref href="/akn/it/act/legge/stato/1953-03-11/87/!main">legge 11 marzo 1953, n. 87</ref> (Norme sulla <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> e sul funzionamento della Corte costituzionale), ossia a decidere se il conflitto insorga tra organi competenti a dichiarare definitivamente la volontà del potere cui appartengono e per la delimitazione della sfera di attribuzioni determinata per i vari poteri da norme costituzionali, restando impregiudicata ogni ulteriore questione, anche in punto di ammissibilità;
+ che, sotto il profilo del requisito soggettivo, va riconosciuta la legittimazione attiva della sezione disciplinare del Consiglio superiore della magistratura, poiché essa, in sede di giudizio sulle incolpazioni mosse ai magistrati, è competente a dichiarare, in posizione di indipendenza e definitivamente, la volontà del potere cui appartiene;
+ che, parimente, deve essere riconosciuta la legittimazione passiva della Camera dei deputati a essere parte del presente conflitto, quale organo competente a dichiarare in modo definitivo la propria volontà in ordine all'applicazione dell'art. 68, terzo comma, Cost.;
+ che, quanto al profilo oggettivo, sussiste la materia del conflitto, dal momento che la ricorrente lamenta la lesione della propria sfera di attribuzioni costituzionalmente garantita da parte della impugnata deliberazione della Camera dei deputati;
+ che, in definitiva, sussistono i requisiti di un conflitto di attribuzione tra poteri dello Stato, la cui risoluzione spetta alla competenza di questa Corte.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ 1) dichiara ammissibile, ai sensi dell'<ref href="/akn/it/act/legge/stato/1953-03-11/87/!main#art_37">art. 37 della legge 11 marzo 1953, n. 87</ref> (Norme sulla <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> e sul funzionamento della Corte costituzionale), il conflitto di attribuzione tra poteri dello Stato indicato in epigrafe, promosso dalla sezione disciplinare del Consiglio superiore della magistratura, nei confronti della Camera dei deputati;
+ 2) dispone:
+ a) che la Cancelleria di questa Corte dia immediata comunicazione della presente ordinanza alla predetta Sezione disciplinare;
+ b) che il ricorso e la presente ordinanza siano, a cura della ricorrente, notificati alla Camera dei deputati, in persona del suo Presidente, entro il termine di sessanta giorni dalla comunicazione di cui al punto a), per essere successivamente depositati, con la prova dell'avvenuta notifica, nella cancelleria di questa Corte entro il termine di trenta giorni previsto dall'art. 26, comma 3, delle Norme integrative per i giudizi davanti alla Corte costituzionale.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-09-12">12 settembre 2022</date>.
+ F.to:
+ <signature><judge refersTo="#silvanaSciarra" as="#presidente">Silvana SCIARRA</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ <signature><judge refersTo="#francoModugno" as="#relatore">Franco MODUGNO</judge>, <role refersTo="#relatore">Redattore</role></signature>
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-10-06">6 ottobre 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

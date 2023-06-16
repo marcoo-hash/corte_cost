@@ -1,0 +1,137 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="ordinanza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-11-17/231/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-11-17/231"/>
+          <FRBRalias value="ECLI:IT:COST:2022:231" name="ECLI"/>
+          <FRBRdate date="2022-11-17" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="231"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-11-17/231/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-11-17/231/ita@"/>
+          <FRBRdate date="2022-11-17" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-11-17/231/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-11-17/231/ita@.xml"/>
+          <FRBRdate date="2022-11-17" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-10-19" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-11-17" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>restituzione atti - jus superveniens</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="SCIARRA" href="/akn/ontology/person/it/SCIARRA" showAs="SCIARRA"/>
+        <TLCPerson eId="mariaRosariaSanGiorgio" href="/akn/ontology/person/it/mariaRosariaSanGiorgio" showAs="Maria Rosaria San Giorgio"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="robertoMilana" href="/akn/ontology/person/it/robertoMilana" showAs="Roberto MILANA"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>231</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:231</akn4cc:ecli>
+        <akn4cc:tipo>O</akn4cc:tipo>
+        <akn4cc:presidente>SCIARRA</akn4cc:presidente>
+        <akn4cc:relatore>Maria Rosaria San Giorgio</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-10-19</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-11-17</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>restituzione atti - jus superveniens</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>; Giudici : <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI, Marco D'ALBERTI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>ORDINANZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'art. 4 della legge della Regione Molise 31 dicembre 2004, n. 38 (Istituzione dell'imposta regionale sulla benzina per autotrazione a decorrere dal 1° gennaio 2005), come modificato dall'art. 5, comma 1, della legge della Regione Molise 30 gennaio 2018, n. 2 (Legge di stabilità regionale 2018), promosso dalla Commissione tributaria provinciale di Campobasso nel procedimento vertente tra P. P. e l'Agenzia delle dogane e dei monopoli - Ufficio delle dogane di Campobasso e tra SO.PE.A. - Società petroli Abruzzo di P. P.  &amp; C. sas e l'Agenzia delle dogane e dei monopoli - Ufficio delle dogane di Campobasso, con ordinanza del 6 dicembre 2019, iscritta al n. 93 del registro ordinanze 2021 e pubblicata nella Gazzetta Ufficiale della Repubblica n. 26, prima serie speciale, dell'anno 2021.
+ Udito nella camera di consiglio del 19 ottobre 2022 il Giudice relatore Maria Rosaria San Giorgio;
+ deliberato nella camera di consiglio del 19 ottobre 2022.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>Ritenuto che, con ordinanza del 6 dicembre 2019, iscritta al n. 93 del registro ordinanze del 2021, la Commissione tributaria provinciale di Campobasso ha sollevato questioni di legittimità costituzionale dell'art. 4 della legge della Regione Molise 31 dicembre 2004, n. 38 (Istituzione dell'imposta regionale sulla benzina per autotrazione a decorrere dal 1° gennaio 2005), come modificato dall'art. 5, comma 1, della legge della Regione Molise 30 gennaio 2018, n. 2 (Legge di stabilità regionale 2018), che sanziona l'omesso, insufficiente o tardivo versamento dell'imposta regionale sulla benzina per autotrazione, denunziandone il contrasto con l'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_3">art. 3 della Costituzione</ref>;
+ che il giudice a quo riferisce di essere investito dei ricorsi presentati da  SO.PE.A. - Società petroli Abruzzo di P. P. &amp; C. sas e da P. P. quale socia accomandataria della stessa nei confronti dell'Agenzia delle dogane e dei monopoli - Ufficio delle dogane di Campobasso, per l'annullamento del provvedimento del 14 dicembre 2018, con il quale l'amministrazione resistente aveva irrogato alle ricorrenti la sanzione per il ritardato versamento dell'imposta regionale sulla benzina per autotrazione, prevista dalla disposizione censurata;
+  che il rimettente espone che, a sostegno delle impugnazioni, le ricorrenti hanno dedotto l'illegittimità costituzionale di tale disposizione regionale, nella parte in cui prevede la medesima sanzione pecuniaria per l'omesso assolvimento dell'imposta e per il suo tardivo versamento e applica interessi di mora in misura fissa e non proporzionata alla durata del ritardo nell'adempimento;
+ che lo stesso giudice a quo riferisce che le parti private hanno lamentato altresì il contrasto della norma censurata con l'art. 6, comma 1, lettera c), della legge delega 14 giugno 1990, n. 158 (Norme di delega in materia di autonomia impositiva delle regioni e altre disposizioni concernenti i rapporti finanziari tra lo Stato e le regioni), con <mref><ref href="/akn/it/act/decretoLegislativo/stato/1990-12-21/398/!main#art_17">gli artt</ref>. <ref href="/akn/it/act/decretoLegislativo/stato/1990-12-21/398/!main#art_18">17</ref>, 1<ref href="/akn/it/act/decretoLegislativo/stato/1990-12-21/398/!main#art_19">8 e 19 del decreto legislativo 21 dicembre 1990, n.</ref></mref> 398 (Istituzione e disciplina dell'addizionale regionale all'imposta erariale di trascrizione di cui a<ref href="/akn/it/act/legge/stato/1977-12-23/952/!main">lla legge 23 dicembre 1977, n.</ref> 952 e successive modificazioni, dell'addizionale regionale all'accisa sul gas naturale e per le utenze esenti, di un'imposta sostitutiva dell'addizionale, e la previsione della facoltà delle regioni a statuto ordinario di istituire un'imposta regionale sulla benzina per autotrazione) e co<ref href="/akn/it/act/legge/stato/1995-12-28/549/!main#art_3__para_13">n l'art. 3, comma 13, della legge 28 dicembre 1995, n.</ref> 549 (Misure di razionalizzazione della finanza pubblica);
+ che, secondo le ricorrenti, la normativa statale ha attribuito al legislatore regionale la facoltà di introdurre una sanzione pecuniaria per la sola ipotesi di evasione del tributo, mentre, per il caso del ritardato versamento, ha previsto esclusivamente l'applicazione dell'indennità di mora e degli interessi;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>che, sulla scorta di tali deduzioni, le parti private hanno sollecitato la CTP rimettente a disapplicare la norma sanzionatoria regionale all'esito di una interpretazione costituzionalmente orientata della stessa, ovvero a verificarne la legittimità costituzionale e, se del caso, sollevare la relativa questione innanzi a questa Corte;
+ che il rimettente espone che nel giudizio a quo si è costituita l'Agenzia delle dogane e dei monopoli - Direzione interregionale per la Puglia, il Molise e la Basilicata - Ufficio delle dogane di Campobasso, sostenendo la legittimità del provvedimento emesso e chiedendo, in via subordinata, rideterminarsi la sanzione con esso irrogata secondo il principio di proporzionalità, così come enunciato dalla Corte di giustizia dell'Unione europea;
+ che, ad avviso del giudice a quo, la disapplicazione dell'art. 4 della legge reg. Molise n. 38 del 2004, auspicata dalle ricorrenti, sarebbe impraticabile in quanto lederebbe le prerogative della Regione, e potrebbe condurre a "un conflitto di attribuzione tra poteri dello Stato";
+ che la stessa rideterminazione della sanzione secondo un criterio di graduazione che tenga conto del principio di proporzionalità, richiesta in via subordinata dall'amministrazione finanziaria, si tradurrebbe in una disapplicazione della norma in scrutinio, comportando una indebita sostituzione del giudice al legislatore regionale;
+ che, nondimeno, a giudizio del rimettente, una decisione di rigetto confermerebbe una sanzione ingiusta, perché applicata in misura uguale in situazioni diverse, connotate da differente gravità, anche sotto il profilo del danno erariale prodotto;
+ che, infatti, la norma sanzionatoria regionale, per un verso, violerebbe «i criteri fissati dalla legge delega e da quelle applicative» e, per l'altro, si porrebbe in contrasto con i principi di uguaglianza e di proporzionalità per la «irragionevole equiparazione, ai fini del trattamento sanzionatorio, di situazioni tra loro diseguali», (è richiamata la sentenza di questa Corte n. 144 del 2005), oltre che per l'assenza di proporzione degli interessi moratori rispetto alla durata del ritardo.
+ Considerato che l'art. 4 della legge reg. Molise n. 38 del 2004, nella formulazione vigente al momento del deposito dell'ordinanza di rimessione, al comma 3 prevede che, in caso di omesso, insufficiente o tardivo versamento dell'imposta regionale sulla benzina per autotrazione entro il termine, previsto dal comma 1, del «giorno quindici del mese successivo a quello di riferimento», «si applica la sanzione amministrativa del 50 per cento calcolata sull'importo non versato o tardivamente versato e gli interessi moratori, nella misura fissata per l'interesse legale, a decorrere dal giorno in cui l'imposta è dovuta alla Regione Molise», salva l'applicazione dell'istituto del ravvedimento di cui all'<ref href="/akn/it/act/decretoLegislativo/stato/1997-12-18/472/!main#art_13">art. 13 del decreto legislativo 18 dicembre 1997, n. 472</ref> (Disposizioni generali in materia di sanzioni amministrative per le violazioni di norme tributarie, a norma dell'<ref href="/akn/it/act/legge/stato/1996-12-23/662/!main#art_3__para_133">articolo 3, comma 133, della legge 23 dicembre 1996, n. 662</ref>), nonché dell'art. 7 dello stesso decreto legislativo;
+ che la legge regionale in cui è inserita la norma sanzionatoria censurata è stata emanata in attuazione delle disposizioni statali istitutive del tributo regionale in questione e, segnatamente, dell'art. 6, comma 1, lettera c), della legge delega n. 158 del 1990 e degli <mref><ref href="/akn/it/act/decretoLegislativo/stato/1990/398/!main#art_17">artt. 17</ref>, <ref href="/akn/it/act/decretoLegislativo/stato/1990/398/!main#art_18">18</ref> e <ref href="/akn/it/act/decretoLegislativo/stato/1990/398/!main#art_19">19 del d.lgs. n. 398 del 1990</ref></mref>;
+ che, successivamente al deposito dell'ordinanza di rimessione, tanto le disposizioni di legge statale recanti norme sull'imposta in esame, quanto la legge regionale sospettata di illegittimità costituzionale, sono state abrogate;
+ che, in particolare, la <ref href="/akn/it/act/legge/stato/2020-12-30/178/!main">legge 30 dicembre 2020, n. 178</ref> (Bilancio di previsione dello Stato per l'anno finanziario 2021 e bilancio per il triennio 2021-2023), all'art. 1, comma 628, ha stabilito che l'<ref href="/akn/it/act/legge/stato/1990/158/!main#art_6__para_1__point_c">art. 6, comma 1, lettera c), della legge n. 158 del 1990</ref>, l'<ref href="/akn/it/act/decretoLegislativo/stato/1990/398/!main#art_17">art. 17 del d.lgs. n. 398 del 1990</ref> e l'<ref href="/akn/it/act/legge/stato/1995/549/!main#art_13__para_3">art. 13, comma 3, della legge n. 549 del 1995</ref>, insieme ad altre previsioni di fonti legislative statali recanti disposizioni sull'imposta regionale sulla benzina per autotrazione, «sono abrogati»;
+ che la legge regionale contenente la norma censurata è stata abrogata dall'art. 6, comma 6, della legge della Regione Molise 30 dicembre 2020, n. 20 (Assestamento del bilancio di previsione 2020-2022 e modifiche a leggi regionali);
+ che nella <ref href="/akn/it/act/legge/stato/2020/178/!main">legge n. 178 del 2020</ref> è contenuta una norma transitoria che fa salvi «gli effetti delle obbligazioni tributarie già insorte» (art. 1, comma 628) e una disciplina transitoria si rinviene anche nell'art. 6, comma 6, della legge reg. Molise n. 20 del 2020, a mente del quale «[a] far data dal 1° gennaio del 2021, è abrogata la legge regionale 31 dicembre 2004, n. 38 (Istituzione dell'imposta regionale sulla benzina per autotrazione a decorrere dal 1° gennaio 2005)»;
+ che il regime abrogativo e transitorio introdotto dalla nuova disciplina investe in modo significativo il quadro normativo in cui si inserisce la disposizione sanzionatoria censurata;
+ che spetta al rimettente la valutazione della incidenza delle illustrate modifiche legislative sulla fattispecie oggetto del giudizio a quo (ex mult<ref href="/akn/it/judgment/ordinanza/corteCostituzionale/2020/185/!main">is, ordinanze n. 185 del 2020</ref>, n. 182 del 2019 e n. 154 del 2018);
+ che, pertanto, deve essere disposta la restituzione degli atti alla Commissione tributaria provinciale di Campobasso per un nuovo apprezzamento della rilevanza e della non manifesta infondatezza delle questioni, alla luce del mutato quadro normativo determinatosi per effetto dello ius superveniens di cui alla <ref href="/akn/it/act/legge/stato/2020/178/!main">legge n. 178 del 2020</ref> e alla legge reg. Molise n. 20 del 2020.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ ordina la restituzione degli atti alla Commissione tributaria provinciale di Campobasso.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-10-19">19 ottobre 2022</date>.
+ F.to:
+ <signature><judge refersTo="#silvanaSciarra" as="#presidente">Silvana SCIARRA</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ Maria Rosaria SAN GIORGIO, Redattore
+ <signature><person refersTo="#robertoMilana" as="#cancelliere">Roberto MILANA</person>, <role refersTo="#cancelliere">Direttore della Cancelleria</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-11-17">17 novembre 2022</date>.
+ Il Direttore della Cancelleria
+ F.to: Roberto MILANA</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

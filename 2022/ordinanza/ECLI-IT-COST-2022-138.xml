@@ -1,0 +1,191 @@
+<akomaNtoso xmlns:akn4cc="http://cortecostituzionale.it/metadata" xmlns:akn4coa="http://corteconti.it/akn4coa" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="ordinanza">
+    <meta>
+      <identification source="#cirsfidUnibo">
+        <FRBRWork>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-06-03/138/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-06-03/138"/>
+          <FRBRalias value="ECLI:IT:COST:2022:138" name="ECLI"/>
+          <FRBRdate date="2022-06-03" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#author"/>
+          <FRBRcountry value="it"/>
+          <FRBRnumber value="138"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-06-03/138/ita@/!main"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-06-03/138/ita@"/>
+          <FRBRdate date="2022-06-03" name="Date"/>
+          <FRBRauthor href="#corteCostituzionale" as="#editor"/>
+          <FRBRlanguage language="ita"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-06-03/138/ita@/!main.xml"/>
+          <FRBRuri value="/akn/it/judgment/ordinanza/corteCostituzionale/2022-06-03/138/ita@.xml"/>
+          <FRBRdate date="2022-06-03" name="Date"/>
+          <FRBRauthor href="#cirsfidUnibo" as="#editor"/>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#corteCostituzionale">
+        <step date="2022-05-10" by="corteCostituzionale" refersTo="#decisionEvent"/>
+        <step date="2022-06-03" by="corteCostituzionale" refersTo="#publicationEvent"/>
+      </workflow>
+      <analysis source="#cirsfidUnibo">
+        <otherAnalysis source="#corteCostituzionale">
+          <akn4cc:dispositivo>manifesta inammissibilità</akn4cc:dispositivo>
+          <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        </otherAnalysis>
+      </analysis>
+      <references source="#cirsfidUnibo">
+        <TLCOrganization eId="cirsfidUnibo" href="/akn/ontology/organization/it/cirsfidUnibo" showAs="CIRSFID"/>
+        <TLCOrganization eId="corteCostituzionale" href="/akn/ontology/organizations/it/corteCostituzionale" showAs="Corte Costituzionale"/>
+        <TLCPerson eId="AMATO" href="/akn/ontology/person/it/AMATO" showAs="AMATO"/>
+        <TLCPerson eId="silvanaSciarra" href="/akn/ontology/person/it/silvanaSciarra" showAs="Silvana SCIARRA"/>
+        <TLCPerson eId="dariaDePretis" href="/akn/ontology/person/it/dariaDePretis" showAs="Daria de PRETIS"/>
+        <TLCPerson eId="nicolòZanon" href="/akn/ontology/person/it/nicolòZanon" showAs="Nicolò ZANON"/>
+        <TLCPerson eId="francoModugno" href="/akn/ontology/person/it/francoModugno" showAs="Franco MODUGNO"/>
+        <TLCPerson eId="augustoAntonioBarbera" href="/akn/ontology/person/it/augustoAntonioBarbera" showAs="Augusto Antonio BARBERA"/>
+        <TLCPerson eId="giulioProsperetti" href="/akn/ontology/person/it/giulioProsperetti" showAs="Giulio PROSPERETTI"/>
+        <TLCPerson eId="francescoViganò" href="/akn/ontology/person/it/francescoViganò" showAs="Francesco VIGANÒ"/>
+        <TLCPerson eId="lucaAntonini" href="/akn/ontology/person/it/lucaAntonini" showAs="Luca ANTONINI"/>
+        <TLCPerson eId="giulianoAmato" href="/akn/ontology/person/it/giulianoAmato" showAs="Giuliano AMATO"/>
+        <TLCPerson eId="giovanniAmoroso" href="/akn/ontology/person/it/giovanniAmoroso" showAs="Giovanni AMOROSO"/>
+        <TLCPerson eId="BERNARDINI" href="/akn/ontology/person/it/BERNARDINI" showAs="BERNARDINI"/>
+        <TLCRole eId="editor" href="/akn/ontology/role/it/editor" showAs="Editor of the Document"/>
+        <TLCRole eId="author" href="/akn/ontology/role/it/author" showAs="Author of the Document"/>
+        <TLCRole eId="presidenteCollegio" href="/akn/ontology/role/it/presidenteCollegio" showAs="Presidente del Collegio"/>
+        <TLCRole eId="relatore" href="/akn/ontology/role/it/relatore" showAs="Relatore"/>
+        <TLCRole eId="cancelliere" href="/akn/ontology/role/it/relatore" showAs="Cancelliere"/>
+      </references>
+      <proprietary source="#cirsfidUnibo">
+        <akn4cc:anno>2022</akn4cc:anno>
+        <akn4cc:numero>138</akn4cc:numero>
+        <akn4cc:ecli>ECLI:IT:COST:2022:138</akn4cc:ecli>
+        <akn4cc:tipo>O</akn4cc:tipo>
+        <akn4cc:presidente>AMATO</akn4cc:presidente>
+        <akn4cc:relatore>Giovanni Amoroso</akn4cc:relatore>
+        <akn4cc:data_decisione>2022-05-10</akn4cc:data_decisione>
+        <akn4cc:data_deposito>2022-06-03</akn4cc:data_deposito>
+        <akn4cc:tipo_procedimento>GIUDIZIO DI LEGITTIMITÀ COSTITUZIONALE IN VIA INCIDENTALE</akn4cc:tipo_procedimento>
+        <akn4cc:dispositivo>manifesta inammissibilità</akn4cc:dispositivo>
+        <akn4cc:parser_version>0.0.4</akn4cc:parser_version>
+      </proprietary>
+    </meta>
+    <header>
+      <block name="collegio"><courtType refersTo="#corteCostituzionale">LA CORTE COSTITUZIONALE</courtType>
+composta dai signori:
+ Presidente: <judge refersTo="#giulianoAmato">Giuliano AMATO</judge>; Giudici : <judge refersTo="#silvanaSciarra">Silvana SCIARRA</judge>, <judge refersTo="#dariaDePretis">Daria de PRETIS</judge>, <judge refersTo="#nicolòZanon">Nicolò ZANON</judge>, <judge refersTo="#francoModugno">Franco MODUGNO</judge>, <judge refersTo="#augustoAntonioBarbera">Augusto Antonio BARBERA</judge>, <judge refersTo="#giulioProsperetti">Giulio PROSPERETTI</judge>, <judge refersTo="#giovanniAmoroso">Giovanni AMOROSO</judge>, <judge refersTo="#francescoViganò">Francesco VIGANÒ</judge>, <judge refersTo="#lucaAntonini">Luca ANTONINI</judge>, Stefano PETITTI, Angelo BUSCEMA, Emanuela NAVARRETTA, Maria Rosaria SAN GIORGIO, Filippo PATRONI GRIFFI,</block>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>ha pronunciato la seguente</p>
+        <p>
+          <docType>ORDINANZA</docType>
+        </p>
+        <paragraph>
+          <content>
+            <p>nel giudizio di legittimità costituzionale dell'<mref><ref href="/akn/it/act/legge/stato/2012-06-28/92/!main#art_2__para_60">art. 2, commi 60</ref> e <ref href="/akn/it/act/legge/stato/2012-06-28/92/!main#art_2__para_61">61, della legge 28 giugno 2012, n. 92</ref></mref> (Disposizioni in materia di riforma del mercato del lavoro in una prospettiva di crescita), promosso dalla Corte d'appello di Venezia, sezione lavoro, nel procedimento tra l'Istituto nazionale della previdenza sociale (INPS) e G. A., con ordinanza del 6 marzo 2021, iscritta al n. 91 del registro ordinanze 2021 e pubblicata nella Gazzetta Ufficiale della Repubblica n. 25, prima serie speciale, dell'anno 2021.
+ Visto l'atto di <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> dell'INPS;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>udito nell'udienza pubblica del 10 maggio 2022 il Giudice relatore Giovanni Amoroso;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>uditi gli avvocati Patrizia Ciacci e Manuela Massa per l'INPS;
+ deliberato nella camera di consiglio del 10 maggio 2022.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>Ritenuto che, con ordinanza del 6 marzo 2021, la Corte d'appello di Venezia, sezione lavoro, ha sollevato questioni di legittimità costituzionale, in riferimento agli artt. 25 e 117, primo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, quest'ultimo in relazione all'art. 7 della Convenzione per la salvaguardia dei diritti dell'uomo e delle libertà fondamentali (CEDU), firmata a Roma il 4 novembre 1950, ratificata e resa esecutiva con la <ref href="/akn/it/act/legge/stato/1955-08-04/848/!main">legge 4 agosto 1955, n. 848</ref>, dell'<mref><ref href="/akn/it/act/legge/stato/2012-06-28/92/!main#art_2__para_60">art. 2, commi 60</ref> e <ref href="/akn/it/act/legge/stato/2012-06-28/92/!main#art_2__para_61">61, della legge 28 giugno 2012, n. 92</ref></mref> (Disposizioni in materia di riforma del mercato del lavoro in una prospettiva di crescita), nella parte in cui prevede la revoca delle prestazioni previdenziali o assistenziali «comunque denominate in base alla legislazione vigente, di cui il condannato sia eventualmente titolare: indennità di disoccupazione, assegno sociale, pensione sociale e pensione per gli invalidi civili» nei confronti dei «soggetti già condannati con sentenza passata in giudicato per i reati di cui al comma 58 [... ] con effetto non retroattivo»;
+ che la Corte rimettente riferisce di essere stata adita, con atto d'appello, dall'Istituto nazionale della previdenza sociale (INPS) per la riforma della sentenza del Tribunale ordinario di Rovigo, in funzione di giudice del lavoro, n. 152 del 2019, che aveva dichiarato illegittima la revoca dell'assegno di inabilità in precedenza attribuito dall'Istituto in favore di G. A.;
+ che, in particolare, il rimettente dà atto che l'appellato risulta essere stato condannato per i delitti di cui agli <mref><ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_110">artt. 110</ref>, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_575">575</ref>, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_577">577</ref>, <ref href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_61">61 del codice penale</ref></mref>, 12 e 14 della <ref href="/akn/it/act/legge/stato/1994-10-04/1/!main">legge 14 ottobre 1994</ref> [recte: 1974], n. 497 (Nuove norme contro la criminalità), nonché per il reato di associazione di tipo mafioso e di ricettazione, fatti commessi in epoca anteriore all'entrata in vigore della <ref href="/akn/it/act/legge/stato/2012/92/!main">legge n. 92 del 2012</ref>;
+ che il giudice a quo espone, in punto di fatto, che: il Tribunale di sorveglianza di Roma, con ordinanza del 10 dicembre 2013, ha ammesso G. A. alla detenzione domiciliare per l'espiazione delle pene oggetto del provvedimento di cumulo, essendogli stato riconosciuto lo status di collaboratore di giustizia; il programma di protezione risulta cessato e con esso sono venute meno anche le eventuali misure di sostegno sul piano economico che lo corredano; la pena è in fase di esecuzione e, a seguito di comunicazione del Ministero della giustizia, ai sensi dell'<ref href="/akn/it/act/legge/stato/2012/92/!main#art_2">art. 2 della legge n. 92 del 2012</ref>, in data 19 febbraio 2017, la prestazione di invalidità civile, di cui egli era in godimento dal maggio 2015, è stata revocata dall'INPS, con decorrenza dal l° marzo 2017;
+ che il rimettente dà atto che - respinto il ricorso amministrativo avverso detto provvedimento (con delibera del 20 dicembre 2017 del Comitato provinciale di Torino), in ragione del rilievo che il ripristino della prestazione revocata per i condannati per gravi reati ex <ref href="/akn/it/act/legge/stato/2012/92/!main#art_2__para_59">art. 2, comma 59, della legge n. 92 del 2012</ref> è previsto solo a completa espiazione della pena - l'appellato ha proposto ricorso al giudice del lavoro del Tribunale di Rovigo, il quale ha accolto la domanda ritenendo che la prestazione prevista dall'<ref href="/akn/it/act/legge/stato/1971-03-30/118/!main#art_13">art. 13 della legge 30 marzo 1971, n. 118</ref> (Conversione in legge del <ref href="/akn/it/act/decretoLegge/stato/1971-01-30/5/!main">decreto-legge 30 gennaio 1971, n. 5</ref>, e nuove norme in favore dei mutilati ed invalidi civili) non fosse fra quelle oggetto della prevista revoca;
+ che avverso tale decisione ha proposto appello l'INPS, «sostenendo che la stessa dizione della norma, riferendosi alle "prestazioni comunque denominate in base alla legislazione vigente", a cui segue l'elencazione ": indennità di disoccupazione, assegno sociale, pensione sociale e pensione per gli invalidi civili"», porta a ritenere non condivisibile l'interpretazione del citato giudice del lavoro, il quale avrebbe indebitamente escluso dalle prestazioni suscettibili di revoca l'assegno per invalidi civili di cui all'<ref href="/akn/it/act/legge/stato/1971/118/!main#art_13">art. 13 della legge n. 118 del 1971</ref>;
+ che, in punto di non manifesta infondatezza, la Corte d'appello rimettente afferma di dover sollevare le questioni di legittimità costituzionale sul presupposto che la norma, in ragione della formula onnicomprensiva e della espressa applicazione ai «trattamenti previdenziali a carico degli enti gestori di forme obbligatorie di previdenza e assistenza, ovvero di forme sostitutive, esclusive ed esonerative delle stesse», non consente di ritenere escluso l'assegno per invalidi civili di cui all'<ref href="/akn/it/act/legge/stato/1971/118/!main#art_13">art. 13 della legge n. 118 del 1971</ref>;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>che il rimettente, in ordine alla disciplina di cui ai commi 58 e 61 dell'<ref href="/akn/it/act/legge/stato/2012/92/!main#art_2">art. 2 della legge n. 92 del 2012</ref>, rileva che il comma 58 definisce la revoca della prestazione assistenziale o previdenziale come «sanzione accessoria» della pena principale, qualora sia intervenuta condanna per i reati ivi elencati, mentre il comma 61 impone di estendere la revoca a coloro che siano stati condannati con sentenza già passata in giudicato, pur limitandone l'effetto sul piano temporale, facendo salve le prestazioni già erogate;
+ che - rileva ancora il giudice a quo - mentre nella fattispecie disciplinata dal comma 58 la revoca costituisce il trattamento sanzionatorio accessorio disposto dal giudice penale, nel caso in esame, rientrante nella previsione di cui al comma 61, essa è disposta dall'ente titolare del rapporto, ma sul presupposto di una condanna penale pronunciata prima dell'entrata in vigore della norma che prevede la revoca stessa;
+ che, comunque, comune alle previsioni dei commi 58 e 61 dell'<ref href="/akn/it/act/legge/stato/2012/92/!main#art_2">art. 2 della legge n. 92 del 2012</ref> è il presupposto dell'intervenuta sentenza di condanna, quale condizione necessaria per la revoca del beneficio, e lo stato di esecuzione della pena irrogata;
+ che il rimettente rileva che in ogni caso la revoca, anche quando disposta dall'Istituto previdenziale, costituisce conseguenza di una condanna per reati di estrema gravità e di elevato allarme sociale;
+ che, dunque, in relazione alla fattispecie in esame, sarebbero integrati i cosiddetti "criteri Engel", consistenti, alternativamente, nella qualificazione dell'illecito operata dal diritto nazionale, nella natura della sanzione alla luce della sua funzione punitiva-deterrente, nella sua severità, ossia nella gravità del sacrificio imposto;
+ che il rimettente evidenzia che la misura in esame dà luogo ad un trattamento strettamente connesso alla condanna penale e quindi si atteggia a sanzione penale in senso sostanziale in applicazione dei richiamati "criteri Engel";</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>che, ad avviso del rimettente, l'efficacia retroattiva della misura, in riferimento a condanne pronunciate in epoca anteriore alla previsione legislativa della revoca del beneficio, si traduce nel vulnus ai precetti costituzionali sopra richiamati, in quanto la revoca troverebbe applicazione con riferimento a condotte poste in essere prima dell'entrata in vigore della disposizione che la prevede;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>che il Presidente del Consiglio dei ministri non è intervenuto nel presente giudizio di legittimità costituzionale;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>che, con atto depositato in data 12 luglio 2021, si è costituito l'INPS, chiedendo a questa Corte di dichiarare l'inammissibilità delle questioni per sopravvenuta carenza dell'oggetto, conseguente alla <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/137/!main">sentenza n. 137 del 2021</ref>, che ha dichiarato l'illegittimità costituzionale parziale del censurato <ref href="/akn/it/act/legge/stato/2012/92/!main#art_2__para_61">art. 2, comma 61, della legge n. 92 del 2012</ref>;
+ che l'INPS ritiene, inoltre, che le questioni siano inammissibili in quanto il rimettente non avrebbe distinto, se non nella narrazione dei fatti, tra soggetti reclusi in carcere e soggetti ammessi a regimi alternativi alla detenzione;
+ che comunque le questioni sarebbero non fondate, atteso che la revoca in esame - operando in via amministrativa senza l'intermediazione del provvedimento giurisdizionale penale, che funge solo da presupposto storico - non ha natura afflittiva, così da non poter essere annoverata tra i provvedimenti sanzionatori in senso stretto;
+ che, quindi, la fattispecie prevista dall'<ref href="/akn/it/act/legge/stato/2012/92/!main#art_2__para_61">art. 2, comma 61, della legge n. 92 del 2012</ref>, è qualificabile come un mero effetto extra-penale della condanna e non quale pena accessoria, non presentando profili di incompatibilità con il divieto di irretroattività sfavorevole di cui all'<ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main#art_25">art. 25 Cost.</ref>;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>che, infatti, allorché ricorra l'ipotesi di cui al comma 61, la condanna penale irrevocabile è assunta come mero presupposto oggettivo cui si ricollega un giudizio di «indegnità morale» rispetto alla percezione, da parte di soggetti colpevoli di reati di grande allarme sociale, di alcune prestazioni di tipo assistenziale, di talché la revoca disposta dall'INPS rappresenterebbe la conseguenza del venir meno di un requisito ritenuto essenziale dal legislatore per il mantenimento della prestazione e, quindi, elemento costitutivo della prestazione stessa;
+ che, dunque, la condanna penale definitiva, ponendosi come una delle condizioni che non consentono, a giudizio del legislatore, l'accesso alle prestazioni sociali, non esige di essere giustificata sul piano della retroattività, poiché non è destinata a regolare in modo nuovo fatti del passato;
+ che il Centro di documentazione su carcere, devianza, marginalità e governo delle migrazioni, l'Altro diritto ODV, ha presentato un'opinione scritta, ammessa con decreto presidenziale ai sensi dell'art. 4-ter (Amici curiae) delle Norme integrative per i giudizi davanti alla Corte costituzionale, nel testo vigente ratione temporis.
+ Considerato che la Corte d'appello di Venezia, sezione lavoro, ha sollevato questioni di legittimità costituzionale, in riferimento agli artt. 25 e 117, primo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, quest'ultimo in relazione all'art. 7 della Convenzione per la salvaguardia dei diritti dell'uomo e delle libertà fondamentali, firmata a Roma il 4 novembre 1950, ratificata e resa esecutiva con la <ref href="/akn/it/act/legge/stato/1955-08-04/848/!main">legge 4 agosto 1955, n. 848</ref>, dell'<mref><ref href="/akn/it/act/legge/stato/2012-06-28/92/!main#art_2__para_60">art. 2, commi 60</ref> e <ref href="/akn/it/act/legge/stato/2012-06-28/92/!main#art_2__para_61">61, della legge 28 giugno 2012, n. 92</ref></mref> (Disposizioni in materia di riforma del mercato del lavoro in una prospettiva di crescita), nella parte in cui prevede la revoca delle prestazioni previdenziali o assistenziali, comunque denominate in base alla legislazione vigente, di cui il condannato sia eventualmente titolare, quali l'indennità di disoccupazione, l'assegno sociale, la pensione sociale e la pensione per gli invalidi civili, nei confronti dei soggetti già condannati con sentenza passata in giudicato per i reati di cui al comma 58 del medesimo art. 2;
+ che questa Corte, con la <ref href="/akn/it/judgment/sentenza/corteCostituzionale/2021/137/!main">sentenza n. 137 del 2021</ref>, depositata in data successiva all'ordinanza di rimessione, ha dichiarato l'illegittimità costituzionale dell'<ref href="/akn/it/act/legge/stato/2012/92/!main#art_2__para_61">art. 2, comma 61, della legge n. 92 del 2012</ref> «nella parte in cui prevede la revoca delle prestazioni, comunque denominate in base alla legislazione vigente, quali l'indennità di disoccupazione, l'assegno sociale, la pensione sociale e la pensione per gli invalidi civili, nei confronti di coloro che scontino la pena in regime alternativo alla detenzione in carcere»;
+ che, inoltre, ai sensi dell'<ref href="/akn/it/act/legge/stato/1953-03-11/87/!main#art_27">art. 27 della legge 11 marzo 1953, n. 87</ref> (Norme sulla <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">costituzione</ref> e sul funzionamento della Corte costituzionale) e negli stessi termini, ha, altresì, dichiarato l'illegittimità costituzionale consequenziale dell'<ref href="/akn/it/act/legge/stato/2012/92/!main#art_2__para_58">art. 2, comma 58, della legge n. 92 del 2012</ref>, nella parte in cui prevede «a regime» «la revoca delle prestazioni, comunque denominate in base alla legislazione vigente, quali l'indennità di disoccupazione, l'assegno sociale, la pensione sociale e la pensione per gli invalidi civili, nei confronti di coloro che scontino la pena in regime alternativo alla detenzione in carcere»;
+ che, per effetto di tale dichiarazione di illegittimità costituzionale parziale, la disposizione censurata è venuta meno solo in parte, ma è vigente con un contenuto resecato della fattispecie di chi espia la pena in regime alternativo alla detenzione in carcere, riferendosi unicamente alla ipotesi di chi espia la pena in carcere;
+ che, quindi, il censurato comma 61 dell'<ref href="/akn/it/act/legge/stato/2012/92/!main#art_2">art. 2 della legge n. 92 del 2012</ref> - per effetto della pronuncia di questa Corte - prevede che l'elenco dei soggetti già condannati con sentenza passata in giudicato per i reati di cui al comma 58 è trasmesso dal Ministro della giustizia, d'intesa con il Ministro del lavoro e delle politiche sociale, all'ente previdenziale (nella specie, l'Istituto nazionale della previdenza sociale - INPS) ai fini della revoca del beneficio ove la pena sia scontata in carcere e non già in regime alternativo;
+ che, pertanto - in ragione dell'efficacia retroattiva delle sentenze dichiarative di illegittimità costituzionale, in mancanza di modulazione temporale degli effetti dell'incostituzionalità - la disposizione censurata già al tempo dell'ordinanza di rimessione aveva tale contenuto più limitato nel senso che riguardava soltanto chi, condannato con sentenza definitiva per determinati gravi reati, stesse espiando la pena in carcere;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>che nel giudizio a quo, come risulta pacificamente dall'ordinanza di rimessione, il condannato con sentenza definitiva, destinatario della revoca dell'assegno di inabilità adottata dall'INPS, stava espiando la pena in regime di detenzione domiciliare;
+ che, dunque, le questioni sono prive di rilevanza, perché la revoca disciplinata dalla disposizione censurata non si applica, né si applicava, alla fattispecie oggetto del giudizio a quo;
+ che parimenti prive di rilevanza sono le questioni di legittimità costituzionale dell'<ref href="/akn/it/act/legge/stato/2012/92/!main#art_2__para_60">art. 2, comma 60, della legge n. 92 del 2012</ref>, sollevate in riferimento ai medesimi parametri;
+ che, infatti, tale disposizione prevede che «[i] provvedimenti adottati ai sensi del comma 58 sono comunicati, entro quindici giorni dalla data di adozione dei medesimi, all'ente titolare dei rapporti previdenziali e assistenziali facenti capo al soggetto condannato, ai fini della loro immediata esecuzione»;
+ che risulta evidente che la norma si riferisce alla disciplina a «regime», di cui al comma 58, per essere «la sanzione accessoria» della revoca applicata dal giudice con la sentenza di condanna;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>che, come più volte evidenziato, tale fattispecie non viene in rilievo nel giudizio a quo, di talché il rimettente non deve fare applicazione nemmeno di tale disposizione;</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <content>
+            <p>che, in conclusione, le questioni devono essere dichiarate manifestamente inammissibili.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <block name="formulaRito">per questi motivi
+ <docAuthority>LA CORTE COSTITUZIONALE</docAuthority>
+ dichiara la manifesta inammissibilità delle questioni di legittimità costituzionale dell'<mref><ref href="/akn/it/act/legge/stato/2012-06-28/92/!main#art_2__para_60">art. 2, commi 60</ref> e <ref href="/akn/it/act/legge/stato/2012-06-28/92/!main#art_2__para_61">61, della legge 28 giugno 2012, n. 92</ref></mref> (Disposizioni in materia di riforma del mercato del lavoro in una prospettiva di crescita), sollevate, in riferimento agli artt. 25 e 117, primo comma, della <ref href="/akn/it/act/costituzione/stato/1947-12-22/cost/!main">Costituzione</ref>, quest'ultimo in relazione all'art. 7 della Convenzione per la salvaguardia dei diritti dell'uomo e delle libertà fondamentali (CEDU), firmata a Roma il 4 novembre 1950, ratificata e resa esecutiva con la <ref href="/akn/it/act/legge/stato/1955-08-04/848/!main">legge 4 agosto 1955, n. 848</ref>, dalla Corte di appello di Venezia, sezione lavoro, con l'ordinanza indicata in epigrafe.
+ </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="formulaFinale">Così deciso in Roma, nella sede della Corte costituzionale, Palazzo della Consulta, il <date refersTo="#decisionDate" date="2022-05-10">10 maggio 2022</date>.
+ F.to:
+ <signature><judge refersTo="#giulianoAmato" as="#presidente">Giuliano AMATO</judge>, <role refersTo="#presidente">Presidente</role></signature>
+ <signature><judge refersTo="#giovanniAmoroso" as="#relatore">Giovanni AMOROSO</judge>, <role refersTo="#relatore">Redattore</role></signature>
+ Igor DI <signature><person refersTo="#BERNARDINI" as="#cancelliere">BERNARDINI</person>, <role refersTo="#cancelliere">Cancelliere</role></signature>
+ Depositata in Cancelleria il <date refersTo="#publicationDate" date="2022-06-03">3 giugno 2022</date>.
+ Il Cancelliere
+ F.to: Igor DI BERNARDINI</block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>
